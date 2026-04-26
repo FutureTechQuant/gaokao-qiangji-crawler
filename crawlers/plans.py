@@ -392,6 +392,19 @@ class PlanCrawler(BaseCrawler):
 
         return plans_by_year
 
+    def build_plan_key(self, item):
+        return (
+            str(item.get('school_id') or ''),
+            str(item.get('year') or ''),
+            str(item.get('province_id') or ''),
+            str(item.get('plan_type') or ''),
+            str(item.get('batch') or ''),
+            str(item.get('type') or ''),
+            str(item.get('major') or ''),
+            str(item.get('major_code') or ''),
+            str(item.get('major_group_code') or ''),
+        )
+
 
 if __name__ == "__main__":
     import sys
