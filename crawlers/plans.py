@@ -110,15 +110,46 @@ class PlanCrawler(BaseCrawler):
         return years_input
 
     def save_year_plans(self, year, plans):
-        """按年份保存招生计划数据到 data/plans/{year}.json"""
+        """按年份保存招生计划数据到 data/plans/{year}.json，并与已有结果合并"""
         output_dir = os.path.join('data', 'plans')
         os.makedirs(output_dir, exist_ok=True)
-
+    
         output_path = os.path.join(output_dir, f'{year}.json')
+    
+        merged = []
+        seen = set()
+    
+        if os.path.exists(output_path):
+            try:
+                with open(output_path, 'r', encoding='utf-8') as f:
+                    old_data = json.load(f)
+    
+                if isinstance(old_data, list):
+                    for item in old_data:
+                        if isinstance(item, dict):
+                            key = self.build_plan_key(item)
+                            if key not in seen:
+                                seen.add(key)
+                                merged.append(item)
+            except Exception as e:
+                print(f"⚠️  读取旧年份文件失败，将覆盖重写: {e}")
+    
+        new_count = 0
+        for item in plans:
+            if not isinstance(item, dict):
+                continue
+            key = self.build_plan_key(item)
+            if key in seen:
+                continue
+            seen.add(key)
+            merged.append(item)
+            new_count += 1
+    
         with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(plans, f, ensure_ascii=False, indent=2)
-
-        print(f"   💾 已保存 {year} 年招生计划: {output_path} ({len(plans)} 条)")
+            json.dump(merged, f, ensure_ascii=False, indent=2)
+    
+        shard = os.getenv('PLAN_SCHOOL_SHARD', 'all')
+        print(f"   💾 已保存 {year} 年招生计划: {output_path} (新增 {new_count} 条，累计 {len(merged)} 条，分片 {shard})")
 
     def crawl(self, school_ids=None, years=None, province_ids=None):
         """爬取招生计划数据"""
