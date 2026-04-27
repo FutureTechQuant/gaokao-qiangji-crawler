@@ -47,8 +47,7 @@ def write_output(path: str, key: str, value: str):
     if not path:
         return
     with open(path, 'a', encoding='utf-8') as f:
-        f.write(f'{key}={value}
-')
+        f.write(f'{key}={value}\n')
 
 
 def main():
