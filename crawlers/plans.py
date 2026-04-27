@@ -10,12 +10,10 @@ class PlanCrawler(BaseCrawler):
     def __init__(self):
         super().__init__()
         self._first_logged = False
-
-        self.school_shard = (os.getenv("PLAN_SCHOOL_SHARD", "all") or "all").strip().lower()
-        self.progress_dir = Path(os.getenv("PLAN_PROGRESS_DIR", "data/plans_progress"))
-        self.plan_data_dir = Path(os.getenv("PLAN_DATA_DIR", "data/plans"))
-        self.run_deadline_seconds = int(os.getenv("PLAN_RUN_DEADLINE_SECONDS", "17400"))
-        self.flush_schools = max(1, int(os.getenv("PLAN_FLUSH_SCHOOLS", "25")))
+        self.progress_dir = Path(os.getenv('PLAN_PROGRESS_DIR', 'data/plans_progress'))
+        self.plan_data_dir = Path(os.getenv('PLAN_DATA_DIR', 'data/plans'))
+        self.run_deadline_seconds = int(os.getenv('PLAN_RUN_DEADLINE_SECONDS', '17400'))
+        self.flush_schools = max(1, int(os.getenv('PLAN_FLUSH_SCHOOLS', '25')))
 
         self.province_dict = {
             '11': '北京', '12': '天津', '13': '河北', '14': '山西', '15': '内蒙古',
@@ -44,15 +42,14 @@ class PlanCrawler(BaseCrawler):
         hours, remainder = divmod(int(seconds), 3600)
         minutes, secs = divmod(remainder, 60)
         if hours > 0:
-            return f"{hours}小时{minutes}分{secs}秒"
+            return f'{hours}小时{minutes}分{secs}秒'
         if minutes > 0:
-            return f"{minutes}分{secs}秒"
-        return f"{seconds:.2f}秒"
+            return f'{minutes}分{secs}秒'
+        return f'{seconds:.2f}秒'
 
     def parse_years(self, years_input):
         if isinstance(years_input, list):
             return [str(y).strip() for y in years_input if str(y).strip()]
-
         if isinstance(years_input, str):
             raw = years_input.strip()
             if not raw:
@@ -67,13 +64,12 @@ class PlanCrawler(BaseCrawler):
             if ',' in raw:
                 return [y.strip() for y in raw.split(',') if y.strip()]
             return [raw]
-
         return years_input or []
 
     def load_default_school_ids(self):
         schools_file = Path(os.getenv('SCHOOL_DATA_FILE', 'data/schools.json'))
         if not schools_file.exists():
-            print(f"⚠️  未找到 schools.json: {schools_file}")
+            print(f'⚠️  未找到 schools.json: {schools_file}')
             return []
 
         with open(schools_file, 'r', encoding='utf-8') as f:
@@ -102,89 +98,53 @@ class PlanCrawler(BaseCrawler):
             school_ids = school_ids[:sample_count]
         return school_ids
 
-    def get_progress_file(self, year):
+    def get_progress_file(self, year, province_id):
         custom = os.getenv('PLAN_PROGRESS_FILE', '').strip()
         if custom:
             return Path(custom)
-        suffix = f'.{self.school_shard}' if self.school_shard and self.school_shard != 'all' else ''
-        return self.progress_dir / f'{year}{suffix}.json'
+        return self.progress_dir / f'{year}.{province_id}.json'
 
-    def load_year_progress(self, year, target_school_ids):
-        path = self.get_progress_file(year)
+    def load_progress(self, year, province_id, target_school_ids):
+        path = self.get_progress_file(year, province_id)
+        base = {
+            'year': str(year),
+            'province_id': str(province_id),
+            'target_school_ids': [str(x) for x in target_school_ids],
+            'current_school_index': 0,
+            'updated_at': None,
+            'last_error': None,
+            'status': 'new',
+        }
         if not path.exists():
-            return {
-                'year': str(year),
-                'shard': self.school_shard,
-                'target_school_ids': [str(x) for x in target_school_ids],
-                'completed_province_ids': [],
-                'current_province_id': None,
-                'current_school_index': 0,
-                'updated_at': None,
-                'last_error': None,
-                'status': 'new',
-            }
-
+            return base
         try:
             with open(path, 'r', encoding='utf-8') as f:
                 progress = json.load(f)
         except Exception:
-            return {
-                'year': str(year),
-                'shard': self.school_shard,
-                'target_school_ids': [str(x) for x in target_school_ids],
-                'completed_province_ids': [],
-                'current_province_id': None,
-                'current_school_index': 0,
-                'updated_at': None,
-                'last_error': None,
-                'status': 'new',
-            }
+            return base
 
         saved_year = str(progress.get('year', ''))
-        saved_shard = str(progress.get('shard', 'all'))
+        saved_province_id = str(progress.get('province_id', ''))
         saved_targets = [str(x) for x in progress.get('target_school_ids', [])]
         current_targets = [str(x) for x in target_school_ids]
-
-        if saved_year != str(year) or saved_shard != self.school_shard or saved_targets != current_targets:
-            return {
-                'year': str(year),
-                'shard': self.school_shard,
-                'target_school_ids': current_targets,
-                'completed_province_ids': [],
-                'current_province_id': None,
-                'current_school_index': 0,
-                'updated_at': None,
-                'last_error': None,
-                'status': 'new',
-            }
-
+        if saved_year != str(year) or saved_province_id != str(province_id) or saved_targets != current_targets:
+            return base
         return progress
 
-    def save_year_progress(
-        self,
-        year,
-        target_school_ids,
-        completed_province_ids,
-        current_province_id=None,
-        current_school_index=0,
-        last_error=None,
-        status='running',
-    ):
+    def save_progress(self, year, province_id, target_school_ids, current_school_index, last_error=None, status='running'):
         payload = {
             'year': str(year),
-            'shard': self.school_shard,
+            'province_id': str(province_id),
             'target_school_ids': [str(x) for x in target_school_ids],
-            'completed_province_ids': sorted(str(x) for x in completed_province_ids),
-            'current_province_id': str(current_province_id) if current_province_id else None,
             'current_school_index': int(current_school_index),
             'updated_at': self.now_str(),
             'last_error': last_error,
             'status': status,
         }
-        self.write_json_atomic(self.get_progress_file(year), payload)
+        self.write_json_atomic(self.get_progress_file(year, province_id), payload)
 
-    def clear_year_progress(self, year):
-        path = self.get_progress_file(year)
+    def clear_progress(self, year, province_id):
+        path = self.get_progress_file(year, province_id)
         if path.exists():
             path.unlink()
 
@@ -209,7 +169,6 @@ class PlanCrawler(BaseCrawler):
         path = self.get_province_file_path(year, province_id)
         province_name = self.province_dict.get(str(province_id), f'省份{province_id}')
         records = []
-
         if path.exists():
             try:
                 with open(path, 'r', encoding='utf-8') as f:
@@ -221,7 +180,6 @@ class PlanCrawler(BaseCrawler):
             except Exception as e:
                 print(f'⚠️  读取已有省份文件失败，改为重建: {path} - {e}')
                 records = []
-
         existing_keys = {self.build_record_key(item) for item in records if isinstance(item, dict)}
         return {
             'year': str(year),
@@ -242,7 +200,6 @@ class PlanCrawler(BaseCrawler):
             'data': payload.get('data', []),
         }
         self.write_json_atomic(file_path, body)
-        print(f"   💾 已保存 {year} 年 {body['province']} 招生计划: {file_path} ({body['count']} 条)")
 
     def get_plan_data(self, school_id, year, province_id):
         url = f'https://static-data.gaokao.cn/www/2.0/schoolspecialplan/{school_id}/{year}/{province_id}.json'
@@ -262,7 +219,6 @@ class PlanCrawler(BaseCrawler):
         records = []
         if not data or data == 'no_data' or not isinstance(data, dict):
             return records
-
         for plan_type, plan_info in data.items():
             if not isinstance(plan_info, dict):
                 continue
@@ -320,119 +276,88 @@ class PlanCrawler(BaseCrawler):
                 'completed_schools': 0,
             }
 
+        if len(province_ids) != 1:
+            raise ValueError('当前版本要求每次只传入一个省份')
+
         started_at = time.time()
+        province_id = province_ids[0]
+        province_name = self.province_dict.get(province_id, f'省份{province_id}')
+
         self.plan_data_dir.mkdir(parents=True, exist_ok=True)
         self.progress_dir.mkdir(parents=True, exist_ok=True)
 
-        progress = self.load_year_progress(year, school_ids)
-        completed_province_ids = set(str(x) for x in progress.get('completed_province_ids', []))
-        current_province_id = progress.get('current_province_id')
-        current_school_index = int(progress.get('current_school_index', 0) or 0)
+        progress = self.load_progress(year, province_id, school_ids)
+        start_index = int(progress.get('current_school_index', 0) or 0)
+        province_payload = self.load_province_records(year, province_id)
+        province_added_records = 0
 
         print(f"\n{'=' * 60}")
         print('启动招生计划爬虫')
         print(f'年份: {year}')
-        print(f'学校分片: {self.school_shard}')
+        print(f'省份: {province_name} ({province_id})')
         print(f'学校数: {len(school_ids)}')
-        print(f'省份数: {len(province_ids)}')
         print(f'软截止: {self.format_duration(self.run_deadline_seconds)}')
-        print(f'已完成省份: {len(completed_province_ids)} / {len(province_ids)}')
+        print(f'学校起始索引: {start_index + 1}/{len(school_ids)}')
         print(f"{'=' * 60}\n")
 
-        total_added_records = 0
+        for school_index in range(start_index, len(school_ids)):
+            if self.should_stop(started_at):
+                self.save_province_records(year, province_id, province_payload)
+                self.save_progress(
+                    year=year,
+                    province_id=province_id,
+                    target_school_ids=school_ids,
+                    current_school_index=school_index,
+                    last_error='run deadline reached',
+                    status='partial',
+                )
+                print(f'⏸️ 接近 5 小时上限，已保存 {province_name} 和 progress，准备下一轮续跑')
+                return {
+                    'year': str(year),
+                    'status': 'partial',
+                    'saved_documents': 0,
+                    'completed_schools': school_index,
+                }
 
-        for province_id in province_ids:
-            province_name = self.province_dict.get(province_id, f'省份{province_id}')
-            if province_id in completed_province_ids:
-                print(f'↻ 跳过已完成省份: {province_name}')
-                continue
+            school_id = school_ids[school_index]
+            data = self.get_plan_data(school_id, year, province_id)
 
-            province_payload = self.load_province_records(year, province_id)
-            start_index = current_school_index if current_province_id == province_id else 0
-            processed_since_flush = 0
-            province_added_records = 0
+            if not self._first_logged and data and data != 'no_data' and isinstance(data, dict):
+                print(f"\n{'─' * 50}")
+                print('首次响应数据结构:')
+                print(f"{'─' * 50}")
+                print(f'data类型: {type(data).__name__}')
+                print(f'data包含键: {list(data.keys())}')
+                print(f"{'─' * 50}\n")
+                self._first_logged = True
 
-            print(f"\n开始处理省份: {province_name} ({province_id})，学校起始索引 {start_index + 1}/{len(school_ids)}")
+            if data and data != 'no_data' and isinstance(data, dict):
+                records = self.extract_records(school_id, year, province_id, province_name, data)
+                added = self.merge_records(province_payload, records)
+                province_added_records += added
 
-            for school_index in range(start_index, len(school_ids)):
-                if self.should_stop(started_at):
-                    self.save_province_records(year, province_id, province_payload)
-                    self.save_year_progress(
-                        year=year,
-                        target_school_ids=school_ids,
-                        completed_province_ids=completed_province_ids,
-                        current_province_id=province_id,
-                        current_school_index=school_index,
-                        last_error='run deadline reached',
-                        status='partial',
-                    )
-                    print(f'⏸️ 接近 5 小时上限，已保存 {province_name} 和 progress，准备下一轮续跑')
-                    return {
-                        'year': str(year),
-                        'status': 'partial',
-                        'saved_documents': len(completed_province_ids),
-                        'completed_schools': school_index,
-                    }
+            if (school_index + 1) % self.flush_schools == 0:
+                self.save_province_records(year, province_id, province_payload)
+                self.save_progress(
+                    year=year,
+                    province_id=province_id,
+                    target_school_ids=school_ids,
+                    current_school_index=school_index + 1,
+                    last_error=None,
+                    status='running',
+                )
+                print(f'   ↻ 已阶段性保存 {province_name}: 学校进度 {school_index + 1}/{len(school_ids)}，当前 {len(province_payload["data"])} 条')
 
-                school_id = school_ids[school_index]
-                data = self.get_plan_data(school_id, year, province_id)
+            self.polite_sleep(0.2, 0.6)
 
-                if not self._first_logged and data and data != 'no_data' and isinstance(data, dict):
-                    print(f"\n{'─' * 50}")
-                    print('首次响应数据结构:')
-                    print(f"{'─' * 50}")
-                    print(f'data类型: {type(data).__name__}')
-                    print(f'data包含键: {list(data.keys())}')
-                    print(f"{'─' * 50}\n")
-                    self._first_logged = True
+        self.save_province_records(year, province_id, province_payload)
+        self.clear_progress(year, province_id)
 
-                if data and data != 'no_data' and isinstance(data, dict):
-                    records = self.extract_records(school_id, year, province_id, province_name, data)
-                    added = self.merge_records(province_payload, records)
-                    province_added_records += added
-                    total_added_records += added
-
-                processed_since_flush += 1
-                if processed_since_flush >= self.flush_schools:
-                    self.save_province_records(year, province_id, province_payload)
-                    self.save_year_progress(
-                        year=year,
-                        target_school_ids=school_ids,
-                        completed_province_ids=completed_province_ids,
-                        current_province_id=province_id,
-                        current_school_index=school_index + 1,
-                        last_error=None,
-                        status='running',
-                    )
-                    processed_since_flush = 0
-
-                self.polite_sleep(0.2, 0.6)
-
-            self.save_province_records(year, province_id, province_payload)
-            completed_province_ids.add(province_id)
-            self.save_year_progress(
-                year=year,
-                target_school_ids=school_ids,
-                completed_province_ids=completed_province_ids,
-                current_province_id=None,
-                current_school_index=0,
-                last_error=None,
-                status='running',
-            )
-            print(f'✅ 省份完成: {province_name}，本轮新增 {province_added_records} 条')
-
-        self.clear_year_progress(year)
-        print(f"\n{'=' * 60}")
-        print('✅ 招生计划爬取完成！')
-        print(f'年份: {year}')
-        print(f'学校分片: {self.school_shard}')
-        print(f'完成省份: {len(completed_province_ids)} / {len(province_ids)}')
-        print(f'本轮新增记录: {total_added_records}')
-        print(f"{'=' * 60}\n")
+        print(f'✅ 省份完成: {province_name}，本轮新增 {province_added_records} 条，累计 {len(province_payload["data"])} 条')
         return {
             'year': str(year),
             'status': 'done',
-            'saved_documents': len(completed_province_ids),
+            'saved_documents': 1,
             'completed_schools': len(school_ids),
         }
 
@@ -467,8 +392,6 @@ class PlanCrawler(BaseCrawler):
 
 if __name__ == '__main__':
     import sys
-
     years_arg = sys.argv[1] if len(sys.argv) > 1 else None
-
     crawler = PlanCrawler()
     crawler.crawl(years=years_arg)

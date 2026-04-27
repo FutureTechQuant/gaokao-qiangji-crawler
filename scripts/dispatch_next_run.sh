@@ -6,20 +6,20 @@ TARGET_REF="${2:?target ref is required}"
 MODE="${3:?mode is required}"
 YEARS="${4:-}"
 CURRENT_YEAR="${5:?current year is required}"
-CURRENT_SHARD="${6:?current shard is required}"
+CURRENT_PROVINCE_INDEX="${6:?current province index is required}"
 
 if [ -z "${GITHUB_TOKEN:-}" ]; then
   echo "缺少 GITHUB_TOKEN"
   exit 1
 fi
 
-PAYLOAD="$(jq -nc   --arg ref "$TARGET_REF"   --arg mode "$MODE"   --arg years "$YEARS"   --arg current_year "$CURRENT_YEAR"   --arg current_shard "$CURRENT_SHARD"   '{
+PAYLOAD="$(jq -nc   --arg ref "$TARGET_REF"   --arg mode "$MODE"   --arg years "$YEARS"   --arg current_year "$CURRENT_YEAR"   --arg current_province_index "$CURRENT_PROVINCE_INDEX"   '{
     ref: $ref,
     inputs: {
       mode: $mode,
       years: $years,
       current_year: $current_year,
-      current_shard: $current_shard
+      current_province_index: $current_province_index
     }
   }'
 )"
@@ -32,4 +32,4 @@ if [ "$HTTP_CODE" != "204" ]; then
   exit 1
 fi
 
-echo "已调度下一次运行: year=${CURRENT_YEAR}, shard=${CURRENT_SHARD}"
+echo "已调度下一次运行: year=${CURRENT_YEAR}, province_index=${CURRENT_PROVINCE_INDEX}"

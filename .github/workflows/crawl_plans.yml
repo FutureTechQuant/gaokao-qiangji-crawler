@@ -2,7 +2,7 @@ name: 爬取招生计划数据
 
 run-name: >-
   招生计划 ${{ inputs.current_year || 'auto' }}
-  ${{ inputs.current_shard || 'upper' }}
+  p${{ inputs.current_province_index || '0' }}
   ${{ inputs.mode || 'test' }}
 
 on:
@@ -27,14 +27,11 @@ on:
         required: false
         type: string
         default: ''
-      current_shard:
-        description: '当前执行分片（upper=上半，lower=下半）'
+      current_province_index:
+        description: '当前执行省份索引（自动续跑时使用，手动运行通常留空）'
         required: false
-        type: choice
-        options:
-          - upper
-          - lower
-        default: upper
+        type: string
+        default: ''
 
   schedule:
     - cron: '0 2 1 * *'
@@ -92,7 +89,7 @@ jobs:
           INPUT_MODE: ${{ github.event.inputs.mode }}
           INPUT_YEARS: ${{ github.event.inputs.years }}
           INPUT_CURRENT_YEAR: ${{ github.event.inputs.current_year }}
-          INPUT_CURRENT_SHARD: ${{ github.event.inputs.current_shard }}
+          INPUT_CURRENT_PROVINCE_INDEX: ${{ github.event.inputs.current_province_index }}
         run: |
           set -euo pipefail
 
@@ -100,12 +97,12 @@ jobs:
             MODE="full"
             RAW_YEARS="${INPUT_YEARS:-}"
             CURRENT_YEAR=""
-            CURRENT_SHARD="upper"
+            CURRENT_PROVINCE_INDEX=""
           else
             MODE="${INPUT_MODE:-test}"
             RAW_YEARS="${INPUT_YEARS:-}"
             CURRENT_YEAR="${INPUT_CURRENT_YEAR:-}"
-            CURRENT_SHARD="${INPUT_CURRENT_SHARD:-upper}"
+            CURRENT_PROVINCE_INDEX="${INPUT_CURRENT_PROVINCE_INDEX:-}"
           fi
 
           mapfile -t YEAR_LIST < <(bash scripts/resolve_years.sh "$RAW_YEARS" "$MODE")
@@ -117,18 +114,19 @@ jobs:
 
           YEAR_CSV="$(IFS=,; echo "${YEAR_LIST[*]}")"
 
-          python scripts/plan_chain.py             --years "$YEAR_CSV"             --current-year "$CURRENT_YEAR"             --current-shard "$CURRENT_SHARD"             --github-output "$GITHUB_OUTPUT"
+          python scripts/plan_chain.py             --years "$YEAR_CSV"             --current-year "$CURRENT_YEAR"             --current-province-index "$CURRENT_PROVINCE_INDEX"             --github-output "$GITHUB_OUTPUT"
 
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
           echo "years_csv=$YEAR_CSV" >> "$GITHUB_OUTPUT"
 
-      - name: 执行当前年份分片
+      - name: 执行当前年份省份
         id: plan_run
         shell: bash
         env:
           PYTHONPATH: ${{ github.workspace }}
           PLAN_YEAR: ${{ steps.plan_context.outputs.current_year }}
-          PLAN_SHARD: ${{ steps.plan_context.outputs.current_shard }}
+          PLAN_PROVINCE_ID: ${{ steps.plan_context.outputs.current_province_id }}
+          PLAN_PROVINCE_INDEX: ${{ steps.plan_context.outputs.current_province_index }}
           PLAN_MODE: ${{ steps.plan_context.outputs.mode }}
         run: |
           set -euo pipefail
@@ -150,15 +148,14 @@ jobs:
           esac
 
           export PLAN_YEARS="$PLAN_YEAR"
-          export PLAN_SCHOOL_SHARD="$PLAN_SHARD"
-          export PLAN_PROGRESS_FILE="data/plans_progress/${PLAN_YEAR}.${PLAN_SHARD}.json"
+          export PLAN_PROGRESS_FILE="data/plans_progress/${PLAN_YEAR}.${PLAN_PROVINCE_ID}.json"
           export PLAN_PROGRESS_DIR="data/plans_progress"
           export PLAN_DATA_DIR="data/plans"
           export PLAN_RUN_DEADLINE_SECONDS=17400
           export PLAN_FLUSH_SCHOOLS=25
           export SCHOOL_DATA_FILE="data/schools.json"
 
-          python scripts/run_plans_once.py             --year "$PLAN_YEAR"             --shard "$PLAN_SHARD"             --mode "$PLAN_MODE"             --github-output "$GITHUB_OUTPUT"
+          python scripts/run_plans_once.py             --year "$PLAN_YEAR"             --province-id "$PLAN_PROVINCE_ID"             --province-index "$PLAN_PROVINCE_INDEX"             --mode "$PLAN_MODE"             --github-output "$GITHUB_OUTPUT"
 
       - name: 提交结果
         id: commit_changes
@@ -177,7 +174,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "📊 招生计划 [${{ steps.plan_context.outputs.current_year }}] [${{ steps.plan_context.outputs.current_shard }}] [${{ steps.plan_context.outputs.mode }}] #${{ github.run_number }}"
+          git commit -m "📊 招生计划 [${{ steps.plan_context.outputs.current_year }}] [${{ steps.plan_context.outputs.current_province_id }}] [${{ steps.plan_context.outputs.mode }}] #${{ github.run_number }}"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
           echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -188,27 +185,27 @@ jobs:
         env:
           RUN_STATUS: ${{ steps.plan_run.outputs.run_status }}
           CURRENT_YEAR: ${{ steps.plan_context.outputs.current_year }}
-          CURRENT_SHARD: ${{ steps.plan_context.outputs.current_shard }}
+          CURRENT_PROVINCE_INDEX: ${{ steps.plan_context.outputs.current_province_index }}
           NEXT_YEAR: ${{ steps.plan_context.outputs.next_year }}
-          NEXT_SHARD: ${{ steps.plan_context.outputs.next_shard }}
+          NEXT_PROVINCE_INDEX: ${{ steps.plan_context.outputs.next_province_index }}
         run: |
           set -euo pipefail
 
           SHOULD_DISPATCH=false
           TARGET_YEAR=""
-          TARGET_SHARD=""
+          TARGET_PROVINCE_INDEX=""
 
           case "$RUN_STATUS" in
             partial|paused)
               SHOULD_DISPATCH=true
               TARGET_YEAR="$CURRENT_YEAR"
-              TARGET_SHARD="$CURRENT_SHARD"
+              TARGET_PROVINCE_INDEX="$CURRENT_PROVINCE_INDEX"
               ;;
             done|skipped)
-              if [ -n "$NEXT_YEAR" ] && [ -n "$NEXT_SHARD" ]; then
+              if [ -n "$NEXT_YEAR" ] && [ -n "$NEXT_PROVINCE_INDEX" ]; then
                 SHOULD_DISPATCH=true
                 TARGET_YEAR="$NEXT_YEAR"
-                TARGET_SHARD="$NEXT_SHARD"
+                TARGET_PROVINCE_INDEX="$NEXT_PROVINCE_INDEX"
               fi
               ;;
             *)
@@ -218,7 +215,7 @@ jobs:
 
           echo "should_dispatch=$SHOULD_DISPATCH" >> "$GITHUB_OUTPUT"
           echo "target_year=$TARGET_YEAR" >> "$GITHUB_OUTPUT"
-          echo "target_shard=$TARGET_SHARD" >> "$GITHUB_OUTPUT"
+          echo "target_province_index=$TARGET_PROVINCE_INDEX" >> "$GITHUB_OUTPUT"
 
       - name: 调度下一次运行
         if: steps.next_run.outputs.should_dispatch == 'true'
@@ -228,4 +225,4 @@ jobs:
         run: |
           set -euo pipefail
 
-          bash scripts/dispatch_next_run.sh             .github/workflows/crawl_plans.yml             "${GITHUB_REF_NAME}"             "${{ steps.plan_context.outputs.mode }}"             "${{ steps.plan_context.outputs.years_csv }}"             "${{ steps.next_run.outputs.target_year }}"             "${{ steps.next_run.outputs.target_shard }}"
+          bash scripts/dispatch_next_run.sh             .github/workflows/crawl_plans.yml             "${GITHUB_REF_NAME}"             "${{ steps.plan_context.outputs.mode }}"             "${{ steps.plan_context.outputs.years_csv }}"             "${{ steps.next_run.outputs.target_year }}"             "${{ steps.next_run.outputs.target_province_index }}"
