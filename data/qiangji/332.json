@@ -1,0 +1,376 @@
+{
+  "update_time": "2026-04-27 16:33:10",
+  "school_id": "332",
+  "school_name": "西北农林科技大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/332/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:51",
+  "md5": "8ffaa9ab079212917ecf8c8f06e112c0",
+  "year_count": 5,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022"
+  ],
+  "schedule_event_count": 29,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022"
+    ],
+    "school": {
+      "school_id": "332",
+      "school_name": "西北农林科技大学",
+      "province_id": "61",
+      "city_id": "6104",
+      "county_id": "610403",
+      "type": "5002",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1934",
+      "area": "55996.80",
+      "num_master": "31",
+      "num_doctor": "17",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "农林类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "陕西",
+      "city": "咸阳市",
+      "town": "杨陵区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "757",
+        "school_id": "332",
+        "formula_id": "33",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10712",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10712",
+        "qualification": "对于入围成绩排位在各省招生计划数7倍以内的考生，若数学或生物高考成绩达到该科目满分的95%（含）以上亦可入围",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "33",
+          "formula_name": "公式31",
+          "formula_content": "高考分/高考总分*100*85%+校考分*15%",
+          "formula_algorithm": "gkf/gkzf*100*85%+xkf*15%",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "河北,山西,内蒙古,辽宁,江苏,安徽,江西,河南,湖北,湖南,广西,重庆,四川,贵州,云南,陕西,甘肃,宁夏,浙江,山东,新疆"
+      },
+      "2025": {
+        "id": "733",
+        "school_id": "332",
+        "formula_id": "3",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10712",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10712",
+        "qualification": "暂无数据",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "3",
+          "formula_name": "公式2",
+          "formula_content": "高考成绩*0.85+校考成绩*0.15",
+          "formula_algorithm": "gkf*0.85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,山西,辽宁,安徽,江西,河南,湖北,湖南,重庆,四川,陕西,甘肃,浙江,山东,新疆"
+      },
+      "2024": {
+        "id": "689",
+        "school_id": "332",
+        "formula_id": "3",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10712",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10712",
+        "qualification": "高中阶段须在数学、物理、化学、生物学、信息学任一学科奥林匹克竞赛中获全国决赛二等奖及以上奖项",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "3",
+          "formula_name": "公式2",
+          "formula_content": "高考成绩*0.85+校考成绩*0.15",
+          "formula_algorithm": "gkf*0.85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "山东,河北,安徽,湖南,重庆,甘肃,山西,河南,四川,陕西"
+      },
+      "2023": {
+        "id": "669",
+        "school_id": "332",
+        "formula_id": "28",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10712",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10712",
+        "qualification": "高中阶段须在数学、物理、化学、生物学、信息学任一学科奥林匹克竞赛中获全国决赛二等奖及以上奖项",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "河北,湖南,辽宁,山东,四川,安徽,山西,河南,甘肃,陕西"
+      },
+      "2022": {
+        "id": "518",
+        "school_id": "332",
+        "formula_id": "4",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10712",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10712",
+        "qualification": "高中阶段须在数学、物理、化学、生物学、信息学任一学科奥林匹克竞赛中获全国决赛二等奖及以上奖项",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "山西,安徽,河南,四川,陕西,甘肃,河北,辽宁,江苏,山东"
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2554",
+            "strong_base_id": "757",
+            "schedule": "2026-04",
+            "describe": "即日起至4月30日前，考生可登录西北农林科技大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2555",
+            "strong_base_id": "757",
+            "schedule": "2026-06",
+            "describe": "于6月10日至6月20日登录强基计划报名平台，确认是否参加我校强基计划学校考核"
+          },
+          {
+            "id": "2556",
+            "strong_base_id": "757",
+            "schedule": "2026-06",
+            "describe": "6月26日前，我校在确认参加校考的考生范围内确定并公布入围参加校考考生名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2557",
+            "strong_base_id": "757",
+            "schedule": "2026-07",
+            "describe": "我校于7月3日之前举行考核"
+          },
+          {
+            "id": "2558",
+            "strong_base_id": "757",
+            "schedule": "2026-07",
+            "describe": "我校于7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2082",
+            "strong_base_id": "733",
+            "schedule": "2025-04",
+            "describe": "4月20日至5月10日考生可登录西北农林科技大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2083",
+            "strong_base_id": "733",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2084",
+            "strong_base_id": "733",
+            "schedule": "2025-06",
+            "describe": "6月10日至6月20日登录强基计划报名平台"
+          },
+          {
+            "id": "2085",
+            "strong_base_id": "733",
+            "schedule": "2025-06",
+            "describe": "6月26日前，我校在确认参加校考的考生范围内确定并公布入围参加校考考生名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2086",
+            "strong_base_id": "733",
+            "schedule": "2025-07",
+            "describe": "7月3日之前举行校考"
+          },
+          {
+            "id": "2087",
+            "strong_base_id": "733",
+            "schedule": "2025-07",
+            "describe": "拟录取名单于7月5日前经学校招生委员会审定批准后报各省级招生机构审核，并办理录取手续"
+          },
+          {
+            "id": "2088",
+            "strong_base_id": "733",
+            "schedule": "2025-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1925",
+            "strong_base_id": "689",
+            "schedule": "2024-04",
+            "describe": "4月11日至4月30日考生可登录西北农林科技大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1924",
+            "strong_base_id": "689",
+            "schedule": "2024-06",
+            "describe": "考生须参加2024年普通高等学校招生全国统一考试"
+          },
+          {
+            "id": "1923",
+            "strong_base_id": "689",
+            "schedule": "2024-06",
+            "describe": "报名考生须于6月10日-6月20日登录强基计划报名平台确认是否参加我校强基计划学校考核（以下简称校考）"
+          },
+          {
+            "id": "1922",
+            "strong_base_id": "689",
+            "schedule": "2024-06",
+            "describe": "6月26日前入围名单确定"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1921",
+            "strong_base_id": "689",
+            "schedule": "2024-07",
+            "describe": "于7月3日前举行校考"
+          },
+          {
+            "id": "1920",
+            "strong_base_id": "689",
+            "schedule": "2024-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1583",
+            "strong_base_id": "669",
+            "schedule": "2023-04",
+            "describe": "4月13至4月30日考生可登录西北农林科技大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1584",
+            "strong_base_id": "669",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1585",
+            "strong_base_id": "669",
+            "schedule": "2023-06",
+            "describe": "6月26日前公布入围参加校考考生名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1586",
+            "strong_base_id": "669",
+            "schedule": "2023-07",
+            "describe": "7月3日前举行考核"
+          },
+          {
+            "id": "1587",
+            "strong_base_id": "669",
+            "schedule": "2023-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1371",
+            "strong_base_id": "518",
+            "schedule": "2022-04",
+            "describe": "4月10日-4月30日考生可登录西北农林科技大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1372",
+            "strong_base_id": "518",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加全国统一高考"
+          },
+          {
+            "id": "1373",
+            "strong_base_id": "518",
+            "schedule": "2022-06",
+            "describe": "6月10日-6月20日登录强基计划报名平台"
+          },
+          {
+            "id": "1374",
+            "strong_base_id": "518",
+            "schedule": "2022-06",
+            "describe": "6月26日前在确认参加校考的考生范围内公布入围参加校考考生名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1375",
+            "strong_base_id": "518",
+            "schedule": "2022-07",
+            "describe": "7月3日具体事项请考生关注我校本科招生网公告"
+          },
+          {
+            "id": "1376",
+            "strong_base_id": "518",
+            "schedule": "2022-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

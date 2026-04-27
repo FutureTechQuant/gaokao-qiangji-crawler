@@ -1,0 +1,508 @@
+{
+  "update_time": "2026-04-27 16:30:10",
+  "school_id": "60",
+  "school_name": "天津大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/60/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:52",
+  "md5": "a829b9e822d130c805a616389f4bcfd9",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 41,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "60",
+      "school_name": "天津大学",
+      "province_id": "12",
+      "city_id": "1201",
+      "county_id": "120104",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1895",
+      "area": "6050.25",
+      "num_master": "48",
+      "num_doctor": "38",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "天津",
+      "city": "天津市",
+      "town": "南开区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "763",
+        "school_id": "60",
+        "formula_id": "24",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "qualification": "1.在高中阶段获得全国中学生五项学科竞赛（数学、物理、化学、生物学、信息学奥林匹克竞赛）任一科目全国决赛二等奖及以上奖项 2.对于高考单科成绩特别优秀的考生，如按上述规则未能入围，在其高考单科成绩符合所报专业破格入围条件和要求时，可破格入围。各专业对高考单科成绩的破格入围条件和要求如下： 数学与应用数学专业、工程力学专业和船舶与海洋工程专业要求数学科目成绩不低于145分（海南省要求达到满分的97%及以上），且高考加权成绩排序处于6倍以内； 应用化学专业、生物科学专业和合成生物学专业要求化学科目成绩达到满分的97%及以上（上海市要求70分），且高考加权成绩排序处于6倍以内； 应用物理学专业和能源与动力工程专业要求物理科目成绩达到满分的97%及以上（上海市要求70分），且高考加权成绩排序处于6倍以内。",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "24",
+          "formula_name": "公式23",
+          "formula_content": "高考分/高考总分*100*85%+面试分/面试满分*100*15%",
+          "formula_algorithm": "gkf/gkzf*100*0.85+msf/mszf*100*0.15",
+          "formula_use_field": "gkf,gkzf,msf,mszf"
+        },
+        "province_plan": "西藏,新疆,北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2025": {
+        "id": "717",
+        "school_id": "60",
+        "formula_id": "35",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "qualification": "在高中阶段获得全国中学生五项学科竞赛（数学、物理、化学、生物学、信息学奥林匹克竞赛）任一科目全国决赛二等奖及以上奖项",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "35",
+          "formula_name": "公式33",
+          "formula_content": "高考分/高考总分*100*85%+校考分/校考满分*100*15%",
+          "formula_algorithm": "gkf/gkzf*100*85%+xkf/xkmf*100*15%",
+          "formula_use_field": "gkf,gkzf,xkf,xkmf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,西藏,新疆,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2024": {
+        "id": "672",
+        "school_id": "60",
+        "formula_id": "24",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "qualification": "在高中阶段获得全国中学生五项学科竞赛（数学、物理、化学、生物学、信息学奥林匹克竞赛）任一科目全国决赛二等奖及以上奖项",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "24",
+          "formula_name": "公式23",
+          "formula_content": "高考分/高考总分*100*85%+面试分/面试满分*100*15%",
+          "formula_algorithm": "gkf/gkzf*100*0.85+msf/mszf*100*0.15",
+          "formula_use_field": "gkf,gkzf,msf,mszf"
+        },
+        "province_plan": "河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃,北京,天津,上海,浙江,山东,海南,山西,内蒙古,河南,四川,云南,西藏,陕西,青海,宁夏,新疆"
+      },
+      "2023": {
+        "id": "640",
+        "school_id": "60",
+        "formula_id": "24",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "qualification": "在高中阶段获得全国中学生五项学科竞赛（数学、物理、化学、生物学、信息学奥林匹克竞赛）任一科目全国决赛二等奖及以上奖项",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "24",
+          "formula_name": "公式23",
+          "formula_content": "高考分/高考总分*100*85%+面试分/面试满分*100*15%",
+          "formula_algorithm": "gkf/gkzf*100*0.85+msf/mszf*100*0.15",
+          "formula_use_field": "gkf,gkzf,msf,mszf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,新疆,江西,河南,甘肃,西藏,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "491",
+        "school_id": "60",
+        "formula_id": "16",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "qualification": "在高中阶段获得全国中学生五项学科竞赛（数学、物理、化学、生物学、信息学奥林匹克竞赛）任一科目全国决赛二等奖及以上奖项",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "16",
+          "formula_name": "公式15",
+          "formula_content": "高考成绩/高考总分*85+面试成绩/面试总分*15",
+          "formula_algorithm": "gkf/gkzf*85+msf/mszf*15",
+          "formula_use_field": "gkf,gkzf,msf,mszf"
+        },
+        "province_plan": "安徽,江西,河南,甘肃,北京,天津,上海,浙江,山东,河北,辽宁,江苏,福建,湖北,湖南,广东,重庆"
+      },
+      "2021": {
+        "id": "209",
+        "school_id": "60",
+        "formula_id": "9",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "qualification": "高中阶段获得全国中学生五项学科竞赛（数学、物理、化学、生物学、信息学奥林匹克竞赛）任一科目全国决赛二等奖及以上奖项",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "9",
+          "formula_name": "公式8",
+          "formula_content": "高考成绩/高考总分*85+校考成绩/校考总分*15",
+          "formula_algorithm": "gkf/gkzf*85+xkf/xkzf*15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖南,广东,重庆,北京,天津,上海,浙江,山东,安徽,江西,河南,四川,甘肃"
+      },
+      "2020": {
+        "id": "75",
+        "school_id": "60",
+        "formula_id": "4",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10056",
+        "qualification": "数学、物理、化学、生物学、信息学奥林匹克竞赛国二及以上，高考国一本线",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "150",
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "四川,安徽,江苏,江西,河北,河南,湖南,甘肃,福建,辽宁,上海,北京,天津,山东,浙江"
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2645",
+            "strong_base_id": "763",
+            "schedule": "2026-04",
+            "describe": "报名时间：4月10日—30日"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2646",
+            "strong_base_id": "763",
+            "schedule": "2026-06",
+            "describe": "高考"
+          },
+          {
+            "id": "2647",
+            "strong_base_id": "763",
+            "schedule": "2026-06",
+            "describe": "确认考试：6月10日—20日"
+          },
+          {
+            "id": "2648",
+            "strong_base_id": "763",
+            "schedule": "2026-06",
+            "describe": "确定入围校考考生名单：6月26日左右"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2649",
+            "strong_base_id": "763",
+            "schedule": "2026-07",
+            "describe": "校考时间：7月4日前，届时具体时间安排参见报名系统及我校本科招生网通知"
+          },
+          {
+            "id": "2650",
+            "strong_base_id": "763",
+            "schedule": "2026-07",
+            "describe": "录取时间：7月5日前"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2354",
+            "strong_base_id": "717",
+            "schedule": "2025-04",
+            "describe": "4月19日至5月10日报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2355",
+            "strong_base_id": "717",
+            "schedule": "2025-06",
+            "describe": "6月7日-6月10日高考"
+          },
+          {
+            "id": "2356",
+            "strong_base_id": "717",
+            "schedule": "2025-06",
+            "describe": "6月10日-20确认考试"
+          },
+          {
+            "id": "2357",
+            "strong_base_id": "717",
+            "schedule": "2025-06",
+            "describe": "6月26日前确定入围校考考生名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2358",
+            "strong_base_id": "717",
+            "schedule": "2025-07",
+            "describe": "7月4日前校考"
+          },
+          {
+            "id": "2359",
+            "strong_base_id": "717",
+            "schedule": "2025-07",
+            "describe": "7月5日前录取"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1595",
+            "strong_base_id": "672",
+            "schedule": "2024-04",
+            "describe": "4月10日-30日考生可登录天津大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1596",
+            "strong_base_id": "672",
+            "schedule": "2024-06",
+            "describe": "6月10日-20日确认考试"
+          },
+          {
+            "id": "1597",
+            "strong_base_id": "672",
+            "schedule": "2024-06",
+            "describe": "6月26日前确定入围校考考生名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1598",
+            "strong_base_id": "672",
+            "schedule": "2024-07",
+            "describe": "7月4日前校考"
+          },
+          {
+            "id": "1599",
+            "strong_base_id": "672",
+            "schedule": "2024-07",
+            "describe": "7月5日前院校公布录取结果并公示录取标准"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1434",
+            "strong_base_id": "640",
+            "schedule": "2023-04",
+            "describe": "4月10日-30日考生可登录天津大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1435",
+            "strong_base_id": "640",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1436",
+            "strong_base_id": "640",
+            "schedule": "2023-06",
+            "describe": "6月26日前确定入围校考考生名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1437",
+            "strong_base_id": "640",
+            "schedule": "2023-07",
+            "describe": "7月4日前考生网上确认是否参加校考以及打印准考证"
+          },
+          {
+            "id": "1438",
+            "strong_base_id": "640",
+            "schedule": "2023-07",
+            "describe": "7月5日前院校公布录取结果并公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1215",
+            "strong_base_id": "491",
+            "schedule": "2022-04",
+            "describe": "4月10日-30日考生可登录天津大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1216",
+            "strong_base_id": "491",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加统一高考"
+          },
+          {
+            "id": "1217",
+            "strong_base_id": "491",
+            "schedule": "2022-06",
+            "describe": "6月10日-20日报名考生须在规定时间内按要求确认是否参加我校强基计划考核"
+          },
+          {
+            "id": "1218",
+            "strong_base_id": "491",
+            "schedule": "2022-06",
+            "describe": "6月26日前确定入围学校考核名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1219",
+            "strong_base_id": "491",
+            "schedule": "2022-07",
+            "describe": "7月4日前面试 综合素质 体质测试"
+          },
+          {
+            "id": "1220",
+            "strong_base_id": "491",
+            "schedule": "2022-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "305",
+            "strong_base_id": "209",
+            "schedule": "2021-04",
+            "describe": "4月1日院校招生简章发布"
+          },
+          {
+            "id": "306",
+            "strong_base_id": "209",
+            "schedule": "2021-04",
+            "describe": "4月10日-30日考生可登录“天津大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "307",
+            "strong_base_id": "209",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "308",
+            "strong_base_id": "209",
+            "schedule": "2021-06",
+            "describe": "6月10日-20日报名考生须在规定时间内按要求确认是否参加我校强基计划考核"
+          },
+          {
+            "id": "309",
+            "strong_base_id": "209",
+            "schedule": "2021-06",
+            "describe": "6月26日前确定入围校考考生名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "310",
+            "strong_base_id": "209",
+            "schedule": "2021-07",
+            "describe": "7月4日前按规定参加面试和体质测试"
+          },
+          {
+            "id": "311",
+            "strong_base_id": "209",
+            "schedule": "2021-07",
+            "describe": "7月5日前公布录取结果并公示录取标准"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "165",
+            "strong_base_id": "75",
+            "schedule": "2020-05",
+            "describe": "5月院校招生简章发布"
+          },
+          {
+            "id": "166",
+            "strong_base_id": "75",
+            "schedule": "2020-05",
+            "describe": "5月10日至31日考生可登录天津大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "167",
+            "strong_base_id": "75",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "168",
+            "strong_base_id": "75",
+            "schedule": "2020-07",
+            "describe": "7月26日前确定入围校考考生名单"
+          }
+        ],
+        "8月": [
+          {
+            "id": "169",
+            "strong_base_id": "75",
+            "schedule": "2020-08",
+            "describe": "8月4日前考生网上确认是否参加校考以及打印准考证"
+          },
+          {
+            "id": "170",
+            "strong_base_id": "75",
+            "schedule": "2020-08",
+            "describe": "8月5日前院校公布录取结果并公示录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

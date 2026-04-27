@@ -1,0 +1,588 @@
+{
+  "update_time": "2026-04-27 16:31:03",
+  "school_id": "140",
+  "school_name": "清华大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/140/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:51",
+  "md5": "b176b0f0e25b78f8c795cd17dd83587d",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 54,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "140",
+      "school_name": "清华大学",
+      "province_id": "11",
+      "city_id": "1101",
+      "county_id": "110108",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1911",
+      "area": "7251.45",
+      "num_master": "70",
+      "num_doctor": "69",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "北京",
+      "city": "北京市",
+      "town": "海淀区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "772",
+        "school_id": "140",
+        "formula_id": "41",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "qualification": "对于获得数学、物理、化学、生物学、信息学奥林匹克竞赛全国决赛二等奖及以上奖项的应届生可通过上述平台提交破格资格申请。",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "41",
+          "formula_name": "公式39",
+          "formula_content": "高考分/高考总分*85+笔试成绩/笔试满分*10+面试成绩/面试满分*5",
+          "formula_algorithm": "gkf/gkzf*85+bscj/bsmf*10+mscj/msmf*5",
+          "formula_use_field": "gkf,gkzf,bscj,bsmf,mscj,msmf"
+        },
+        "province_plan": "西藏,新疆,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,北京,天津,上海,浙江,山东,海南"
+      },
+      "2025": {
+        "id": "746",
+        "school_id": "140",
+        "formula_id": "2",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "qualification": "获得数学、物理、化学、生物学、信息学奥林匹克竞赛全国决赛二等奖及以上奖项",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "西藏,新疆,北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2024": {
+        "id": "696",
+        "school_id": "140",
+        "formula_id": "20",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "qualification": "在数学、物理、化学、生物学、信息学奥林匹克竞赛中获得全国决赛二等奖及以上奖项的报名考生审核其相关学科领域的突出才能和综合表现",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "20",
+          "formula_name": "公式19",
+          "formula_content": "高考分/高考总分*85+校考分",
+          "formula_algorithm": "gkf/gkzf*85+xkf",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,山西,内蒙古,河南,四川,云南,西藏,陕西,青海,宁夏,新疆,河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃"
+      },
+      "2023": {
+        "id": "633",
+        "school_id": "140",
+        "formula_id": "20",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "qualification": "在数学、物理、化学、生物学、信息学奥林匹克竞赛中获得全国决赛二等奖及以上奖项的报名考生审核其相关学科领域的突出才能和综合表现，审核通过后可以破格入围",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "20",
+          "formula_name": "公式19",
+          "formula_content": "高考分/高考总分*85+校考分",
+          "formula_algorithm": "gkf/gkzf*85+xkf",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,海南,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,新疆,江西,河南,甘肃,西藏,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "484",
+        "school_id": "140",
+        "formula_id": "4",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "qualification": "数学、物理、化学、生物学、信息学奥林匹克竞赛中获得全国决赛二等奖及以上奖项",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,海南,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2021": {
+        "id": "202",
+        "school_id": "140",
+        "formula_id": "2",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "qualification": "在相关学科领域具有突出才能和表现且在数学、物理、化学、生物学、信息学奥林匹克竞赛中获得全国决赛二等奖及以上奖项的考生",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "浙江,海南,河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,山东,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2020": {
+        "id": "68",
+        "school_id": "140",
+        "formula_id": "2",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10003",
+        "qualification": "数学、物理、化学、生物学、信息学国二及以上，高考成绩要求达到一本线或所在省份相关控制线标准",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": ""
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2696",
+            "strong_base_id": "772",
+            "schedule": "2026-04",
+            "describe": "2026年4月10日-4月30日，学生进行网上报名。"
+          },
+          {
+            "id": "2697",
+            "strong_base_id": "772",
+            "schedule": "2026-04",
+            "describe": "2026年4月10日-4月23日，学生破格资格申请。"
+          },
+          {
+            "id": "2698",
+            "strong_base_id": "772",
+            "schedule": "2026-04",
+            "describe": "2026年4月24日左右，发布破格资格审核结果。未通过破格资格审核的学生可以选择取消我校强基计划报名。"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2699",
+            "strong_base_id": "772",
+            "schedule": "2026-06",
+            "describe": "2026年6月27日前，发布入围结果。"
+          },
+          {
+            "id": "2700",
+            "strong_base_id": "772",
+            "schedule": "2026-06",
+            "describe": "2026年6月27日左右，开放准考证打印。"
+          },
+          {
+            "id": "2701",
+            "strong_base_id": "772",
+            "schedule": "2026-06",
+            "describe": "2026年6月28日-7月3日，进行综合考核（考核环节及时间以报名平台发布为准）。"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2702",
+            "strong_base_id": "772",
+            "schedule": "2026-07",
+            "describe": "2026年7月5日左右，发布综合成绩与录取结果。"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2439",
+            "strong_base_id": "746",
+            "schedule": "2025-04",
+            "describe": "2025年4月23日-5月10日强基计划招生报名"
+          },
+          {
+            "id": "2440",
+            "strong_base_id": "746",
+            "schedule": "2025-04",
+            "describe": "2025年4月23日-5月6日强基计划考生破格资格申请及审核"
+          }
+        ],
+        "5月": [
+          {
+            "id": "2441",
+            "strong_base_id": "746",
+            "schedule": "2025-05",
+            "describe": "2025年5月7日前后公布考生破格资格审核结果"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2442",
+            "strong_base_id": "746",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日高考"
+          },
+          {
+            "id": "2443",
+            "strong_base_id": "746",
+            "schedule": "2025-06",
+            "describe": "2025年6月27日前公布入围结果"
+          },
+          {
+            "id": "2444",
+            "strong_base_id": "746",
+            "schedule": "2025-06",
+            "describe": "2025年6月27日前后开放准考证打印"
+          },
+          {
+            "id": "2445",
+            "strong_base_id": "746",
+            "schedule": "2025-06",
+            "describe": "2025年6月28日-7月3日考核测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2446",
+            "strong_base_id": "746",
+            "schedule": "2025-07",
+            "describe": "2025年7月5日前后公布综合成绩与录取结果"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1897",
+            "strong_base_id": "696",
+            "schedule": "2024-04",
+            "describe": "4月11日至4月30日考生可登录清华大学强基计划报名平台报名"
+          },
+          {
+            "id": "1896",
+            "strong_base_id": "696",
+            "schedule": "2024-04",
+            "describe": "2024年4月11日-4月24日强基计划考生破格资格申请及审核"
+          },
+          {
+            "id": "1895",
+            "strong_base_id": "696",
+            "schedule": "2024-04",
+            "describe": "2024年4月26日公布考生破格资格审核结果"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1898",
+            "strong_base_id": "696",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1899",
+            "strong_base_id": "696",
+            "schedule": "2024-06",
+            "describe": "6月26日前公布入围结果，考生可在报名系统内查询"
+          },
+          {
+            "id": "1900",
+            "strong_base_id": "696",
+            "schedule": "2024-06",
+            "describe": "6月27日左右开放准考证打印，考生可在报名系统内查询"
+          },
+          {
+            "id": "1901",
+            "strong_base_id": "696",
+            "schedule": "2024-06",
+            "describe": "6月28日-7月3日综合考核（测试环节及时间以报名系统内公布为准）"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1902",
+            "strong_base_id": "696",
+            "schedule": "2024-07",
+            "describe": "7月5日公布综合成绩与录取结果，并按规定公示相应录取标准"
+          },
+          {
+            "id": "1903",
+            "strong_base_id": "696",
+            "schedule": "2024-07",
+            "describe": "7月6日-7月10日基础理科工程衔接类专业衔接方向确定"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1399",
+            "strong_base_id": "633",
+            "schedule": "2023-04",
+            "describe": "4月20日至4月30日考生可登录清华大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1400",
+            "strong_base_id": "633",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1401",
+            "strong_base_id": "633",
+            "schedule": "2023-06",
+            "describe": "6月26日前公布入围结果，考生可在报名系统内查询"
+          },
+          {
+            "id": "1402",
+            "strong_base_id": "633",
+            "schedule": "2023-06",
+            "describe": "6月27日左右开放准考证打印，考生可在报名系统内查询"
+          },
+          {
+            "id": "1403",
+            "strong_base_id": "633",
+            "schedule": "2023-06",
+            "describe": "6月28日-7月3日综合考核（测试环节及时间以报名系统内公布为准）"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1404",
+            "strong_base_id": "633",
+            "schedule": "2023-07",
+            "describe": "7月5日公布综合成绩与录取结果，并按规定公示相应录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1173",
+            "strong_base_id": "484",
+            "schedule": "2022-04",
+            "describe": "4月6日至4月30日登录清华大学强基计划报名平台报名"
+          },
+          {
+            "id": "1174",
+            "strong_base_id": "484",
+            "schedule": "2022-04",
+            "describe": "4月6日至4月24日相关学科领域具有突出才能和表现的考生提交破格资格申请"
+          },
+          {
+            "id": "1175",
+            "strong_base_id": "484",
+            "schedule": "2022-04",
+            "describe": "4月26日公布考生破格资格审核结果"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1176",
+            "strong_base_id": "484",
+            "schedule": "2022-06",
+            "describe": "6月26日前公布入围结果"
+          },
+          {
+            "id": "1177",
+            "strong_base_id": "484",
+            "schedule": "2022-06",
+            "describe": "6月27日左右开放准考证打印"
+          },
+          {
+            "id": "1178",
+            "strong_base_id": "484",
+            "schedule": "2022-06",
+            "describe": "6月28日-7月3日进行综合考核"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1179",
+            "strong_base_id": "484",
+            "schedule": "2022-07",
+            "describe": "7月5日公布综合成绩、录取标准、录取结果"
+          },
+          {
+            "id": "1180",
+            "strong_base_id": "484",
+            "schedule": "2022-07",
+            "describe": "7月6日-7月10日基础理科工程衔接类专业衔接方向确定"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "257",
+            "strong_base_id": "202",
+            "schedule": "2021-04",
+            "describe": "4月12日院校招生简章发布"
+          },
+          {
+            "id": "258",
+            "strong_base_id": "202",
+            "schedule": "2021-04",
+            "describe": "4月12日-4月30日考生可登录“清华大学强基计划报名平台”填写申请表并提交"
+          }
+        ],
+        "6月": [
+          {
+            "id": "259",
+            "strong_base_id": "202",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "260",
+            "strong_base_id": "202",
+            "schedule": "2021-06",
+            "describe": "6月15日-6月18日在报名系统内进行确认"
+          },
+          {
+            "id": "261",
+            "strong_base_id": "202",
+            "schedule": "2021-06",
+            "describe": "6月26日前公布入围结果，考生可在报名系统内查询"
+          },
+          {
+            "id": "262",
+            "strong_base_id": "202",
+            "schedule": "2021-06",
+            "describe": "6月27日左右开放准考证打印"
+          },
+          {
+            "id": "263",
+            "strong_base_id": "202",
+            "schedule": "2021-06",
+            "describe": "6月28日-7月3日综合考核包括基础能力测试、综合素质考核和身体素质测试等环节"
+          }
+        ],
+        "7月": [
+          {
+            "id": "264",
+            "strong_base_id": "202",
+            "schedule": "2021-07",
+            "describe": "7月5日公布综合成绩与录取结果，并按规定公示相应录取标准"
+          },
+          {
+            "id": "265",
+            "strong_base_id": "202",
+            "schedule": "2021-07",
+            "describe": "7月6日-7月10日基础理科工程衔接类专业衔接方向确定"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "206",
+            "strong_base_id": "68",
+            "schedule": "2020-05",
+            "describe": "5月7日院校招生简章发布"
+          },
+          {
+            "id": "207",
+            "strong_base_id": "68",
+            "schedule": "2020-05",
+            "describe": "5月10日至5月30日考生可登录清华大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "208",
+            "strong_base_id": "68",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "209",
+            "strong_base_id": "68",
+            "schedule": "2020-07",
+            "describe": "7月26日前公布入围结果，学生可在报名系统内查询"
+          },
+          {
+            "id": "210",
+            "strong_base_id": "68",
+            "schedule": "2020-07",
+            "describe": "7月27日左右开放准考证打印，学生可在报名系统内查询"
+          },
+          {
+            "id": "211",
+            "strong_base_id": "68",
+            "schedule": "2020-07",
+            "describe": "7月28日至8月2日综合考核（测试环节及时间以报名系统内公布为准）"
+          }
+        ],
+        "8月": [
+          {
+            "id": "212",
+            "strong_base_id": "68",
+            "schedule": "2020-08",
+            "describe": "8月5日前学校公布综合成绩与录取结果，并公示录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

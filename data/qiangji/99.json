@@ -1,0 +1,484 @@
+{
+  "update_time": "2026-04-27 16:30:35",
+  "school_id": "99",
+  "school_name": "四川大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/99/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:52",
+  "md5": "aa518c11a7a47cecb2de364a10943022",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 37,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "99",
+      "school_name": "四川大学",
+      "province_id": "51",
+      "city_id": "5101",
+      "county_id": "510107",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1896",
+      "area": "7050.00",
+      "num_master": "2",
+      "num_doctor": "53",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "四川",
+      "city": "成都市",
+      "town": "武侯区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "779",
+        "school_id": "99",
+        "formula_id": "6",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "qualification": "暂无数据",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "6",
+          "formula_name": "公式5",
+          "formula_content": "高考成绩*0.85+校考成绩/100*高考总分*0.15",
+          "formula_algorithm": "gkf*0.85+xkf/100*gkzf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "西藏,新疆,北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2025": {
+        "id": "729",
+        "school_id": "99",
+        "formula_id": "6",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "qualification": "全国中学生学科奥林匹克竞赛全国决赛中获得数学、物理、化学、生物、信息学二等奖及以上。全国中学生学科奥林匹克竞赛获奖学生以全国青少年科技竞赛获奖名单公示网站（http://gs.cyscc.org/）公示的为准。",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "6",
+          "formula_name": "公式5",
+          "formula_content": "高考成绩*0.85+校考成绩/100*高考总分*0.15",
+          "formula_algorithm": "gkf*0.85+xkf/100*gkzf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,北京,天津,上海,浙江,山东,海南,西藏,新疆"
+      },
+      "2024": {
+        "id": "690",
+        "school_id": "99",
+        "formula_id": "6",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "qualification": "高中阶段在全国中学生五大学科奥林匹克竞赛全国总决赛获得二等奖及以上",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "6",
+          "formula_name": "公式5",
+          "formula_content": "高考成绩*0.85+校考成绩/100*高考总分*0.15",
+          "formula_algorithm": "gkf*0.85+xkf/100*gkzf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃,山西,内蒙古,河南,四川,云南,西藏,陕西,青海,宁夏,新疆"
+      },
+      "2023": {
+        "id": "660",
+        "school_id": "99",
+        "formula_id": "28",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "qualification": "高中阶段在全国中学生五大学科奥林匹克竞赛全国总决赛获得二等奖及以上的考生",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,海南,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,新疆,江西,河南,甘肃,西藏,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "513",
+        "school_id": "99",
+        "formula_id": "4",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "qualification": "高中阶段在全国中学生五大学科奥林匹克竞赛全国总决赛获得二等奖及以上的考生",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆,北京,天津,上海,浙江,山东,海南,河北,辽宁,江苏,福建,湖北,湖南,广东,重庆"
+      },
+      "2021": {
+        "id": "229",
+        "school_id": "99",
+        "formula_id": "5",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "qualification": "高中阶段在全国中学生五大学科奥林匹克竞赛全国总决赛获得一、二等奖，且考生高考成绩达到生源省份2021年普通类本科同科类第一批次录取最低控制分数线",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "5",
+          "formula_name": "公式4",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,山西,吉林,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃"
+      },
+      "2020": {
+        "id": "95",
+        "school_id": "99",
+        "formula_id": "4",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10610",
+        "qualification": "数学、物理、化学、生物学、信息学国二及以上，高考成绩要求达到所在省份一本线或特殊类型控制线",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "180",
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": ""
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2708",
+            "strong_base_id": "779",
+            "schedule": "2026-04",
+            "describe": "第一类考生于4月13日至4月30日登录四川大学强基计划报名平台；第二类考生于4月13日至4月26日登录四川大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2709",
+            "strong_base_id": "779",
+            "schedule": "2026-06",
+            "describe": "考生须参加2026年普通高等学校招生全国统一考试"
+          },
+          {
+            "id": "2710",
+            "strong_base_id": "779",
+            "schedule": "2026-06",
+            "describe": "6月10日至20日确认是否参加校考"
+          },
+          {
+            "id": "2711",
+            "strong_base_id": "779",
+            "schedule": "2026-06",
+            "describe": "入围标准将于6月27日前在四川大学本科招生网公布"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2712",
+            "strong_base_id": "779",
+            "schedule": "2026-07",
+            "describe": "2026年7月2日前组织校考"
+          },
+          {
+            "id": "2713",
+            "strong_base_id": "779",
+            "schedule": "2026-07",
+            "describe": "7月5日前公布预录取名单，并办理录取手续"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2050",
+            "strong_base_id": "729",
+            "schedule": "2025-04",
+            "describe": "4月21日至5月8日考生登录四川大学强基计划报名平台完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2051",
+            "strong_base_id": "729",
+            "schedule": "2025-06",
+            "describe": "参加2025年普通高等学校招生全国统一考试"
+          },
+          {
+            "id": "2052",
+            "strong_base_id": "729",
+            "schedule": "2025-06",
+            "describe": "6月10日至20日确认是否参加校考"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2053",
+            "strong_base_id": "729",
+            "schedule": "2025-07",
+            "describe": "7月2日前组织校考"
+          },
+          {
+            "id": "2054",
+            "strong_base_id": "729",
+            "schedule": "2025-07",
+            "describe": "7月5日前公布预录取名单，并办理录取手续"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1932",
+            "strong_base_id": "690",
+            "schedule": "2024-04",
+            "describe": "2024年4月11日至4月29日考生登录四川大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1931",
+            "strong_base_id": "690",
+            "schedule": "2024-06",
+            "describe": "参加2024年普通高等学校招生全国统一考试"
+          },
+          {
+            "id": "1930",
+            "strong_base_id": "690",
+            "schedule": "2024-06",
+            "describe": "2024年6月10日至20日登录四川大学强基计划报名平台确认是否参加校考"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1929",
+            "strong_base_id": "690",
+            "schedule": "2024-07",
+            "describe": "2024年7月2日前举行校考"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1536",
+            "strong_base_id": "660",
+            "schedule": "2023-04",
+            "describe": "4月11日至4月29日考生登录四川大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1537",
+            "strong_base_id": "660",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1538",
+            "strong_base_id": "660",
+            "schedule": "2023-06",
+            "describe": "6月10日至20日登录四川大学强基计划报名平台确认是否参加四川大学强基计划校考"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1539",
+            "strong_base_id": "660",
+            "schedule": "2023-07",
+            "describe": "7月2日前组织校考"
+          },
+          {
+            "id": "1540",
+            "strong_base_id": "660",
+            "schedule": "2023-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1342",
+            "strong_base_id": "513",
+            "schedule": "2022-04",
+            "describe": "4月8日-4月29日登录四川大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1343",
+            "strong_base_id": "513",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加全国统一高考"
+          },
+          {
+            "id": "1344",
+            "strong_base_id": "513",
+            "schedule": "2022-06",
+            "describe": "6月10日-20日登录四川大学强基计划报名平台"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1345",
+            "strong_base_id": "513",
+            "schedule": "2022-07",
+            "describe": "7月2日笔试、面试、体质测试"
+          },
+          {
+            "id": "1346",
+            "strong_base_id": "513",
+            "schedule": "2022-07",
+            "describe": "7月5日公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "440",
+            "strong_base_id": "229",
+            "schedule": "2021-04",
+            "describe": "4月9日院校招生简章发布"
+          },
+          {
+            "id": "441",
+            "strong_base_id": "229",
+            "schedule": "2021-04",
+            "describe": "4月13日至4月30日考生登录“四川大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "442",
+            "strong_base_id": "229",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "443",
+            "strong_base_id": "229",
+            "schedule": "2021-06",
+            "describe": "6月10日至20日确认是否参加四川大学强基计划考核测试并签订承诺书"
+          }
+        ],
+        "7月": [
+          {
+            "id": "444",
+            "strong_base_id": "229",
+            "schedule": "2021-07",
+            "describe": "7月2日学校测试包括笔试、面试和体质测试三个部分"
+          },
+          {
+            "id": "445",
+            "strong_base_id": "229",
+            "schedule": "2021-07",
+            "describe": "7月5日前分省分专业录取标准将在四川大学本科招生网进行公示"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "43",
+            "strong_base_id": "95",
+            "schedule": "2020-05",
+            "describe": "5月院校招生简章发布"
+          },
+          {
+            "id": "44",
+            "strong_base_id": "95",
+            "schedule": "2020-05",
+            "describe": "5月12日至5月30日考生可登录四川大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "45",
+            "strong_base_id": "95",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "46",
+            "strong_base_id": "95",
+            "schedule": "2020-07",
+            "describe": "7月26日川大2020强基计划校测入围分数线公布"
+          }
+        ],
+        "8月": [
+          {
+            "id": "47",
+            "strong_base_id": "95",
+            "schedule": "2020-08",
+            "describe": "8月3日前入围考生参加学校测试，包括笔试、面试和体质测试三个部分"
+          },
+          {
+            "id": "48",
+            "strong_base_id": "95",
+            "schedule": "2020-08",
+            "describe": "8月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

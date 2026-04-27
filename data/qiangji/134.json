@@ -1,0 +1,360 @@
+{
+  "update_time": "2026-04-27 16:30:58",
+  "school_id": "134",
+  "school_name": "东北大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/134/info.json?a=www.gaokao.cn",
+  "time": "2026-04-28 00:07:25",
+  "md5": "567a2e650d75c2bce8b87cdfdf519551",
+  "year_count": 5,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022"
+  ],
+  "schedule_event_count": 26,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022"
+    ],
+    "school": {
+      "school_id": "134",
+      "school_name": "东北大学",
+      "province_id": "21",
+      "city_id": "2101",
+      "county_id": "210102",
+      "type": "5001",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1923",
+      "area": "3969.00",
+      "num_master": "38",
+      "num_doctor": "27",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "理工类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "辽宁",
+      "city": "沈阳市",
+      "town": "和平区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "764",
+        "school_id": "134",
+        "formula_id": "4",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10145",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10145",
+        "qualification": "暂未公布",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "西藏,新疆,北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2025": {
+        "id": "719",
+        "school_id": "134",
+        "formula_id": "4",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10145",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10145",
+        "qualification": "暂未公布",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "西藏,新疆,北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2024": {
+        "id": "684",
+        "school_id": "134",
+        "formula_id": "4",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10145",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10145",
+        "qualification": "基础学科拔尖，在中国数学奥林匹克、全国中学生物理竞赛、中国化学奥林匹克、全国中学生生物学竞赛、全国青少年信息学奥林匹克竞赛等五项学科竞赛中获得全国决赛二等奖及以上的考生。",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃,山西,内蒙古,河南,四川,云南,西藏,陕西,青海,宁夏,新疆"
+      },
+      "2023": {
+        "id": "667",
+        "school_id": "134",
+        "formula_id": "4",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10145",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10145",
+        "qualification": "在中国数学奥林匹克、全国中学生物理竞赛、中国化学奥林匹克、全国中学生生物学竞赛、全国青少年信息学奥林匹克竞赛等五项学科竞赛中获得全国决赛二等奖及以上",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,海南,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,新疆,江西,河南,甘肃,西藏,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "493",
+        "school_id": "134",
+        "formula_id": "4",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10145",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10145",
+        "qualification": "中国数学奥林匹克、全国中学生物理竞赛、中国化学奥林匹克、全国中学生生物学竞赛、全国青少年信息学奥林匹克竞赛等五项学科竞赛中获得全国决赛二等奖及以上",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2590",
+            "strong_base_id": "764",
+            "schedule": "2026-04",
+            "describe": "2026年4月10日至30日考生报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2591",
+            "strong_base_id": "764",
+            "schedule": "2026-06",
+            "describe": "考生参加全国统一高考"
+          },
+          {
+            "id": "2592",
+            "strong_base_id": "764",
+            "schedule": "2026-06",
+            "describe": "考生须在2026年6月12日至20日登录东北大学强基计划报名平台确认是否参加东北大学强基计划考核测试并签订承诺书，未在规定时间内完成考试确认或签订承诺书者，视为自动放弃入围学校考核测试资格"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2593",
+            "strong_base_id": "764",
+            "schedule": "2026-07",
+            "describe": "东北大学考核测试将于2026年7月4日前完成"
+          },
+          {
+            "id": "2594",
+            "strong_base_id": "764",
+            "schedule": "2026-07",
+            "describe": "拟录取名单于7月5日前经学校招生工作委员会审定批准后报各省级招办审核，并办理录取手续。"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2366",
+            "strong_base_id": "719",
+            "schedule": "2025-04",
+            "describe": "2025年4月17日至5月10日报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2367",
+            "strong_base_id": "719",
+            "schedule": "2025-06",
+            "describe": "6月7日-6月10日高考"
+          },
+          {
+            "id": "2368",
+            "strong_base_id": "719",
+            "schedule": "2025-06",
+            "describe": "2025年6月12日至20日报名确认"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2369",
+            "strong_base_id": "719",
+            "schedule": "2025-07",
+            "describe": "7月4日前校考"
+          },
+          {
+            "id": "2370",
+            "strong_base_id": "719",
+            "schedule": "2025-07",
+            "describe": "7月5日录取"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1670",
+            "strong_base_id": "684",
+            "schedule": "2024-04",
+            "describe": "4月18日至30日考生可登录东北大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1671",
+            "strong_base_id": "684",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1672",
+            "strong_base_id": "684",
+            "schedule": "2024-06",
+            "describe": "6月12日至20日登录东北大学强基计划报名平台确认是否参加东北大学强基计划考核测试并签订承诺书"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1673",
+            "strong_base_id": "684",
+            "schedule": "2024-07",
+            "describe": "7月4日前完成考核，分为综合能力测试和体育测试两个环节"
+          },
+          {
+            "id": "1674",
+            "strong_base_id": "684",
+            "schedule": "2024-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1573",
+            "strong_base_id": "667",
+            "schedule": "2023-04",
+            "describe": "4月18日至30日考生可登录东北大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1574",
+            "strong_base_id": "667",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1575",
+            "strong_base_id": "667",
+            "schedule": "2023-06",
+            "describe": "6月12日至20日登录东北大学强基计划报名平台确认是否参加东北大学强基计划考核测试并签订承诺书"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1576",
+            "strong_base_id": "667",
+            "schedule": "2023-07",
+            "describe": "7月4日前完成考核，分为综合能力测试和体育测试两个环节"
+          },
+          {
+            "id": "1577",
+            "strong_base_id": "667",
+            "schedule": "2023-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "3月": [
+          {
+            "id": "1227",
+            "strong_base_id": "493",
+            "schedule": "2022-03",
+            "describe": "2022年3月28日院校招生简章发布"
+          }
+        ],
+        "4月": [
+          {
+            "id": "1228",
+            "strong_base_id": "493",
+            "schedule": "2022-04",
+            "describe": "4月10日-30日考生可登录东北大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1229",
+            "strong_base_id": "493",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加全国统一高考"
+          },
+          {
+            "id": "1230",
+            "strong_base_id": "493",
+            "schedule": "2022-06",
+            "describe": "6月12日-20日确认是否参加东北大学强基计划考核测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1231",
+            "strong_base_id": "493",
+            "schedule": "2022-07",
+            "describe": "7月4日前分为综合能力测试和体育测试两个环节"
+          },
+          {
+            "id": "1232",
+            "strong_base_id": "493",
+            "schedule": "2022-07",
+            "describe": "7月5日前经学校招生工作领导小组审定批准后报各省级招办审核并办理录取手续"
+          }
+        ]
+      }
+    }
+  }
+}

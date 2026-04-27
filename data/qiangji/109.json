@@ -1,0 +1,514 @@
+{
+  "update_time": "2026-04-27 16:30:42",
+  "school_id": "109",
+  "school_name": "东南大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/109/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:51",
+  "md5": "477eebecb743b8793b88a632964e200c",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 42,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "109",
+      "school_name": "东南大学",
+      "province_id": "32",
+      "city_id": "3201",
+      "county_id": "320102",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1902",
+      "area": "5888.00",
+      "num_master": "52",
+      "num_doctor": "49",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "江苏",
+      "city": "南京市",
+      "town": "玄武区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "750",
+        "school_id": "109",
+        "formula_id": "12",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "qualification": "基础学科拔尖，高中阶段在中国数学奥林匹克、全国中学生物理竞赛、中国化学奥林匹克、全国中学生生物学竞赛、全国青少年信息学奥林匹克竞赛等五项学科竞赛中获得全国决赛二等奖及以上的考生",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,江苏,安徽,福建,江西,河南,湖北,湖南,广东,重庆,四川,贵州,云南,陕西,甘肃,青海"
+      },
+      "2025": {
+        "id": "714",
+        "school_id": "109",
+        "formula_id": "12",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "qualification": "基础学科拔尖，高中阶段在中国数学奥林匹克、全国中学生物理竞赛、中国化学奥林匹克、全国中学生生物学竞赛、全国青少年信息学奥林匹克竞赛等五项学科竞赛中获得全国决赛二等奖及以上的考生。   ",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,山西,内蒙古,辽宁,江苏,安徽,福建,江西,河南,湖北,湖南,广东,重庆,四川,贵州,云南,陕西,甘肃,青海,北京,天津,上海,浙江,山东"
+      },
+      "2024": {
+        "id": "700",
+        "school_id": "109",
+        "formula_id": "35",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "qualification": "基础学科拔尖，高中阶段在中国数学奥林匹克、全国中学生物理竞赛、中国化学奥林匹克、全国中学生生物学竞赛、全国青少年信息学奥林匹克竞赛等五项学科竞赛中获得全国决赛二等奖及以上的考生",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "35",
+          "formula_name": "公式33",
+          "formula_content": "高考分/高考总分*100*85%+校考分/校考满分*100*15%",
+          "formula_algorithm": "gkf/gkzf*100*85%+xkf/xkmf*100*15%",
+          "formula_use_field": "gkf,gkzf,xkf,xkmf"
+        },
+        "province_plan": "江苏,安徽,福建,江西,湖北,湖南,广东,重庆,贵州,甘肃,北京,天津,上海,浙江,山东,山西,河南,四川,陕西"
+      },
+      "2023": {
+        "id": "649",
+        "school_id": "109",
+        "formula_id": "28",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "qualification": "高中阶段在中国数学奥林匹克、全国中学生物理竞赛、中国化学奥林匹克、全国中学生生物学竞赛、全国青少年信息学奥林匹克竞赛等五项学科竞赛中获得全国决赛二等奖及以上",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "江苏,广东,湖北,湖南,重庆,上海,北京,天津,山东,浙江,四川,安徽,山西,江西,河南,陕西"
+      },
+      "2022": {
+        "id": "501",
+        "school_id": "109",
+        "formula_id": "4",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "qualification": "高中阶段在中国数学奥林匹克、全国中学生物理竞赛、中国化学奥林匹克、全国中学生生物学竞赛、全国青少年信息学奥林匹克竞赛等五项学科竞赛中获得全国决赛二等奖及以上",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "江苏,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,山西,安徽,江西,河南,四川,陕西"
+      },
+      "2021": {
+        "id": "218",
+        "school_id": "109",
+        "formula_id": "9",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "qualification": "高中阶段在数学、物理、化学、生物学、信息学奥林匹克竞赛任一学科中获得全国决赛二等及以上奖项的考生，高考成绩达到所在省（区、市）本科一批录取最低控制分数线（高考综合改革和合并录取批次省份单独划定的相应分数线）",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "9",
+          "formula_name": "公式8",
+          "formula_content": "高考成绩/高考总分*85+校考成绩/校考总分*15",
+          "formula_algorithm": "gkf/gkzf*85+xkf/xkzf*15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "江苏,湖北,湖南,广东,重庆,北京,浙江,山东,山西,安徽,河南,四川,陕西"
+      },
+      "2020": {
+        "id": "84",
+        "school_id": "109",
+        "formula_id": "4",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10286",
+        "qualification": "数学、物理、化学、生物学、信息学奥林匹克竞赛国二及以上且达到相应高考成绩要求",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "90",
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "四川,安徽,山西,广东,江苏,河南,湖北,陕西,上海,北京,天津,山东,浙江"
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2481",
+            "strong_base_id": "750",
+            "schedule": "2026-04",
+            "describe": "即日起至4月30日17:00考生可登录东南大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2482",
+            "strong_base_id": "750",
+            "schedule": "2026-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2483",
+            "strong_base_id": "750",
+            "schedule": "2026-06",
+            "describe": "6月1日0:00-6月4日24:00前，登录报名平台确认是否参加初试并交费"
+          },
+          {
+            "id": "2484",
+            "strong_base_id": "750",
+            "schedule": "2026-06",
+            "describe": "6月14日左右组织初试笔试"
+          },
+          {
+            "id": "2485",
+            "strong_base_id": "750",
+            "schedule": "2026-06",
+            "describe": "6月18日左右组织复试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2486",
+            "strong_base_id": "750",
+            "schedule": "2026-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "1966",
+            "strong_base_id": "714",
+            "schedule": "2025-04",
+            "describe": "4月21日至5月10日考生可登录东南大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1967",
+            "strong_base_id": "714",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1968",
+            "strong_base_id": "714",
+            "schedule": "2025-06",
+            "describe": "6月1日-6月5日12：00前，登录报名平台确认是否参加初试并交费"
+          },
+          {
+            "id": "1969",
+            "strong_base_id": "714",
+            "schedule": "2025-06",
+            "describe": "6月15日左右组织初试"
+          },
+          {
+            "id": "1970",
+            "strong_base_id": "714",
+            "schedule": "2025-06",
+            "describe": "6月20日左右组织复试，测试分为体育测试和综合面试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1971",
+            "strong_base_id": "714",
+            "schedule": "2025-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1821",
+            "strong_base_id": "700",
+            "schedule": "2024-04",
+            "describe": "4月12日至30日考生可登录东南大学强基计划报名系统进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1820",
+            "strong_base_id": "700",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1819",
+            "strong_base_id": "700",
+            "schedule": "2024-06",
+            "describe": "6月15至18日，报名审核通过的考生须在报名系统中确认考试"
+          },
+          {
+            "id": "1818",
+            "strong_base_id": "700",
+            "schedule": "2024-06",
+            "describe": "6月27日确定各省报名考生入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1817",
+            "strong_base_id": "700",
+            "schedule": "2024-07",
+            "describe": "7月1日-2日，举行高校考核"
+          },
+          {
+            "id": "1816",
+            "strong_base_id": "700",
+            "schedule": "2024-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1481",
+            "strong_base_id": "649",
+            "schedule": "2023-04",
+            "describe": "4月12日至30日考生可登录东南大学强基计划报名系统进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1482",
+            "strong_base_id": "649",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1483",
+            "strong_base_id": "649",
+            "schedule": "2023-06",
+            "describe": "6月26日确定各省报名考生入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1484",
+            "strong_base_id": "649",
+            "schedule": "2023-07",
+            "describe": "7月1日至7月2日举行高校考核，考核内容包括体育测试和综合能力测试"
+          },
+          {
+            "id": "1485",
+            "strong_base_id": "649",
+            "schedule": "2023-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1271",
+            "strong_base_id": "501",
+            "schedule": "2022-04",
+            "describe": "4月8日-28日可登录东南大学强基计划报名系统"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1272",
+            "strong_base_id": "501",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日报名审核通过考生均须参加全国统一高考。"
+          },
+          {
+            "id": "1273",
+            "strong_base_id": "501",
+            "schedule": "2022-06",
+            "describe": "6月15-18日报名审核通过考生须在报名系统中确认考试"
+          },
+          {
+            "id": "1274",
+            "strong_base_id": "501",
+            "schedule": "2022-06",
+            "describe": "6月26日登陆报名平台查询入围情况"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1275",
+            "strong_base_id": "501",
+            "schedule": "2022-07",
+            "describe": "7月1日-7月2日核内容包括体育测试和综合能力测试"
+          },
+          {
+            "id": "1276",
+            "strong_base_id": "501",
+            "schedule": "2022-07",
+            "describe": "7月5日公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "368",
+            "strong_base_id": "218",
+            "schedule": "2021-04",
+            "describe": "4月2日院校招生简章发布"
+          },
+          {
+            "id": "369",
+            "strong_base_id": "218",
+            "schedule": "2021-04",
+            "describe": "4月8日至30日考生可登录“东南大学强基计划报名系统”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "370",
+            "strong_base_id": "218",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "371",
+            "strong_base_id": "218",
+            "schedule": "2021-06",
+            "describe": "6月15至18日报名审核通过考生须在报名系统中确认考试"
+          },
+          {
+            "id": "372",
+            "strong_base_id": "218",
+            "schedule": "2021-06",
+            "describe": "6月26日确定各专业入围高校考核考生名单，并公示各专业入围标准"
+          },
+          {
+            "id": "373",
+            "strong_base_id": "218",
+            "schedule": "2021-06",
+            "describe": "6月30日至7月1日核内容包括体育测试和综合能力测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "374",
+            "strong_base_id": "218",
+            "schedule": "2021-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "109",
+            "strong_base_id": "84",
+            "schedule": "2020-05",
+            "describe": "5月7日院校招生简章发布"
+          },
+          {
+            "id": "110",
+            "strong_base_id": "84",
+            "schedule": "2020-05",
+            "describe": "5月10日至31日考生可登录东南大学强基计划报名系统进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "111",
+            "strong_base_id": "84",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "112",
+            "strong_base_id": "84",
+            "schedule": "2020-07",
+            "describe": "7月26日确定各省报名考生入围校考名单"
+          }
+        ],
+        "8月": [
+          {
+            "id": "113",
+            "strong_base_id": "84",
+            "schedule": "2020-08",
+            "describe": "8月5日前院校举行高校考核，考核内容包括体育测试和综合能力测试"
+          },
+          {
+            "id": "114",
+            "strong_base_id": "84",
+            "schedule": "2020-08",
+            "describe": "8月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

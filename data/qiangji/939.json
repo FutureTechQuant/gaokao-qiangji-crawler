@@ -1,0 +1,502 @@
+{
+  "update_time": "2026-04-27 16:39:17",
+  "school_id": "939",
+  "school_name": "中国人民解放军国防科技大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/939/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:51",
+  "md5": "437d793b1d9ea4a6aebe838f0fd36164",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 40,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "939",
+      "school_name": "中国人民解放军国防科技大学",
+      "province_id": "43",
+      "city_id": "4301",
+      "county_id": "430105",
+      "type": "5011",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1953",
+      "area": "0.00",
+      "num_master": "26",
+      "num_doctor": "23",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "2",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "军事类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "湖南",
+      "city": "长沙市",
+      "town": "开福区",
+      "tag_name": ""
+    },
+    "formula": {
+      "2026": {
+        "id": "771",
+        "school_id": "939",
+        "formula_id": "40",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/92002",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/92002",
+        "qualification": "数学、物理和化学其中之一科目成绩达到该科目总分98%（含）以上且高考成绩排位在学校分省招生计划数5倍以内的考生亦可入围",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "40",
+          "formula_name": "公式38",
+          "formula_content": "高考加权总成绩*85%+(校考笔试成绩+校考面试成绩)*(高考加权成绩满分/校考成绩满分)*15%",
+          "formula_algorithm": "gkjqzcj*85%+(xkbscj+xkmscj)*(gkjqcjmf/xkcjmf)*15%",
+          "formula_use_field": "gkjqzcj,xkbscj,xkmscj,gkjqcjmf,xkcjmf"
+        },
+        "province_plan": "辽宁,江西,河南,湖南,四川,贵州,陕西,北京,山东"
+      },
+      "2025": {
+        "id": "735",
+        "school_id": "939",
+        "formula_id": "31",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "qualification": "高中阶段须在全国中学生五项学科竞赛中获得全国决赛一、二等奖。全国中学生五项学科竞赛奖项名称为：中国数学奥林匹克（中国数学会主办）、全国中学生物理竞赛决赛（中国物理学会主办）、中国化学奥林匹克（决赛）（中国化学会主办）、全国中学生生物学竞赛（中国动物学会、中国植物学会主办）、全国青少年信息学奥林匹克竞赛（中国计算机学会主办）。获奖信息以中国科协公示的全国中学生五项学科竞赛获奖学生名单（http://gs.cyscc.org/）为准",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "31",
+          "formula_name": "公式30",
+          "formula_content": "高考加权分*85%+校考分/校考总分*高考加权总分*15%",
+          "formula_algorithm": "gkjqf0.85+xkf/xkzf*gkjqzf*0.15",
+          "formula_use_field": "gkjqf,xkf,xkzf,gkjqzf"
+        },
+        "province_plan": "辽宁,江西,河南,湖南,四川,贵州,陕西,山东"
+      },
+      "2024": {
+        "id": "708",
+        "school_id": "939",
+        "formula_id": "31",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "qualification": "高中阶段须在全国中学生五项学科竞赛中获得全国决赛一、二等奖",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "31",
+          "formula_name": "公式30",
+          "formula_content": "高考加权分*85%+校考分/校考总分*高考加权总分*15%",
+          "formula_algorithm": "gkjqf0.85+xkf/xkzf*gkjqzf*0.15",
+          "formula_use_field": "gkjqf,xkf,xkzf,gkjqzf"
+        },
+        "province_plan": "河南,四川,辽宁,江西,湖南,贵州,山东"
+      },
+      "2023": {
+        "id": "666",
+        "school_id": "939",
+        "formula_id": "31",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "qualification": "高中阶段须在全国中学生五项学科竞赛中获得全国决赛一、二等奖。",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "31",
+          "formula_name": "公式30",
+          "formula_content": "高考加权分*85%+校考分/校考总分*高考加权总分*15%",
+          "formula_algorithm": "gkjqf0.85+xkf/xkzf*gkjqzf*0.15",
+          "formula_use_field": "gkjqf,xkf,xkzf,gkjqzf"
+        },
+        "province_plan": "湖南,辽宁,山东,四川,江西,河南,贵州"
+      },
+      "2022": {
+        "id": "520",
+        "school_id": "939",
+        "formula_id": "18",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "qualification": "高中阶段须在全国中学生五项学科竞赛中获得全国决赛一、二等奖",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "18",
+          "formula_name": "公式17",
+          "formula_content": "高考加权成绩*0.85+校考成绩/校考总分*高考加权总分*0.15",
+          "formula_algorithm": "gkjqf*0.85+xkf/xkzf*gkjqzf*0.15",
+          "formula_use_field": "gkjqf,xkf,xkzf,gkjqzf"
+        },
+        "province_plan": "辽宁,湖南,山东,江西,河南,四川,贵州"
+      },
+      "2021": {
+        "id": "235",
+        "school_id": "939",
+        "formula_id": "15",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "qualification": "高中阶段须在全国中学生五项学科竞赛中获得全国决赛一、二等奖",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "15",
+          "formula_name": "公式14",
+          "formula_content": "高考成绩*0.85+校考成绩/校考总分*高考总分*0.15",
+          "formula_algorithm": "gkf*0.85+xkf/xkzf*gkzf*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "辽宁,湖南,山东,江西,河南,四川,贵州"
+      },
+      "2020": {
+        "id": "101",
+        "school_id": "939",
+        "formula_id": "15",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/91002",
+        "qualification": "数学、物理、化学、生物学、信息学国二及以上，高考成绩要求达到一本线或所在省份相关控制线标准",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "60",
+        "formula": {
+          "id": "15",
+          "formula_name": "公式14",
+          "formula_content": "高考成绩*0.85+校考成绩/校考总分*高考总分*0.15",
+          "formula_algorithm": "gkf*0.85+xkf/xkzf*gkzf*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "四川,江西,河南,湖南,贵州,辽宁,山东"
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2629",
+            "strong_base_id": "771",
+            "schedule": "2026-04",
+            "describe": "即日起至4月30日考生可登录国防科技大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2630",
+            "strong_base_id": "771",
+            "schedule": "2026-06",
+            "describe": "6月10日至20日，考生须在报名平台进行确认并签订诚信承诺书"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2631",
+            "strong_base_id": "771",
+            "schedule": "2026-07",
+            "describe": "6月底7月初（不晚于7月4日，具体时间另行公布）举行学校考核（含笔试、面试和体育测试）"
+          },
+          {
+            "id": "2632",
+            "strong_base_id": "771",
+            "schedule": "2026-07",
+            "describe": "我校于7月上旬（具体时间根据工作进展确定）开放录取结果查询并公示录取标准"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2094",
+            "strong_base_id": "735",
+            "schedule": "2025-04",
+            "describe": "4月19日至5月9日考生可登录国防科技大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2095",
+            "strong_base_id": "735",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2096",
+            "strong_base_id": "735",
+            "schedule": "2025-06",
+            "describe": "6月10日至20日，考生须在报名平台进行确认并签订诚信承诺书"
+          },
+          {
+            "id": "2097",
+            "strong_base_id": "735",
+            "schedule": "2025-06",
+            "describe": "6月下旬确定各省入围学校考核考生名单并公示入围标准"
+          },
+          {
+            "id": "2098",
+            "strong_base_id": "735",
+            "schedule": "2025-06",
+            "describe": "6月底7月初（不晚于7月4日，具体时间另行公布）举行学校考核（含笔试、面试和体育测试）"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2099",
+            "strong_base_id": "735",
+            "schedule": "2025-07",
+            "describe": "7月上旬（具体时间根据工作进展确定）开放录取结果查询并公示录取标准"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1800",
+            "strong_base_id": "708",
+            "schedule": "2024-04",
+            "describe": "4月12日至4月30日考生可登录国防科技大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1801",
+            "strong_base_id": "708",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1802",
+            "strong_base_id": "708",
+            "schedule": "2024-06",
+            "describe": "6月10日至20日考生确认"
+          },
+          {
+            "id": "1803",
+            "strong_base_id": "708",
+            "schedule": "2024-06",
+            "describe": "6月下旬确定各省入围学校考核考生名单并公示入围标准"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1804",
+            "strong_base_id": "708",
+            "schedule": "2024-07",
+            "describe": "7月4日前举行学校考核（含笔试、面试和体质测试）"
+          },
+          {
+            "id": "1805",
+            "strong_base_id": "708",
+            "schedule": "2024-07",
+            "describe": "7月上旬开放录取结果查询并公示录取标准"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1568",
+            "strong_base_id": "666",
+            "schedule": "2023-04",
+            "describe": "4月9日至30日考生可登录国防科技大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1569",
+            "strong_base_id": "666",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1570",
+            "strong_base_id": "666",
+            "schedule": "2023-06",
+            "describe": "6月下旬确定各省入围学校考核考生名单并公示入围标准"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1571",
+            "strong_base_id": "666",
+            "schedule": "2023-07",
+            "describe": "7月4日前举行学校考核（含笔试、面试和体质测试）"
+          },
+          {
+            "id": "1572",
+            "strong_base_id": "666",
+            "schedule": "2023-07",
+            "describe": "7月上旬开放录取结果查询并公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1383",
+            "strong_base_id": "520",
+            "schedule": "2022-04",
+            "describe": "4月8日-30日考生可登录国防科技大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1384",
+            "strong_base_id": "520",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加全国统一高考"
+          },
+          {
+            "id": "1385",
+            "strong_base_id": "520",
+            "schedule": "2022-06",
+            "describe": "6月10日-20日考生须在报名平台进行确认并签订诚信承诺书"
+          },
+          {
+            "id": "1386",
+            "strong_base_id": "520",
+            "schedule": "2022-06",
+            "describe": "6月下旬依据高考成绩 不含任何政策加分"
+          },
+          {
+            "id": "1387",
+            "strong_base_id": "520",
+            "schedule": "2022-06",
+            "describe": "6月底7月初（不晚于7月4日）含笔试、面试和体质测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1388",
+            "strong_base_id": "520",
+            "schedule": "2022-07",
+            "describe": "7月上旬公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "485",
+            "strong_base_id": "235",
+            "schedule": "2021-04",
+            "describe": "4月1日院校招生简章发布"
+          },
+          {
+            "id": "486",
+            "strong_base_id": "235",
+            "schedule": "2021-04",
+            "describe": "4月8日至30日考生可登录“国防科技大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "487",
+            "strong_base_id": "235",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "488",
+            "strong_base_id": "235",
+            "schedule": "2021-06",
+            "describe": "6月10日至20日考生须在报名平台进行确认并签订诚信承诺书"
+          },
+          {
+            "id": "489",
+            "strong_base_id": "235",
+            "schedule": "2021-06",
+            "describe": "6月下旬确定各省入围学校考核考生名单并公示入围标准"
+          },
+          {
+            "id": "490",
+            "strong_base_id": "235",
+            "schedule": "2021-06",
+            "describe": "6月底7月初举行学校考核，含笔试、面试和体质测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "491",
+            "strong_base_id": "235",
+            "schedule": "2021-07",
+            "describe": "7月上旬公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "238",
+            "strong_base_id": "101",
+            "schedule": "2020-05",
+            "describe": "5月7日院校招生简章发布"
+          },
+          {
+            "id": "237",
+            "strong_base_id": "101",
+            "schedule": "2020-05",
+            "describe": "5月10日至30日登录国防科技大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "236",
+            "strong_base_id": "101",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "235",
+            "strong_base_id": "101",
+            "schedule": "2020-07",
+            "describe": "7月25日至26日国防科大2020强基计划校考入围分数线公布"
+          },
+          {
+            "id": "234",
+            "strong_base_id": "101",
+            "schedule": "2020-07",
+            "describe": "7月29日至30日考生进行学校考核，包含笔试、面试和体质测试"
+          }
+        ],
+        "8月": [
+          {
+            "id": "233",
+            "strong_base_id": "101",
+            "schedule": "2020-08",
+            "describe": "8月1日国防科大2020强基计划校考成绩、综合成绩录取线公布"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "update_time": "2026-04-27 16:29:51",
+  "school_id": "31",
+  "school_name": "北京大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/31/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:52",
+  "md5": "254b0f8a43e1bd35355297c0f076ee27",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 40,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "31",
+      "school_name": "北京大学",
+      "province_id": "11",
+      "city_id": "1101",
+      "county_id": "110108",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1898",
+      "area": "4127.00",
+      "num_master": "50",
+      "num_doctor": "53",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "北京",
+      "city": "北京市",
+      "town": "海淀区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "785",
+        "school_id": "31",
+        "formula_id": "36",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "qualification": "获得数学、物理、化学、生物、信息学全国中学生学科奥林匹克竞赛全国决赛二等奖（含）以上成绩的应届考生",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "36",
+          "formula_name": "公式34",
+          "formula_content": "高考分/高考总分*85+基础素质分/基础素质总分*10+综合素质分/综合素质总分*5",
+          "formula_algorithm": "gkf/gkzf*85+jcszf/jcszzf*10+zhszf/zhszzf*5",
+          "formula_use_field": "gkf,gkzf,jcszf,jcszzf,zhszf,zhszzf"
+        },
+        "province_plan": "河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,北京,天津,上海,浙江,山东,海南,西藏,新疆"
+      },
+      "2025": {
+        "id": "745",
+        "school_id": "31",
+        "formula_id": "36",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "qualification": "获得数学、物理、化学、生物、信息学全国中学生学科奥林匹克竞赛全国决赛二等奖（含）以上成绩且按破格申请报考强基计划",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "36",
+          "formula_name": "公式34",
+          "formula_content": "高考分/高考总分*85+基础素质分/基础素质总分*10+综合素质分/综合素质总分*5",
+          "formula_algorithm": "gkf/gkzf*85+jcszf/jcszzf*10+zhszf/zhszzf*5",
+          "formula_use_field": "gkf,gkzf,jcszf,jcszzf,zhszf,zhszzf"
+        },
+        "province_plan": "西藏,新疆,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,北京,天津,上海,浙江,山东,海南"
+      },
+      "2024": {
+        "id": "695",
+        "school_id": "31",
+        "formula_id": "14",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "qualification": "获得数学、物理、化学、生物、信息学全国中学生学科奥林匹克竞赛全国决赛二等奖（含）以上成绩且按破格申请报考强基计划的考生",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "14",
+          "formula_name": "公式13",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/100*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/100*750*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "山西,内蒙古,河南,四川,云南,西藏,陕西,青海,宁夏,新疆,河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃,北京,天津,上海,浙江,山东,海南"
+      },
+      "2023": {
+        "id": "631",
+        "school_id": "31",
+        "formula_id": "14",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "query_link": "https://www.ccuut.edu.cn/admission_pku_qjjh/login.php",
+        "qualification": "获得数学、物理、化学、生物、信息学全国中学生学科奥林匹克竞赛全国决赛二等奖（含）以上成绩且按破格申请报考强基计划",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "14",
+          "formula_name": "公式13",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/100*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/100*750*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,海南,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,新疆,江西,河南,甘肃,西藏,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "482",
+        "school_id": "31",
+        "formula_id": "3",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "qualification": "暂无数据",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "3",
+          "formula_name": "公式2",
+          "formula_content": "高考成绩*0.85+校考成绩*0.15",
+          "formula_algorithm": "gkf*0.85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆,北京,天津,上海,浙江,山东,海南"
+      },
+      "2021": {
+        "id": "200",
+        "school_id": "31",
+        "formula_id": "2",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "qualification": "获得数学、物理、化学、生物、信息学全国中学生学科奥林匹克竞赛全国决赛二等奖（含）以上成绩的考生，高考成绩达到所在省份本科一批录取最低控制分数线",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,海南,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2020": {
+        "id": "66",
+        "school_id": "31",
+        "formula_id": "2",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10001",
+        "query_link": "https://www.ccuut.edu.cn/admission_pku_qjjh/login.php",
+        "qualification": "数学、物理、化学、生物学、信息学国二及以上，高考成绩要求达到一本线或所在省份相关控制线标准",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": ""
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2766",
+            "strong_base_id": "785",
+            "schedule": "2026-04",
+            "describe": "2026年4月15日-4月30日，强基计划网上报名。"
+          },
+          {
+            "id": "2767",
+            "strong_base_id": "785",
+            "schedule": "2026-04",
+            "describe": "2026年4月15日-4月23日，强基计划考生破格资格申请。"
+          },
+          {
+            "id": "2768",
+            "strong_base_id": "785",
+            "schedule": "2026-04",
+            "describe": "2026年4月24日，公布考生破格资格审核结果（未通过破格资格审核的考生可以登录北京大学强基计划报名平台选择取消我校强基计划报名，网址：https://bm.chsi.com.cn/jcxkzs/sch/10001）。"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2769",
+            "strong_base_id": "785",
+            "schedule": "2026-06",
+            "describe": "考生参加2026年全国普通高等学校招生统一考试"
+          },
+          {
+            "id": "2770",
+            "strong_base_id": "785",
+            "schedule": "2026-06",
+            "describe": "2026年6月26日左右，公布入围结果及入围标准。"
+          },
+          {
+            "id": "2771",
+            "strong_base_id": "785",
+            "schedule": "2026-06",
+            "describe": "2026年6月27日左右，开放准考证打印。"
+          },
+          {
+            "id": "2772",
+            "strong_base_id": "785",
+            "schedule": "2026-06",
+            "describe": "2026年6月28日-7月4日，考核测试。"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2773",
+            "strong_base_id": "785",
+            "schedule": "2026-07",
+            "describe": "2026年7月5日左右，公布录取结果及录取标准。"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2406",
+            "strong_base_id": "745",
+            "schedule": "2025-04",
+            "describe": "4月23日至5月10日，登录北京大学强基计划报名平台完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2407",
+            "strong_base_id": "745",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2408",
+            "strong_base_id": "745",
+            "schedule": "2025-06",
+            "describe": "6月26日左右确定各省份入围考核的考生名单"
+          },
+          {
+            "id": "2409",
+            "strong_base_id": "745",
+            "schedule": "2025-06",
+            "describe": "6月28日至7月4日对入围考生进行考核测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2410",
+            "strong_base_id": "745",
+            "schedule": "2025-07",
+            "describe": "7月5日左右公布录取结果并公布录取标准"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1730",
+            "strong_base_id": "695",
+            "schedule": "2024-04",
+            "describe": "4月11日至4月30日A类考生可登录北京大学强基计划报名平台进行报名"
+          },
+          {
+            "id": "1731",
+            "strong_base_id": "695",
+            "schedule": "2024-04",
+            "describe": "4月11日至4月24日B类考生提交破格资格申请"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1732",
+            "strong_base_id": "695",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1733",
+            "strong_base_id": "695",
+            "schedule": "2024-06",
+            "describe": "6月26日左右院校公布入围校考名单"
+          },
+          {
+            "id": "1734",
+            "strong_base_id": "695",
+            "schedule": "2024-06",
+            "describe": "6月28日至7月4日对入围考生进行考核测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1735",
+            "strong_base_id": "695",
+            "schedule": "2024-07",
+            "describe": "7月5日左右公布录取结果并公布录取标准"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1389",
+            "strong_base_id": "631",
+            "schedule": "2023-04",
+            "describe": "4月20日-4月30日考生可登录北京大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1390",
+            "strong_base_id": "631",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1391",
+            "strong_base_id": "631",
+            "schedule": "2023-06",
+            "describe": "6月26日左右院校公布入围校考名单"
+          },
+          {
+            "id": "1392",
+            "strong_base_id": "631",
+            "schedule": "2023-06",
+            "describe": "6月28日至7月4日对入围考生进行考核测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1393",
+            "strong_base_id": "631",
+            "schedule": "2023-07",
+            "describe": "7月5日左右公布录取结果并公布录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1163",
+            "strong_base_id": "482",
+            "schedule": "2022-04",
+            "describe": "4月8日至4月30日考生可登录北京大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1164",
+            "strong_base_id": "482",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加2022年全国普通高等学校招生统一考试"
+          },
+          {
+            "id": "1165",
+            "strong_base_id": "482",
+            "schedule": "2022-06",
+            "describe": "6月28日至7月4日对入围考生进行考核测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1166",
+            "strong_base_id": "482",
+            "schedule": "2022-07",
+            "describe": "7月5日左右公布录取结果并公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "245",
+            "strong_base_id": "200",
+            "schedule": "2021-04",
+            "describe": "4月12日院校招生简章发布"
+          },
+          {
+            "id": "246",
+            "strong_base_id": "200",
+            "schedule": "2021-04",
+            "describe": "4月12日至4月30日考生可登录“北京大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "247",
+            "strong_base_id": "200",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "248",
+            "strong_base_id": "200",
+            "schedule": "2021-06",
+            "describe": "6月26日前确定各省份入围考核的考生名单，并公示入围标准"
+          },
+          {
+            "id": "249",
+            "strong_base_id": "200",
+            "schedule": "2021-06",
+            "describe": "6月28日至7月4日对入围考生进行考核测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "250",
+            "strong_base_id": "200",
+            "schedule": "2021-07",
+            "describe": "7月5日前公布录取结果并公示录取标准"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "219",
+            "strong_base_id": "66",
+            "schedule": "2020-05",
+            "describe": "5月7日院校招生简章发布"
+          },
+          {
+            "id": "220",
+            "strong_base_id": "66",
+            "schedule": "2020-05",
+            "describe": "5月10日至5月31日考生可登录北京大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "221",
+            "strong_base_id": "66",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "222",
+            "strong_base_id": "66",
+            "schedule": "2020-07",
+            "describe": "7月26日前院校公布入围校考名单"
+          },
+          {
+            "id": "223",
+            "strong_base_id": "66",
+            "schedule": "2020-07",
+            "describe": "7月28日至8月4日考生进行院校考核"
+          }
+        ],
+        "8月": [
+          {
+            "id": "224",
+            "strong_base_id": "66",
+            "schedule": "2020-08",
+            "describe": "8月5日前院校公布录取结果以及录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "update_time": "2026-04-27 16:30:57",
+  "school_id": "132",
+  "school_name": "复旦大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/132/info.json?a=www.gaokao.cn",
+  "time": "2026-04-28 00:07:25",
+  "md5": "cb82771bf00774440f58f750264c4083",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 32,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "132",
+      "school_name": "复旦大学",
+      "province_id": "31",
+      "city_id": "3101",
+      "county_id": "310110",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1905",
+      "area": "3566.70",
+      "num_master": "47",
+      "num_doctor": "44",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "上海",
+      "city": "上海市",
+      "town": "杨浦区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "748",
+        "school_id": "132",
+        "formula_id": "26",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "qualification": "基础学科拔尖，在高中阶段获得数学、物理、化学、生物学、信息学奥林匹克竞赛全国决赛一等奖（金牌）、二等奖（银牌）的考生",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "26",
+          "formula_name": "公式25",
+          "formula_content": "高考分/高考总分*850＋校考分",
+          "formula_algorithm": "gkf/gkzf*850＋xkf",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,西藏,新疆"
+      },
+      "2025": {
+        "id": "737",
+        "school_id": "132",
+        "formula_id": "26",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "qualification": "基础学科拔尖，在高中阶段获得数学、物理、化学、生物学、信息学奥林匹克竞赛全国决赛一等奖（金牌）、二等奖（银牌）的考生",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "26",
+          "formula_name": "公式25",
+          "formula_content": "高考分/高考总分*850＋校考分",
+          "formula_algorithm": "gkf/gkzf*850＋xkf",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "西藏,新疆,北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2024": {
+        "id": "680",
+        "school_id": "132",
+        "formula_id": "26",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "qualification": "基础学科拔尖，在高中阶段获得数学、物理、化学、生物学、信息学奥林匹克竞赛全国决赛一等奖（金牌）、二等奖（银牌）",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "26",
+          "formula_name": "公式25",
+          "formula_content": "高考分/高考总分*850＋校考分",
+          "formula_algorithm": "gkf/gkzf*850＋xkf",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃,山西,内蒙古,河南,四川,云南,西藏,陕西,青海,宁夏,新疆"
+      },
+      "2023": {
+        "id": "644",
+        "school_id": "132",
+        "formula_id": "26",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "qualification": "基础学科拔尖，在高中阶段获得数学、物理或化学奥林匹克竞赛全国决赛一等奖（金牌）、二等奖（银牌）的考生",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "26",
+          "formula_name": "公式25",
+          "formula_content": "高考分/高考总分*850＋校考分",
+          "formula_algorithm": "gkf/gkzf*850＋xkf",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,海南,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,新疆,江西,河南,甘肃,西藏,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "496",
+        "school_id": "132",
+        "formula_id": "12",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "qualification": "高中阶段获得数学、物理或化学奥林匹克竞赛全国决赛一等奖（金牌）、二等奖（银牌）的考生",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,海南,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2021": {
+        "id": "213",
+        "school_id": "132",
+        "formula_id": "12",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "qualification": "在高中阶段获得数学、物理或化学奥林匹克竞赛全国决赛一等奖（金牌）、二等奖（银牌）的考生",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": ""
+      },
+      "2020": {
+        "id": "79",
+        "school_id": "132",
+        "formula_id": "12",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10246",
+        "qualification": "数学、物理、化学要求国二及以上，高考分数达到一本线",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": ""
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2453",
+            "strong_base_id": "748",
+            "schedule": "2026-04",
+            "describe": "A类考生可于4月8日至4月30日报名；B类考生可于4月8日至4月26日报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2454",
+            "strong_base_id": "748",
+            "schedule": "2026-06",
+            "describe": "6月7日-6月10日高考"
+          },
+          {
+            "id": "2455",
+            "strong_base_id": "748",
+            "schedule": "2026-06",
+            "describe": "6月15日前（高考后、出分前，具体安排另行通知）举行初试"
+          },
+          {
+            "id": "2456",
+            "strong_base_id": "748",
+            "schedule": "2026-06",
+            "describe": "6月22日前（具体安排另行通知）举行复试"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2376",
+            "strong_base_id": "737",
+            "schedule": "2025-04",
+            "describe": "A类考生可于4月21日至5月10日报名;B类考生可于4月21日至5月6日报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2377",
+            "strong_base_id": "737",
+            "schedule": "2025-06",
+            "describe": "6月7日-6月10日高考"
+          },
+          {
+            "id": "2378",
+            "strong_base_id": "737",
+            "schedule": "2025-06",
+            "describe": "6月15日前（高考后出分前具体安排另行通知）举行初试"
+          },
+          {
+            "id": "2379",
+            "strong_base_id": "737",
+            "schedule": "2025-06",
+            "describe": "6月22日前（具体安排另行通知）举行复试"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1926",
+            "strong_base_id": "680",
+            "schedule": "2024-04",
+            "describe": "A类考生可于4月15日至4月30日登录复旦大学强基计划报名平台报名；B类考生可于4月15日至4月26日登录复旦大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1927",
+            "strong_base_id": "680",
+            "schedule": "2024-06",
+            "describe": "6月15日前举行初试"
+          },
+          {
+            "id": "1928",
+            "strong_base_id": "680",
+            "schedule": "2024-06",
+            "describe": "6月22日前举行复试"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1456",
+            "strong_base_id": "644",
+            "schedule": "2023-04",
+            "describe": "4月13日至4月30日可登录复旦大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1457",
+            "strong_base_id": "644",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1458",
+            "strong_base_id": "644",
+            "schedule": "2023-06",
+            "describe": "6月15日前举行初试"
+          },
+          {
+            "id": "1459",
+            "strong_base_id": "644",
+            "schedule": "2023-06",
+            "describe": "6月22日前举行复试"
+          },
+          {
+            "id": "1460",
+            "strong_base_id": "644",
+            "schedule": "2023-06",
+            "describe": "6月26日后按规则确定预录取名单"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1245",
+            "strong_base_id": "496",
+            "schedule": "2022-04",
+            "describe": "4月10日-4月30日登录复旦大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1246",
+            "strong_base_id": "496",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加统一高考"
+          },
+          {
+            "id": "1247",
+            "strong_base_id": "496",
+            "schedule": "2022-06",
+            "describe": "6月15日前初试形式为笔试"
+          },
+          {
+            "id": "1248",
+            "strong_base_id": "496",
+            "schedule": "2022-06",
+            "describe": "6月22日前分为笔试、面试和体质测试"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "335",
+            "strong_base_id": "213",
+            "schedule": "2021-04",
+            "describe": "4月12日院校招生简章发布"
+          },
+          {
+            "id": "336",
+            "strong_base_id": "213",
+            "schedule": "2021-04",
+            "describe": "4月12日至4月30日考生可登录“复旦大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "337",
+            "strong_base_id": "213",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "338",
+            "strong_base_id": "213",
+            "schedule": "2021-06",
+            "describe": "6月10日至6月20日考生登录报名平台进行校测考试确认并签订诚信考试承诺书"
+          },
+          {
+            "id": "339",
+            "strong_base_id": "213",
+            "schedule": "2021-06",
+            "describe": "6月下旬确定入围校测名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "340",
+            "strong_base_id": "213",
+            "schedule": "2021-07",
+            "describe": "7月4日前举行校测（含笔试、面试和体质测试）"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "140",
+            "strong_base_id": "79",
+            "schedule": "2020-05",
+            "describe": "5月8日院校招生简章发布"
+          },
+          {
+            "id": "141",
+            "strong_base_id": "79",
+            "schedule": "2020-05",
+            "describe": "5月10日至30日符合报名条件的考生可登录复旦大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "142",
+            "strong_base_id": "79",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "143",
+            "strong_base_id": "79",
+            "schedule": "2020-07",
+            "describe": "7月26日确定各省报名考生入围校考名单"
+          },
+          {
+            "id": "144",
+            "strong_base_id": "79",
+            "schedule": "2020-07",
+            "describe": "7月27日至8月4日举行校测，含面试和体质测试"
+          }
+        ],
+        "8月": [
+          {
+            "id": "145",
+            "strong_base_id": "79",
+            "schedule": "2020-08",
+            "describe": "8月4日院校确定录取名单并公示录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

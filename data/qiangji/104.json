@@ -1,0 +1,514 @@
+{
+  "update_time": "2026-04-27 16:30:39",
+  "school_id": "104",
+  "school_name": "中山大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/104/info.json?a=www.gaokao.cn",
+  "time": "2026-04-28 00:07:26",
+  "md5": "034439b44958013e83572c5ef60026fd",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 42,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "104",
+      "school_name": "中山大学",
+      "province_id": "44",
+      "city_id": "4401",
+      "county_id": "440105",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1924",
+      "area": "13726.00",
+      "num_master": "69",
+      "num_doctor": "63",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "广东",
+      "city": "广州市",
+      "town": "海珠区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "768",
+        "school_id": "104",
+        "formula_id": "28",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "qualification": "数学与应用数学：  数学≥140分  物理学  ：数学≥140分或物理100分  化学：  化学100分  生态学 ： 数学≥140分  理论与应用力学 ： 数学≥140分或物理100分  药学（生物医药）  ：化学100分",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2025": {
+        "id": "720",
+        "school_id": "104",
+        "formula_id": "28",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "qualification": "数学与应用数学、生态学：数学≥140分；物理学、理论与应用力学：数学≥140分或物理100分；化学、药学（生物医药）：化学100分",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,北京,天津,上海,浙江,山东,海南"
+      },
+      "2024": {
+        "id": "688",
+        "school_id": "104",
+        "formula_id": "28",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "qualification": "数学≥140分或物理100分（新高考省份）或理综≥280分（传统高考省份）。",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃,山西,内蒙古,河南,四川,云南,陕西,青海,宁夏"
+      },
+      "2023": {
+        "id": "658",
+        "school_id": "104",
+        "formula_id": "28",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "qualification": "暂无数据",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,海南,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,江西,河南,甘肃,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "511",
+        "school_id": "104",
+        "formula_id": "16",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "qualification": "暂无数据",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "16",
+          "formula_name": "公式15",
+          "formula_content": "高考成绩/高考总分*85+面试成绩/面试总分*15",
+          "formula_algorithm": "gkf/gkzf*85+msf/mszf*15",
+          "formula_use_field": "gkf,gkzf,msf,mszf"
+        },
+        "province_plan": "山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,陕西,甘肃,青海,宁夏,浙江,山东,河北,辽宁,江苏,福建,湖北,湖南,广东,重庆"
+      },
+      "2021": {
+        "id": "227",
+        "school_id": "104",
+        "formula_id": "2",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "qualification": "暂无",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,海南,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2020": {
+        "id": "93",
+        "school_id": "104",
+        "formula_id": "2",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10558",
+        "qualification": "暂无",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "120",
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "吉林,四川,安徽,山西,广东,广西,江苏,江西,河北,河南,湖北,湖南,甘肃,福建,贵州,辽宁,重庆,陕西,黑龙江,山东,浙江"
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2728",
+            "strong_base_id": "768",
+            "schedule": "2026-04",
+            "describe": " 4月10日至4月30日考生可登录中山大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2729",
+            "strong_base_id": "768",
+            "schedule": "2026-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2730",
+            "strong_base_id": "768",
+            "schedule": "2026-06",
+            "describe": "6月10日至6月20日期间登录报名平台进行报考确认并签订承诺书"
+          },
+          {
+            "id": "2731",
+            "strong_base_id": "768",
+            "schedule": "2026-06",
+            "describe": "6月26日前确定各省报名考生入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2732",
+            "strong_base_id": "768",
+            "schedule": "2026-07",
+            "describe": "7月4日左右学校考核：面试和体育测试"
+          },
+          {
+            "id": "2733",
+            "strong_base_id": "768",
+            "schedule": "2026-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "1998",
+            "strong_base_id": "720",
+            "schedule": "2025-04",
+            "describe": "4月21日至5月10日考生可登录中山大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1999",
+            "strong_base_id": "720",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2000",
+            "strong_base_id": "720",
+            "schedule": "2025-06",
+            "describe": "6月10日至6月20日期间登录报名平台进行报考确认并签订承诺书"
+          },
+          {
+            "id": "2001",
+            "strong_base_id": "720",
+            "schedule": "2025-06",
+            "describe": "6月26日前确定各省报名考生入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2002",
+            "strong_base_id": "720",
+            "schedule": "2025-07",
+            "describe": "7月3日左右学校考核：面试和体育测试"
+          },
+          {
+            "id": "2003",
+            "strong_base_id": "720",
+            "schedule": "2025-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1698",
+            "strong_base_id": "688",
+            "schedule": "2024-04",
+            "describe": "4月13日至30日考生可登录中山大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1699",
+            "strong_base_id": "688",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1700",
+            "strong_base_id": "688",
+            "schedule": "2024-06",
+            "describe": "6月10日至6月20日考生确认"
+          },
+          {
+            "id": "1701",
+            "strong_base_id": "688",
+            "schedule": "2024-06",
+            "describe": "6月26日前确定各省报名考生入围校考名单"
+          },
+          {
+            "id": "1702",
+            "strong_base_id": "688",
+            "schedule": "2024-06",
+            "describe": "6月30日学校考核：面试和体质测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1703",
+            "strong_base_id": "688",
+            "schedule": "2024-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1526",
+            "strong_base_id": "658",
+            "schedule": "2023-04",
+            "describe": "4月9日至30日考生可登录中山大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1527",
+            "strong_base_id": "658",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1528",
+            "strong_base_id": "658",
+            "schedule": "2023-06",
+            "describe": "6月26日前确定各省报名考生入围校考名单"
+          },
+          {
+            "id": "1529",
+            "strong_base_id": "658",
+            "schedule": "2023-06",
+            "describe": "6月30日学校考核：面试和体质测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1530",
+            "strong_base_id": "658",
+            "schedule": "2023-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1330",
+            "strong_base_id": "511",
+            "schedule": "2022-04",
+            "describe": "4月9日-30日登录中山大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1331",
+            "strong_base_id": "511",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加统一高考"
+          },
+          {
+            "id": "1332",
+            "strong_base_id": "511",
+            "schedule": "2022-06",
+            "describe": "6月10日-20日登录报名平台进行报考确认并签订承诺书"
+          },
+          {
+            "id": "1333",
+            "strong_base_id": "511",
+            "schedule": "2022-06",
+            "describe": "6月26日前确定入围考核考生名单并公示入围标准"
+          },
+          {
+            "id": "1334",
+            "strong_base_id": "511",
+            "schedule": "2022-06",
+            "describe": "6月30日考核方式：笔试、面试和体质测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1335",
+            "strong_base_id": "511",
+            "schedule": "2022-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "426",
+            "strong_base_id": "227",
+            "schedule": "2021-04",
+            "describe": "4月6日院校招生简章发布"
+          },
+          {
+            "id": "427",
+            "strong_base_id": "227",
+            "schedule": "2021-04",
+            "describe": "4月9日至30日考生可登录“中山大学强基计划报名平台”完成网上预报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "428",
+            "strong_base_id": "227",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "429",
+            "strong_base_id": "227",
+            "schedule": "2021-06",
+            "describe": "6月10日至6月20日登录报名平台进行报考确认并签订承诺书"
+          },
+          {
+            "id": "430",
+            "strong_base_id": "227",
+            "schedule": "2021-06",
+            "describe": "6月26日前确定各省入围考核考生名单并公示入围标准"
+          },
+          {
+            "id": "431",
+            "strong_base_id": "227",
+            "schedule": "2021-06",
+            "describe": "6月30日考核分为笔试、面试和体质测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "432",
+            "strong_base_id": "227",
+            "schedule": "2021-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "55",
+            "strong_base_id": "93",
+            "schedule": "2020-05",
+            "describe": "5月6日院校招生简章发布"
+          },
+          {
+            "id": "56",
+            "strong_base_id": "93",
+            "schedule": "2020-05",
+            "describe": "5月9日至31日登录中山大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "57",
+            "strong_base_id": "93",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "58",
+            "strong_base_id": "93",
+            "schedule": "2020-07",
+            "describe": "7月26日前确定各省报名考生入围校考名单"
+          },
+          {
+            "id": "59",
+            "strong_base_id": "93",
+            "schedule": "2020-07",
+            "describe": "7月31日至8月1日学校考核：面试和体质测试"
+          }
+        ],
+        "8月": [
+          {
+            "id": "60",
+            "strong_base_id": "93",
+            "schedule": "2020-08",
+            "describe": "8月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

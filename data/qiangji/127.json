@@ -1,0 +1,514 @@
+{
+  "update_time": "2026-04-27 16:30:54",
+  "school_id": "127",
+  "school_name": "华中科技大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/127/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:51",
+  "md5": "8ce6609390687f9c96ffb0be01fe2be3",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 42,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "127",
+      "school_name": "华中科技大学",
+      "province_id": "42",
+      "city_id": "4201",
+      "county_id": "420111",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "2000",
+      "area": "7000.00",
+      "num_master": "49",
+      "num_doctor": "49",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "湖北",
+      "city": "武汉市",
+      "town": "洪山区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "775",
+        "school_id": "127",
+        "formula_id": "33",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "qualification": "各专业对高考单科成绩的破格入围条件和要求如下：数学与应用数学、生物科学专业要求高考数学单科成绩145分及以上；物理学专业要求高考物理单科成绩为满分；化学、基础医学专业要求高考化学单科成绩达到满分的98%及以上。",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "33",
+          "formula_name": "公式31",
+          "formula_content": "高考分/高考总分*100*85%+校考分*15%",
+          "formula_algorithm": "gkf/gkzf*100*85%+xkf*15%",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "西藏,新疆,北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2025": {
+        "id": "712",
+        "school_id": "127",
+        "formula_id": "33",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "qualification": "高中阶段获得过全国中学生奥林匹克竞赛（数学、物理、生物、化学、信息学）决赛金奖、银奖的考生（奖项须经中国科协(http://gs.cyscc.org/)名单公示）",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "33",
+          "formula_name": "公式31",
+          "formula_content": "高考分/高考总分*100*85%+校考分*15%",
+          "formula_algorithm": "gkf/gkzf*100*85%+xkf*15%",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,北京,天津,上海,浙江,山东,海南,西藏,新疆"
+      },
+      "2024": {
+        "id": "699",
+        "school_id": "127",
+        "formula_id": "34",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "qualification": "高中阶段获得过全国中学生奥林匹克竞赛（数学、物理、生物、化学、信息学）决赛金奖、银奖的考生（奖项须经中国科协(http://gs.cyscc.org/)名单公示）。",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "34",
+          "formula_name": "公式32",
+          "formula_content": "高考分/高考总分*100*85%+面试分*15%",
+          "formula_algorithm": "gkf/gkzf*100*85%+msf*15%",
+          "formula_use_field": "gkf,gkzf,msf"
+        },
+        "province_plan": "河北,吉林,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,北京,浙江,山东,山西,河南,四川,陕西"
+      },
+      "2023": {
+        "id": "656",
+        "school_id": "127",
+        "formula_id": "28",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "qualification": "高中阶段获得过全国中学生奥林匹克竞赛（数学、物理、生物、化学、信息学）决赛金奖、银奖的考生",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,重庆,北京,山东,浙江,吉林,四川,安徽,山西,广西,江西,河南,陕西"
+      },
+      "2022": {
+        "id": "508",
+        "school_id": "127",
+        "formula_id": "4",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "qualification": "高中阶段获得过全国中学生奥林匹克竞赛（数学、物理、生物、化学、信息学）决赛金奖、银奖的考生",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆,北京,天津,上海,浙江,山东,海南,河北,辽宁,江苏,福建,湖北,湖南,广东,重庆"
+      },
+      "2021": {
+        "id": "225",
+        "school_id": "127",
+        "formula_id": "2",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "qualification": "高中阶段获得过全国中学生奥林匹克竞赛（数学、物理、生物、化学、信息学）决赛金奖、银奖",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,江苏,福建,湖北,湖南,广东,重庆,北京,浙江,山东,山西,吉林,安徽,江西,河南,广西,四川,陕西"
+      },
+      "2020": {
+        "id": "91",
+        "school_id": "127",
+        "formula_id": "2",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10487",
+        "qualification": "数学、物理、化学、生物学、信息学奥林匹克竞赛金奖或银奖",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "120",
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": ""
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2722",
+            "strong_base_id": "775",
+            "schedule": "2026-04",
+            "describe": "报名时间：2026年4月13日上午9:00-4月30日中午12:00"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2723",
+            "strong_base_id": "775",
+            "schedule": "2026-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2724",
+            "strong_base_id": "775",
+            "schedule": "2026-06",
+            "describe": "6月12日中午12:00-20日中午12:00登录“华中科技大学强基计划报名平台”进行强基计划校考确认"
+          },
+          {
+            "id": "2725",
+            "strong_base_id": "775",
+            "schedule": "2026-06",
+            "describe": "6月26日前确定各省报名考生入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2726",
+            "strong_base_id": "775",
+            "schedule": "2026-07",
+            "describe": "7月4日前对所有入围考生统一组织校考（含面试和体育测试）"
+          },
+          {
+            "id": "2727",
+            "strong_base_id": "775",
+            "schedule": "2026-07",
+            "describe": "7月5日前公示录取标准"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "1955",
+            "strong_base_id": "712",
+            "schedule": "2025-04",
+            "describe": "4月21日上午9:00-5月10日中午12:00登录“华中科技大学强基计划报名平台”报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1956",
+            "strong_base_id": "712",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1957",
+            "strong_base_id": "712",
+            "schedule": "2025-06",
+            "describe": "6月12日中午12:00-20日中午12:00登录“华中科技大学强基计划报名平台”进行强基计划校考确认"
+          },
+          {
+            "id": "1958",
+            "strong_base_id": "712",
+            "schedule": "2025-06",
+            "describe": "6月26日前确定各省报名考生入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1959",
+            "strong_base_id": "712",
+            "schedule": "2025-07",
+            "describe": "7月4日前举行高校考核（含分专业测试和体育测试）"
+          },
+          {
+            "id": "1960",
+            "strong_base_id": "712",
+            "schedule": "2025-07",
+            "describe": "7月5日前公示录取标准"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1755",
+            "strong_base_id": "699",
+            "schedule": "2024-04",
+            "describe": "4月11日18:00—4月30日12:00登录“华中科技大学强基计划报名平台”报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1756",
+            "strong_base_id": "699",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1757",
+            "strong_base_id": "699",
+            "schedule": "2024-06",
+            "describe": "6月12日12:00-20日12:00登录“华中科技大学强基计划报名平台”进行强基计划校考确认"
+          },
+          {
+            "id": "1758",
+            "strong_base_id": "699",
+            "schedule": "2024-06",
+            "describe": "6月26日前确定各省报名考生入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1759",
+            "strong_base_id": "699",
+            "schedule": "2024-07",
+            "describe": "7月4日前举行高校考核（含分专业面试和体育测试）"
+          },
+          {
+            "id": "1760",
+            "strong_base_id": "699",
+            "schedule": "2024-07",
+            "describe": "7月5日前公示录取标准"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1516",
+            "strong_base_id": "656",
+            "schedule": "2023-04",
+            "describe": "4月10日10:00—4月30日12:00登录“华中科技大学强基计划报名平台”报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1517",
+            "strong_base_id": "656",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1518",
+            "strong_base_id": "656",
+            "schedule": "2023-06",
+            "describe": "6月26日前确定各省报名考生入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1519",
+            "strong_base_id": "656",
+            "schedule": "2023-07",
+            "describe": "7月4日前举行高校考核（含分专业面试和体育测试）"
+          },
+          {
+            "id": "1520",
+            "strong_base_id": "656",
+            "schedule": "2023-07",
+            "describe": "7月5日前公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1313",
+            "strong_base_id": "508",
+            "schedule": "2022-04",
+            "describe": "4月8日12:00—4月30日1登录强基计划报名系统报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1314",
+            "strong_base_id": "508",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加全国统一高考"
+          },
+          {
+            "id": "1315",
+            "strong_base_id": "508",
+            "schedule": "2022-06",
+            "describe": "6月12日12:00-20日登录“华中科技大学强基计划报名平台”进行强基计划校考确认"
+          },
+          {
+            "id": "1316",
+            "strong_base_id": "508",
+            "schedule": "2022-06",
+            "describe": "6月26日前确定入围高校考核考生名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1317",
+            "strong_base_id": "508",
+            "schedule": "2022-07",
+            "describe": "7月4日专业面试和体育测试"
+          },
+          {
+            "id": "1318",
+            "strong_base_id": "508",
+            "schedule": "2022-07",
+            "describe": "7月5日公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "412",
+            "strong_base_id": "225",
+            "schedule": "2021-04",
+            "describe": "4月7日院校招生简章发布"
+          },
+          {
+            "id": "413",
+            "strong_base_id": "225",
+            "schedule": "2021-04",
+            "describe": "4月8日12:00—4月28日12:00考生登录“华中科技大学强基计划报名平台”报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "414",
+            "strong_base_id": "225",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "415",
+            "strong_base_id": "225",
+            "schedule": "2021-06",
+            "describe": "6月12日-18日考生登录“华中科技大学强基计划报名平台”进行强基计划校测确认，并上传考试诚信承诺书"
+          },
+          {
+            "id": "416",
+            "strong_base_id": "225",
+            "schedule": "2021-06",
+            "describe": "6月26日前确定入围高校考核考生名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "417",
+            "strong_base_id": "225",
+            "schedule": "2021-07",
+            "describe": "7月4日前举行高校考核（含面试和体育测试）"
+          },
+          {
+            "id": "418",
+            "strong_base_id": "225",
+            "schedule": "2021-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "67",
+            "strong_base_id": "91",
+            "schedule": "2020-05",
+            "describe": "5月6日院校招生简章发布"
+          },
+          {
+            "id": "68",
+            "strong_base_id": "91",
+            "schedule": "2020-05",
+            "describe": "5月10日至5月30日12:00登录“华中科技大学强基计划报名平台”进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "69",
+            "strong_base_id": "91",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "70",
+            "strong_base_id": "91",
+            "schedule": "2020-07",
+            "describe": "7月26日前确定各省报名考生入围校考名单"
+          }
+        ],
+        "8月": [
+          {
+            "id": "71",
+            "strong_base_id": "91",
+            "schedule": "2020-08",
+            "describe": "8月4日前举行高校考核（含面试和体质测试）"
+          },
+          {
+            "id": "72",
+            "strong_base_id": "91",
+            "schedule": "2020-08",
+            "describe": "8月5日前院校公示录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

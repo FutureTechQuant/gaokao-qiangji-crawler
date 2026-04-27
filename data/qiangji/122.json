@@ -1,0 +1,544 @@
+{
+  "update_time": "2026-04-27 16:30:51",
+  "school_id": "122",
+  "school_name": "吉林大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/122/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:51",
+  "md5": "f1f59147392aee31b0fe52424020f9fa",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 47,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "122",
+      "school_name": "吉林大学",
+      "province_id": "22",
+      "city_id": "2201",
+      "county_id": "220104",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1946",
+      "area": "11019.00",
+      "num_master": "7",
+      "num_doctor": "51",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "吉林",
+      "city": "长春市",
+      "town": "朝阳区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "786",
+        "school_id": "122",
+        "formula_id": "11",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "qualification": "报考我校数学与应用数学专业的考生，高考数学成绩达到145分及以上，高考成绩达到生源所在省公布的特殊类型招生录取最低控制分数线",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "11",
+          "formula_name": "公式10",
+          "formula_content": "高考成绩/7.5*0.85+校考成绩*0.15",
+          "formula_algorithm": "gkf/7.5*0.85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "北京,山东,河北,辽宁,吉林,黑龙江,陕西,天津,安徽,河南,湖南,山西,湖北,四川,江苏,江西"
+      },
+      "2025": {
+        "id": "747",
+        "school_id": "122",
+        "formula_id": "11",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "qualification": "暂未公布",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "11",
+          "formula_name": "公式10",
+          "formula_content": "高考成绩/7.5*0.85+校考成绩*0.15",
+          "formula_algorithm": "gkf/7.5*0.85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "北京,山东,河北,辽宁,吉林,黑龙江,陕西,安徽,河南,湖南,湖北,山西,江苏,江西,四川,浙江"
+      },
+      "2024": {
+        "id": "681",
+        "school_id": "122",
+        "formula_id": "11",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "qualification": "在全国中学生学科奥林匹克竞赛（数学、物理、化学）中获得全国决赛一、二等奖，并且高考成绩达到生源所在省公布的本科一批录取最低控制分数线的考生，可以破格入围。破格入围考生所报专业志愿必须与竞赛对应。",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "11",
+          "formula_name": "公式10",
+          "formula_content": "高考成绩/7.5*0.85+校考成绩*0.15",
+          "formula_algorithm": "gkf/7.5*0.85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "陕西,河北,辽宁,吉林,黑龙江,北京,山东,安徽,湖北,湖南,河南"
+      },
+      "2023": {
+        "id": "642",
+        "school_id": "122",
+        "formula_id": "11",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "qualification": "高中阶段在全国中学生学科奥林匹克竞赛（数学、物理、化学）中获得全国决赛一、二等奖，并且高考成绩达到生源所在省公布的本科一批录取最低控制分数线",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "11",
+          "formula_name": "公式10",
+          "formula_content": "高考成绩/7.5*0.85+校考成绩*0.15",
+          "formula_algorithm": "gkf/7.5*0.85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,辽宁,北京,山东,吉林,陕西,黑龙江,安徽,湖南,河南,湖北"
+      },
+      "2022": {
+        "id": "494",
+        "school_id": "122",
+        "formula_id": "11",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "qualification": "高中阶段在全国中学生学科奥林匹克竞赛（数学、物理、化学）中获得全国决赛一、二等奖",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "11",
+          "formula_name": "公式10",
+          "formula_content": "高考成绩/7.5*0.85+校考成绩*0.15",
+          "formula_algorithm": "gkf/7.5*0.85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,辽宁,北京,山东,吉林,黑龙江,安徽,河南,山西,湖南,陕西"
+      },
+      "2021": {
+        "id": "211",
+        "school_id": "122",
+        "formula_id": "11",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "qualification": "高中阶段在全国中学生学科奥林匹克竞赛（数学、物理、化学）中获得全国决赛一、二等奖，并且高考成绩达到所在省公布的本科一批录取最低控制分数线",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "11",
+          "formula_name": "公式10",
+          "formula_content": "高考成绩/7.5*0.85+校考成绩*0.15",
+          "formula_algorithm": "gkf/7.5*0.85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,辽宁,山东,吉林,黑龙江,安徽,河南,湖北,湖南,北京,浙江,四川"
+      },
+      "2020": {
+        "id": "77",
+        "school_id": "122",
+        "formula_id": "11",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10183",
+        "qualification": "数学、物理、化学要求国一、国二，并且过所在省公布的强基计划相关控制分数线",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "60",
+        "formula": {
+          "id": "11",
+          "formula_name": "公式10",
+          "formula_content": "高考成绩/7.5*0.85+校考成绩*0.15",
+          "formula_algorithm": "gkf/7.5*0.85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "吉林,安徽,江西,河北,河南,湖南,辽宁,黑龙江,山东"
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2781",
+            "strong_base_id": "786",
+            "schedule": "2026-04",
+            "describe": "2026年4月14日—4月30日考生可登录吉林大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2782",
+            "strong_base_id": "786",
+            "schedule": "2026-06",
+            "describe": "考生参加统一高考"
+          },
+          {
+            "id": "2783",
+            "strong_base_id": "786",
+            "schedule": "2026-06",
+            "describe": "考生须于6月12日—20日登录报名平台确认参加我校校考并签订承诺书，未确认者视为放弃"
+          },
+          {
+            "id": "2784",
+            "strong_base_id": "786",
+            "schedule": "2026-06",
+            "describe": "6月27日上午10:00后登录报名平台查询入围情况"
+          },
+          {
+            "id": "2785",
+            "strong_base_id": "786",
+            "schedule": "2026-06",
+            "describe": "考生请于6月28日10:00后登录报名平台打印准考证"
+          },
+          {
+            "id": "2786",
+            "strong_base_id": "786",
+            "schedule": "2026-06",
+            "describe": "学校考核:2026年6月30日开始"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2787",
+            "strong_base_id": "786",
+            "schedule": "2026-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2432",
+            "strong_base_id": "747",
+            "schedule": "2025-04",
+            "describe": "4月24日—5月10日考生报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2433",
+            "strong_base_id": "747",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日高考"
+          },
+          {
+            "id": "2434",
+            "strong_base_id": "747",
+            "schedule": "2025-06",
+            "describe": "考生须于6月12日—20日登录报名平台确认参加我校校考并签订承诺书"
+          },
+          {
+            "id": "2435",
+            "strong_base_id": "747",
+            "schedule": "2025-06",
+            "describe": "6月27日上午10:00后登录报名平台查询入围"
+          },
+          {
+            "id": "2436",
+            "strong_base_id": "747",
+            "schedule": "2025-06",
+            "describe": "6月28日10:00后登录报名平台打印准考证"
+          },
+          {
+            "id": "2437",
+            "strong_base_id": "747",
+            "schedule": "2025-06",
+            "describe": "2025年6月30日开始校考"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2438",
+            "strong_base_id": "747",
+            "schedule": "2025-07",
+            "describe": "7月5日前公布录取名单"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1644",
+            "strong_base_id": "681",
+            "schedule": "2024-04",
+            "describe": "4月10日—30日考生可登录吉林大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1645",
+            "strong_base_id": "681",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1646",
+            "strong_base_id": "681",
+            "schedule": "2024-06",
+            "describe": "6月12日—20日考生确认"
+          },
+          {
+            "id": "1647",
+            "strong_base_id": "681",
+            "schedule": "2024-06",
+            "describe": "6月27日上午10:00后登陆报名平台查询入围情况"
+          },
+          {
+            "id": "1648",
+            "strong_base_id": "681",
+            "schedule": "2024-06",
+            "describe": "6月28日10:00后登录报名平台打印准考证"
+          },
+          {
+            "id": "1649",
+            "strong_base_id": "681",
+            "schedule": "2024-06",
+            "describe": "6月30日开始参加我校组织的考核（含笔试、面试和体质测试）"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1650",
+            "strong_base_id": "681",
+            "schedule": "2024-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1445",
+            "strong_base_id": "642",
+            "schedule": "2023-04",
+            "describe": "4月10日—30日考生可登录吉林大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1446",
+            "strong_base_id": "642",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1447",
+            "strong_base_id": "642",
+            "schedule": "2023-06",
+            "describe": "6月27日上午10:00后登陆报名平台查询入围情况"
+          },
+          {
+            "id": "1448",
+            "strong_base_id": "642",
+            "schedule": "2023-06",
+            "describe": "6月30日10:00后登录报名平台打印准考证"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1449",
+            "strong_base_id": "642",
+            "schedule": "2023-07",
+            "describe": "7月1日开始参加我校组织的考核（含笔试、面试和体质测试）"
+          },
+          {
+            "id": "1450",
+            "strong_base_id": "642",
+            "schedule": "2023-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1233",
+            "strong_base_id": "494",
+            "schedule": "2022-04",
+            "describe": "4月10日—30日考生可登录吉林大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1234",
+            "strong_base_id": "494",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加统一高考"
+          },
+          {
+            "id": "1235",
+            "strong_base_id": "494",
+            "schedule": "2022-06",
+            "describe": "6月12日—20日登录报名平台确认参加我校校考并签订承诺书"
+          },
+          {
+            "id": "1236",
+            "strong_base_id": "494",
+            "schedule": "2022-06",
+            "describe": "6月27日上午10:00后登陆报名平台查询入围情况"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1237",
+            "strong_base_id": "494",
+            "schedule": "2022-07",
+            "describe": "7月2日开始笔试、面试 综合素质  体质测试"
+          },
+          {
+            "id": "1238",
+            "strong_base_id": "494",
+            "schedule": "2022-07",
+            "describe": "7月5日公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "320",
+            "strong_base_id": "211",
+            "schedule": "2021-04",
+            "describe": "4月7日院校招生简章发布"
+          },
+          {
+            "id": "321",
+            "strong_base_id": "211",
+            "schedule": "2021-04",
+            "describe": "4月10日—30日考生可登录“吉林大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "322",
+            "strong_base_id": "211",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "323",
+            "strong_base_id": "211",
+            "schedule": "2021-06",
+            "describe": "6月12日—20日登录报名平台确认参加我校校考并签订承诺书"
+          },
+          {
+            "id": "324",
+            "strong_base_id": "211",
+            "schedule": "2021-06",
+            "describe": "6月27日上午10:00登陆报名平台查询入围情况"
+          },
+          {
+            "id": "325",
+            "strong_base_id": "211",
+            "schedule": "2021-06",
+            "describe": "6月30日10:00登录报名平台打印准考证"
+          }
+        ],
+        "7月": [
+          {
+            "id": "326",
+            "strong_base_id": "211",
+            "schedule": "2021-07",
+            "describe": "2021年7月1日参加学校组织的考核（含笔试、面试和体质测试）"
+          },
+          {
+            "id": "327",
+            "strong_base_id": "211",
+            "schedule": "2021-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "152",
+            "strong_base_id": "77",
+            "schedule": "2020-05",
+            "describe": "5月院校招生简章发布"
+          },
+          {
+            "id": "153",
+            "strong_base_id": "77",
+            "schedule": "2020-05",
+            "describe": "5月10日至5月30日考生可登录强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "154",
+            "strong_base_id": "77",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "155",
+            "strong_base_id": "77",
+            "schedule": "2020-07",
+            "describe": "7月27日上午10:00后考生可登陆报名系统查询入围情况"
+          },
+          {
+            "id": "156",
+            "strong_base_id": "77",
+            "schedule": "2020-07",
+            "describe": "7月30日10:00后考生可登录报名系统打印准考证"
+          }
+        ],
+        "8月": [
+          {
+            "id": "157",
+            "strong_base_id": "77",
+            "schedule": "2020-08",
+            "describe": "8月1日开始入围考生参加校考"
+          }
+        ]
+      }
+    }
+  }
+}

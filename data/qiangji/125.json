@@ -1,0 +1,426 @@
+{
+  "update_time": "2026-04-27 16:30:53",
+  "school_id": "125",
+  "school_name": "上海交通大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/125/info.json?a=www.gaokao.cn",
+  "time": "2026-04-28 00:07:25",
+  "md5": "e0a0412b6edccc2ed08a6c0a365ed5bf",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 29,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "125",
+      "school_name": "上海交通大学",
+      "province_id": "31",
+      "city_id": "3101",
+      "county_id": "310112",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1896",
+      "area": "6028.00",
+      "num_master": "57",
+      "num_doctor": "52",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "上海",
+      "city": "上海市",
+      "town": "闵行区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "783",
+        "school_id": "125",
+        "formula_id": "12",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "qualification": "基础学科拔尖，在高中阶段获得全国中学生奥林匹克竞赛（数学、物理、化学、生物、信息学）全国决赛二等奖及以上的考生。",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,西藏,新疆"
+      },
+      "2025": {
+        "id": "743",
+        "school_id": "125",
+        "formula_id": "12",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "qualification": "基础学科拔尖，在高中阶段获得全国中学生奥林匹克竞赛（数学、物理、化学、生物、信息学）全国决赛二等奖及以上的考生（获奖名单以中国科协(http://gs.cyscc.org/)公示为准）",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "西藏,新疆,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,北京,天津,上海,浙江,山东,海南"
+      },
+      "2024": {
+        "id": "694",
+        "school_id": "125",
+        "formula_id": "12",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "qualification": "基础学科拔尖，在高中阶段获得全国中学生奥林匹克竞赛（数学、物理、化学、生物、信息学）全国决赛二等奖及以上同学（获奖名单以中国科协(http://gs.cyscc.org/)公示为准）",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃,北京,天津,上海,浙江,山东,海南,山西,内蒙古,河南,四川,云南,西藏,陕西,青海,宁夏,新疆"
+      },
+      "2023": {
+        "id": "646",
+        "school_id": "125",
+        "formula_id": "12",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "qualification": "在高中阶段获得全国中学生奥林匹克竞赛（数学、物理、化学、生物、信息学）全国决赛二等奖及以上",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,海南,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,新疆,江西,河南,甘肃,西藏,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "498",
+        "school_id": "125",
+        "formula_id": "12",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "qualification": "高中阶段获得全国中学生奥林匹克竞赛（数学、物理、化学、生物、信息学）全国决赛二等奖及以上同学",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,海南,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2021": {
+        "id": "215",
+        "school_id": "125",
+        "formula_id": "12",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "qualification": "高中阶段获得全国中学生奥林匹克竞赛（数学、物理、化学、生物、信息学）全国决赛二等奖及以上，且高考成绩不低于所在省（区、市）本科一批录取最低控制分数线",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "浙江,海南,河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,山东,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2020": {
+        "id": "81",
+        "school_id": "125",
+        "formula_id": "12",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10248",
+        "qualification": "数学、物理、化学、生物、信息学要求国二及以上，高考分数达到一本线（批次合并省份达到部分特殊类型相应最低录取控制分数线）",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "210",
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": ""
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2757",
+            "strong_base_id": "783",
+            "schedule": "2026-04",
+            "describe": "第一类考生：4月13日至4月30日24时前，考生登录上海交通大学强基计划报名平台完成网上报名；第二类考生：4月13日至4月27日24时前，生登录上海交通大学强基计划报名平台完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2758",
+            "strong_base_id": "783",
+            "schedule": "2026-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2759",
+            "strong_base_id": "783",
+            "schedule": "2026-06",
+            "describe": "6月17日前参加笔试"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2401",
+            "strong_base_id": "743",
+            "schedule": "2025-04",
+            "describe": "4月22日至5月10日24时，考生登录上海交通大学强基计划报名平台完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2402",
+            "strong_base_id": "743",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2403",
+            "strong_base_id": "743",
+            "schedule": "2025-06",
+            "describe": "6月17日前参加笔试"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1728",
+            "strong_base_id": "694",
+            "schedule": "2024-04",
+            "describe": "4月11日至4月30日24时前，考生可登录上海交通大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1729",
+            "strong_base_id": "694",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1466",
+            "strong_base_id": "646",
+            "schedule": "2023-04",
+            "describe": "4月14日至4月30日24时前，考生可登录上海交通大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1467",
+            "strong_base_id": "646",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1468",
+            "strong_base_id": "646",
+            "schedule": "2023-06",
+            "describe": "6月10日后确定各省报名考生入围校考名单"
+          },
+          {
+            "id": "1469",
+            "strong_base_id": "646",
+            "schedule": "2023-06",
+            "describe": "6月26日前进行综合面试和体育测试"
+          },
+          {
+            "id": "1470",
+            "strong_base_id": "646",
+            "schedule": "2023-06",
+            "describe": "6月26日后确定强基计划拟认定名单"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1255",
+            "strong_base_id": "498",
+            "schedule": "2022-04",
+            "describe": "即日起-4月30日可登录上海交通大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1256",
+            "strong_base_id": "498",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加统一高考"
+          },
+          {
+            "id": "1257",
+            "strong_base_id": "498",
+            "schedule": "2022-06",
+            "describe": "高考后一周内具体时间安排详见准考证"
+          },
+          {
+            "id": "1258",
+            "strong_base_id": "498",
+            "schedule": "2022-06",
+            "describe": "高考成绩公布前分为综合面试和体测"
+          },
+          {
+            "id": "1259",
+            "strong_base_id": "498",
+            "schedule": "2022-06",
+            "describe": "高考出分后强基计划预录取名单经学校招生工作领导小组审定后报各省级招办审核并办理录取手"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "348",
+            "strong_base_id": "215",
+            "schedule": "2021-04",
+            "describe": "4月12日院校招生简章发布"
+          },
+          {
+            "id": "349",
+            "strong_base_id": "215",
+            "schedule": "2021-04",
+            "describe": "4月12日至4月30日24时考生可登录“上海交通大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "350",
+            "strong_base_id": "215",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "351",
+            "strong_base_id": "215",
+            "schedule": "2021-06",
+            "describe": "6月10日-6月20日考生进行校考确认并签订承诺书"
+          }
+        ],
+        "7月": [
+          {
+            "id": "352",
+            "strong_base_id": "215",
+            "schedule": "2021-07",
+            "describe": "7月5日前学校公布认定结果"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "128",
+            "strong_base_id": "81",
+            "schedule": "2020-05",
+            "describe": "5月7日院校招生简章发布"
+          },
+          {
+            "id": "129",
+            "strong_base_id": "81",
+            "schedule": "2020-05",
+            "describe": "5月10日至5月30日24时考生可登录上海交通大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "130",
+            "strong_base_id": "81",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "131",
+            "strong_base_id": "81",
+            "schedule": "2020-07",
+            "describe": "7月26日上交大2020年强基计划入围结果公布"
+          },
+          {
+            "id": "132",
+            "strong_base_id": "81",
+            "schedule": "2020-07",
+            "describe": "7月29日至31日上交大2020强基计划测试，面试+体侧"
+          }
+        ],
+        "8月": [
+          {
+            "id": "133",
+            "strong_base_id": "81",
+            "schedule": "2020-08",
+            "describe": "8月5日前院校公布录取认定结果，并按要求公示"
+          }
+        ]
+      }
+    }
+  }
+}

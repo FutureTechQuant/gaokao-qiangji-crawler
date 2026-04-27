@@ -1,0 +1,508 @@
+{
+  "update_time": "2026-04-27 16:30:41",
+  "school_id": "107",
+  "school_name": "西北工业大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/107/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:51",
+  "md5": "379d1389ed2479cb8e0d416fe92276b9",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 41,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "107",
+      "school_name": "西北工业大学",
+      "province_id": "61",
+      "city_id": "6101",
+      "county_id": "610103",
+      "type": "5001",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1938",
+      "area": "4700.00",
+      "num_master": "39",
+      "num_doctor": "31",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "2",
+      "central": "1",
+      "level_name": "普通本科",
+      "type_name": "理工类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "陕西",
+      "city": "西安市",
+      "town": "碑林区",
+      "tag_name": "中央部委院"
+    },
+    "formula": {
+      "2026": {
+        "id": "765",
+        "school_id": "107",
+        "formula_id": "34",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "qualification": "数学单科成绩145分及以上，可直接破格入围学校考核",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "34",
+          "formula_name": "公式32",
+          "formula_content": "高考分/高考总分*100*85%+面试分*15%",
+          "formula_algorithm": "gkf/gkzf*100*85%+msf*15%",
+          "formula_use_field": "gkf,gkzf,msf"
+        },
+        "province_plan": "北京,浙江,山东,河北,山西,内蒙古,辽宁,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,陕西,甘肃"
+      },
+      "2025": {
+        "id": "731",
+        "school_id": "107",
+        "formula_id": "16",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "qualification": "依据高考成绩（不含任何政策加分，下同），按分省招生计划数的4倍人数确定各省入围考核考生名单并公示入围标准，末位同分同入围。数学单科成绩145分及以上，且高考成绩进入分省招生计划数5倍以内的考生，可破格入围学校考核",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "16",
+          "formula_name": "公式15",
+          "formula_content": "高考成绩/高考总分*85+面试成绩/面试总分*15",
+          "formula_algorithm": "gkf/gkzf*85+msf/mszf*15",
+          "formula_use_field": "gkf,gkzf,msf,mszf"
+        },
+        "province_plan": "北京,浙江,山东,河北,江苏,安徽,河南,湖北,湖南,重庆,四川,陕西"
+      },
+      "2024": {
+        "id": "674",
+        "school_id": "107",
+        "formula_id": "16",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "qualification": "考生在高中阶段获得全国中学生数学、物理、化学奥林匹克竞赛中任一科目全国决赛二等奖及以上奖项，获奖名单以中国科协（http://gs.cyscc.org/）公示为准",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "16",
+          "formula_name": "公式15",
+          "formula_content": "高考成绩/高考总分*85+面试成绩/面试总分*15",
+          "formula_algorithm": "gkf/gkzf*85+msf/mszf*15",
+          "formula_use_field": "gkf,gkzf,msf,mszf"
+        },
+        "province_plan": "北京,浙江,山东,河北,江苏,安徽,湖北,湖南,重庆,河南,四川"
+      },
+      "2023": {
+        "id": "664",
+        "school_id": "107",
+        "formula_id": "28",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "qualification": "考生在高中阶段获得全国中学生数学、物理、化学奥林匹克竞赛中任一科目全国决赛二等奖及以上奖项，获奖名单以中国科协（http://gs.cyscc.org/）公示为准",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "江苏,河北,湖北,湖南,重庆,北京,山东,浙江,四川,安徽,河南,陕西"
+      },
+      "2022": {
+        "id": "517",
+        "school_id": "107",
+        "formula_id": "16",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "qualification": "高中阶段获得全国中学生数学、物理、化学奥林匹克竞赛中任一科目全国决赛二等奖及以上奖项",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "16",
+          "formula_name": "公式15",
+          "formula_content": "高考成绩/高考总分*85+面试成绩/面试总分*15",
+          "formula_algorithm": "gkf/gkzf*85+msf/mszf*15",
+          "formula_use_field": "gkf,gkzf,msf,mszf"
+        },
+        "province_plan": "安徽,河南,四川,陕西,北京,浙江,山东,河北,江苏,湖北,湖南,重庆"
+      },
+      "2021": {
+        "id": "233",
+        "school_id": "107",
+        "formula_id": "2",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "qualification": "在高中阶段获得全国中学生五项学科竞赛（数学、物理、化学奥林匹克竞赛）任一科目全国决赛二等奖及以上奖项",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,江苏,湖北,湖南,浙江,山东,安徽,河南,四川,陕西"
+      },
+      "2020": {
+        "id": "99",
+        "school_id": "107",
+        "formula_id": "2",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10699",
+        "qualification": "数学、物理、化学、生物学、信息学国二及以上，高考成绩要求达到所在省份一本线或特殊类型控制线",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "90",
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "四川,安徽,江苏,河北,河南,湖北,湖南,陕西,山东,浙江"
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2595",
+            "strong_base_id": "765",
+            "schedule": "2026-04",
+            "describe": "4月9日至4月30日考生可登录西北工业大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2596",
+            "strong_base_id": "765",
+            "schedule": "2026-06",
+            "describe": "考生须于6月10日至6月18日在报名平台确认是否参加我校考核"
+          },
+          {
+            "id": "2597",
+            "strong_base_id": "765",
+            "schedule": "2026-06",
+            "describe": "6月26日前，学校公布入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2598",
+            "strong_base_id": "765",
+            "schedule": "2026-07",
+            "describe": "我校于7月2日前举行考核（含面试和体育测试）"
+          },
+          {
+            "id": "2599",
+            "strong_base_id": "765",
+            "schedule": "2026-07",
+            "describe": "录取标准将于7月5日左右在我校本科招生信息网公示"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2063",
+            "strong_base_id": "731",
+            "schedule": "2025-04",
+            "describe": "4月21日至5月10日考生可登录西北工业大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2064",
+            "strong_base_id": "731",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2065",
+            "strong_base_id": "731",
+            "schedule": "2025-06",
+            "describe": "6月10日至6月18日在报名平台确认是否参加我校考核，并签署诚信承诺书"
+          },
+          {
+            "id": "2066",
+            "strong_base_id": "731",
+            "schedule": "2025-06",
+            "describe": "6月26日前，学校公布入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2067",
+            "strong_base_id": "731",
+            "schedule": "2025-07",
+            "describe": "7月2日前举行考核（含面试和体育测试）"
+          },
+          {
+            "id": "2068",
+            "strong_base_id": "731",
+            "schedule": "2025-07",
+            "describe": "7月5日左右在我校本科招生信息网公示录取标准"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1606",
+            "strong_base_id": "674",
+            "schedule": "2024-04",
+            "describe": "4月9日至4月29日考生可登录西北工业大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1607",
+            "strong_base_id": "674",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1608",
+            "strong_base_id": "674",
+            "schedule": "2024-06",
+            "describe": "6月10日至6月18日考生确认"
+          },
+          {
+            "id": "1609",
+            "strong_base_id": "674",
+            "schedule": "2024-06",
+            "describe": "6月26日前确定各省入围考核考生名单并公示入围标准"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1610",
+            "strong_base_id": "674",
+            "schedule": "2024-07",
+            "describe": "7月2日前举行考核（含面试和体质测试）"
+          },
+          {
+            "id": "1611",
+            "strong_base_id": "674",
+            "schedule": "2024-07",
+            "describe": "7月5日左右在我校本科招生信息网公示"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1558",
+            "strong_base_id": "664",
+            "schedule": "2023-04",
+            "describe": "4月8日至4月29日考生可登录西北工业大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1559",
+            "strong_base_id": "664",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1560",
+            "strong_base_id": "664",
+            "schedule": "2023-06",
+            "describe": "6月26日前确定各省入围考核考生名单并公示入围标准"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1561",
+            "strong_base_id": "664",
+            "schedule": "2023-07",
+            "describe": "7月2日前举行考核（含面试和体质测试）"
+          },
+          {
+            "id": "1562",
+            "strong_base_id": "664",
+            "schedule": "2023-07",
+            "describe": "7月5日左右在我校本科招生信息网公示"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1365",
+            "strong_base_id": "517",
+            "schedule": "2022-04",
+            "describe": "4月8日-4月29日考生可登录西北工业大学强基计划报名平"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1366",
+            "strong_base_id": "517",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加全国统一高考"
+          },
+          {
+            "id": "1367",
+            "strong_base_id": "517",
+            "schedule": "2022-06",
+            "describe": "6月10日-6月18日在报名平台确认是否参加我校考核"
+          },
+          {
+            "id": "1368",
+            "strong_base_id": "517",
+            "schedule": "2022-06",
+            "describe": "6月26日前依据高考成绩 不含任何政策加分"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1369",
+            "strong_base_id": "517",
+            "schedule": "2022-07",
+            "describe": "7月2日面试和体质测试"
+          },
+          {
+            "id": "1370",
+            "strong_base_id": "517",
+            "schedule": "2022-07",
+            "describe": "7月5日在我校本科招生信息网公示"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "472",
+            "strong_base_id": "233",
+            "schedule": "2021-04",
+            "describe": "4月8日院校招生简章发布"
+          },
+          {
+            "id": "473",
+            "strong_base_id": "233",
+            "schedule": "2021-04",
+            "describe": "4月10日至4月30日考生可登录“西北工业大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "474",
+            "strong_base_id": "233",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "475",
+            "strong_base_id": "233",
+            "schedule": "2021-06",
+            "describe": "6月10日至6月18日确认是否参加我校考核，并签署诚信承诺书"
+          },
+          {
+            "id": "476",
+            "strong_base_id": "233",
+            "schedule": "2021-06",
+            "describe": "6月26日前确定各省入围考核考生名单并公示入围标准"
+          }
+        ],
+        "7月": [
+          {
+            "id": "477",
+            "strong_base_id": "233",
+            "schedule": "2021-07",
+            "describe": "7月2日前学校举行考核（含面试和体质测试）"
+          },
+          {
+            "id": "478",
+            "strong_base_id": "233",
+            "schedule": "2021-07",
+            "describe": "7月5日录取名单在本校本科招生信息网公示"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "18",
+            "strong_base_id": "99",
+            "schedule": "2020-05",
+            "describe": "5月7日院校招生简章发布"
+          },
+          {
+            "id": "19",
+            "strong_base_id": "99",
+            "schedule": "2020-05",
+            "describe": "5月10日至5月31日登录西北工业大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "20",
+            "strong_base_id": "99",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "21",
+            "strong_base_id": "99",
+            "schedule": "2020-07",
+            "describe": "7月26日前确定各省报名考生入围校考名单"
+          },
+          {
+            "id": "22",
+            "strong_base_id": "99",
+            "schedule": "2020-07",
+            "describe": "7月30日至8月2日学校考核（含面试和体质测试）"
+          }
+        ],
+        "8月": [
+          {
+            "id": "23",
+            "strong_base_id": "99",
+            "schedule": "2020-08",
+            "describe": "8月2日前在本科招生网公布录取名单"
+          }
+        ]
+      }
+    }
+  }
+}

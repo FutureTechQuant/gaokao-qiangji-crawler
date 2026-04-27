@@ -1,0 +1,474 @@
+{
+  "update_time": "2026-04-27 16:30:34",
+  "school_id": "97",
+  "school_name": "兰州大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/97/info.json?a=www.gaokao.cn",
+  "time": "2026-04-28 00:07:26",
+  "md5": "cfc46b27baa7faebfbbdf54ffbcf26df",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 36,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "97",
+      "school_name": "兰州大学",
+      "province_id": "62",
+      "city_id": "6201",
+      "county_id": "620102",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1909",
+      "area": "3523.00",
+      "num_master": "44",
+      "num_doctor": "31",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "甘肃",
+      "city": "兰州市",
+      "town": "城关区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "766",
+        "school_id": "97",
+        "formula_id": "10",
+        "selection_multiple": "6.0",
+        "sign_link": "https://zsb.lzu.edu.cn/zhaoshengdongtai/tongzhigonggao/2026/0409/330046.html",
+        "query_link": "https://zsb.lzu.edu.cn/zhaoshengdongtai/tongzhigonggao/2026/0409/330046.html",
+        "qualification": "数学与应用数学：数学≥145分（高考数学满分值非150分的省份，数学成绩须达到满分值的97%及以上）；物理学：数学≥145分（高考数学满分值非150分的省份，数学成绩须达到满分值的97%及以上）或物理满分；化学、核化工与核燃料工程、生物科学、草业科学(草类植物生物育种)、生态学：数学≥145分（高考数学满分值非150分的省份，数学成绩须达到满分值的97%及以上）或化学满分",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2025": {
+        "id": "734",
+        "school_id": "97",
+        "formula_id": "10",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "qualification": "高中阶段在中学生学科奥林匹克竞赛（数学、物理、化学、生物、信息）中获得全国决赛二等奖及以上奖项的考生",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,西藏,新疆"
+      },
+      "2024": {
+        "id": "670",
+        "school_id": "97",
+        "formula_id": "10",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "qualification": "高中阶段在中学生学科奥林匹克竞赛（数学、物理、化学、生物、信息）中获得全国决赛二等奖及以上奖项",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃,山西,内蒙古,河南,四川,云南,西藏,陕西,青海,宁夏,新疆"
+      },
+      "2023": {
+        "id": "665",
+        "school_id": "97",
+        "formula_id": "24",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "qualification": "高中阶段在中学生学科奥林匹克竞赛（数学、物理、化学、生物、信息）中获得全国决赛二等奖及以上奖项",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "24",
+          "formula_name": "公式23",
+          "formula_content": "高考分/高考总分*100*85%+面试分/面试满分*100*15%",
+          "formula_algorithm": "gkf/gkzf*100*0.85+msf/mszf*100*0.15",
+          "formula_use_field": "gkf,gkzf,msf,mszf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,海南,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,新疆,江西,河南,甘肃,西藏,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "519",
+        "school_id": "97",
+        "formula_id": "4",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "qualification": "高中阶段在中学生学科奥林匹克竞赛（数学、物理、化学、生物、信息）中获得全国决赛二等奖及以上奖项的考生",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,海南,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2021": {
+        "id": "234",
+        "school_id": "97",
+        "formula_id": "9",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "qualification": "高中阶段在中学生学科奥林匹克竞赛（数学、物理、化学、生物、信息）中获得全国决赛二等奖及以上奖项的考生，高考总成绩达到本科一批控制线，考生科类与我校要求相匹配",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "9",
+          "formula_name": "公式8",
+          "formula_content": "高考成绩/高考总分*85+校考成绩/校考总分*15",
+          "formula_algorithm": "gkf/gkzf*85+xkf/xkzf*15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": ""
+      },
+      "2020": {
+        "id": "100",
+        "school_id": "97",
+        "formula_id": "4",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10730",
+        "qualification": "数学、物理、化学、生物学、信息学国二及以上，高考成绩要求达到所在省份相关控制线标准",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "120",
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": ""
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2600",
+            "strong_base_id": "766",
+            "schedule": "2026-04",
+            "describe": "拟申请填报我校的考生，须在2026年4月10日至4月30日登录兰州大学强基计划报名系统"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2601",
+            "strong_base_id": "766",
+            "schedule": "2026-06",
+            "describe": "考生须参加2026年普通高考"
+          },
+          {
+            "id": "2602",
+            "strong_base_id": "766",
+            "schedule": "2026-06",
+            "describe": "考生须于2026年6月10日至6月18日通过报名系统平台确认参加学校考核（以下简称“校考”），否则视为放弃校考资格"
+          },
+          {
+            "id": "2603",
+            "strong_base_id": "766",
+            "schedule": "2026-06",
+            "describe": "校考入围名单发布时间：2026年6月26日至6月27日，学校将根据工作实际情况适时调整，并及时发布相关通知"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2604",
+            "strong_base_id": "766",
+            "schedule": "2026-07",
+            "describe": "学校考核：7月4日前，准考证打印等考试具体安排届时详见兰州大学本科招生网"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2100",
+            "strong_base_id": "734",
+            "schedule": "2025-04",
+            "describe": "2025年4月18日至5月10日登录兰州大学强基计划报名系统"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2101",
+            "strong_base_id": "734",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2102",
+            "strong_base_id": "734",
+            "schedule": "2025-06",
+            "describe": "6月10日16：00前登录兰州大学强基计划报名系统进行校考初试确认并缴费"
+          },
+          {
+            "id": "2103",
+            "strong_base_id": "734",
+            "schedule": "2025-06",
+            "describe": "6月16日前（高考后、出分前，具体安排届时详见兰州大学本科招生网）进行初试，初试形式为笔试，主要考核学生学科素养"
+          },
+          {
+            "id": "2104",
+            "strong_base_id": "734",
+            "schedule": "2025-06",
+            "describe": "6月22日前（具体安排届时详见兰州大学本科招生网）举行复试，复试包括面试和体育测试"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1915",
+            "strong_base_id": "670",
+            "schedule": "2024-04",
+            "describe": "须在2024年4月10日至4月30日登录兰州大学强基计划报名系统报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1914",
+            "strong_base_id": "670",
+            "schedule": "2024-06",
+            "describe": "6月16日前举行初试"
+          },
+          {
+            "id": "1913",
+            "strong_base_id": "670",
+            "schedule": "2024-06",
+            "describe": "6月22日前举行复试"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1563",
+            "strong_base_id": "665",
+            "schedule": "2023-04",
+            "describe": "4月20日至4月30日登录强基计划报名系统进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1564",
+            "strong_base_id": "665",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1565",
+            "strong_base_id": "665",
+            "schedule": "2023-06",
+            "describe": "6月26日至6月27日校考入围名单发布"
+          },
+          {
+            "id": "1566",
+            "strong_base_id": "665",
+            "schedule": "2023-06",
+            "describe": "6月30日至7月3日，分省、分时段、分批考核"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1567",
+            "strong_base_id": "665",
+            "schedule": "2023-07",
+            "describe": "7月4号公布录取信息并公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1377",
+            "strong_base_id": "519",
+            "schedule": "2022-04",
+            "describe": "4月10日-4月30日登录强基计划报名系统"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1378",
+            "strong_base_id": "519",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加全国统一高考"
+          },
+          {
+            "id": "1379",
+            "strong_base_id": "519",
+            "schedule": "2022-06",
+            "describe": "6月30日-7月3日具体时间以兰州大学本科招生网"
+          },
+          {
+            "id": "1380",
+            "strong_base_id": "519",
+            "schedule": "2022-06",
+            "describe": "6月26日-6月27日按照高考总成绩由高到低排序确定入围校考名"
+          },
+          {
+            "id": "1381",
+            "strong_base_id": "519",
+            "schedule": "2022-06",
+            "describe": "6月10日-6月18日面试  体育素质测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1382",
+            "strong_base_id": "519",
+            "schedule": "2022-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "3月": [
+          {
+            "id": "479",
+            "strong_base_id": "234",
+            "schedule": "2021-03",
+            "describe": "3月31日院校招生简章发布"
+          }
+        ],
+        "4月": [
+          {
+            "id": "480",
+            "strong_base_id": "234",
+            "schedule": "2021-04",
+            "describe": "4月8日至4月30日考生登录强基计划报名系统按要求完成信息填报"
+          }
+        ],
+        "6月": [
+          {
+            "id": "481",
+            "strong_base_id": "234",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "482",
+            "strong_base_id": "234",
+            "schedule": "2021-06",
+            "describe": "6月10日—18日考生通过报名系统平台确认参加学校考核"
+          },
+          {
+            "id": "483",
+            "strong_base_id": "234",
+            "schedule": "2021-06",
+            "describe": "6月26日-6月27日学校考核的入围名单发布"
+          },
+          {
+            "id": "484",
+            "strong_base_id": "234",
+            "schedule": "2021-06",
+            "describe": "6月30日-7月2日学校考核分为面试和体育素质测试"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "12",
+            "strong_base_id": "100",
+            "schedule": "2020-05",
+            "describe": "5月3日院校招生简章发布"
+          },
+          {
+            "id": "13",
+            "strong_base_id": "100",
+            "schedule": "2020-05",
+            "describe": "5月10日至5月30日登录强基计划报名系统进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "14",
+            "strong_base_id": "100",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "15",
+            "strong_base_id": "100",
+            "schedule": "2020-07",
+            "describe": "7月27日兰大2020强基计划校测入围分数线公布"
+          },
+          {
+            "id": "16",
+            "strong_base_id": "100",
+            "schedule": "2020-07",
+            "describe": "7月30日至31日考生于限定时间内参加院校组织的面试和体育素质测试"
+          }
+        ],
+        "8月": [
+          {
+            "id": "17",
+            "strong_base_id": "100",
+            "schedule": "2020-08",
+            "describe": "8月5日公布录取信息并公示录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

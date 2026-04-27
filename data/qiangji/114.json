@@ -1,0 +1,446 @@
+{
+  "update_time": "2026-04-27 16:30:45",
+  "school_id": "114",
+  "school_name": "浙江大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/114/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:51",
+  "md5": "52a946295a4fead49c117cfd48c53f34",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 32,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "114",
+      "school_name": "浙江大学",
+      "province_id": "33",
+      "city_id": "3301",
+      "county_id": "330106",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1897",
+      "area": "11146.06",
+      "num_master": "62",
+      "num_doctor": "62",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "浙江",
+      "city": "杭州市",
+      "town": "西湖区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "780",
+        "school_id": "114",
+        "formula_id": "12",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "qualification": "相关学科领域具有突出潜质和表现的考生，要求在数学、物理、化学、生物学、信息学任一学科全国中学生奥林匹克竞赛中获得全国决赛二等奖及以上奖项",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,西藏,新疆,北京,天津,上海,浙江,山东,海南"
+      },
+      "2025": {
+        "id": "744",
+        "school_id": "114",
+        "formula_id": "12",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "qualification": "在数学、物理、化学、生物学、信息学任一学科全国中学生奥林匹克竞赛中获得全国决赛二等奖及以上奖项。（获奖名单以中国科协官网公示为准，网址：http://gs.cyscc.org/）",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "西藏,新疆,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,北京,天津,上海,浙江,山东,海南"
+      },
+      "2024": {
+        "id": "707",
+        "school_id": "114",
+        "formula_id": "12",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "qualification": "在数学、物理、化学、生物学、信息学任一学科全国中学生奥林匹克竞赛中获得全国决赛二等奖及以上奖项",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "山西,内蒙古,河南,四川,云南,西藏,陕西,青海,宁夏,新疆,北京,天津,上海,浙江,山东,海南,河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃"
+      },
+      "2023": {
+        "id": "650",
+        "school_id": "114",
+        "formula_id": "12",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "qualification": "在数学、物理、化学、生物学、信息学任一学科全国中学生奥林匹克竞赛中获得全国决赛二等奖及以上奖项",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,海南,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,新疆,江西,河南,甘肃,西藏,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "502",
+        "school_id": "114",
+        "formula_id": "12",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "qualification": "在中国数学奥林匹克、全国中学生物理竞赛决赛、中国化学奥林匹克(决赛)、全国中学生生物学竞赛、全国青少年信息学奥林匹克竞赛全国总决赛中获得二等奖及以上",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "12",
+          "formula_name": "公式11",
+          "formula_content": "高考成绩/高考总分*850+校考成绩",
+          "formula_algorithm": "gkf/gkzf*850+xkf",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,海南,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2021": {
+        "id": "219",
+        "school_id": "114",
+        "formula_id": "9",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "qualification": "在中国数学奥林匹克、全国中学生物理竞赛决赛、中国化学奥林匹克(决赛)、全国中学生生物学竞赛、全国青少年信息学奥林匹克竞赛全国总决赛中获得二等奖及以上、且高考成绩不低于所在省（自治区、直辖市）第一批本科录取控制分数线",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "9",
+          "formula_name": "公式8",
+          "formula_content": "高考成绩/高考总分*85+校考成绩/校考总分*15",
+          "formula_algorithm": "gkf/gkzf*85+xkf/xkzf*15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,海南,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2020": {
+        "id": "85",
+        "school_id": "114",
+        "formula_id": "4",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10335",
+        "qualification": "数学、物理、化学、生物学、信息学国二及以上，高考成绩要求达到所在省份一本线或特殊类型控制线",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": ""
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2734",
+            "strong_base_id": "780",
+            "schedule": "2026-04",
+            "describe": "4月13日至4月30日17:00，考生登录浙江大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2735",
+            "strong_base_id": "780",
+            "schedule": "2026-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2736",
+            "strong_base_id": "780",
+            "schedule": "2026-06",
+            "describe": "5月31日-6月11日中午12:00考生登录浙江大学强基计划报名平台进行考试确认并签订、上传考生签字的《诚信考试承诺书》"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2404",
+            "strong_base_id": "744",
+            "schedule": "2025-04",
+            "describe": "4月22日至5月10日24:00，考生登录浙江大学强基计划报名平台完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2405",
+            "strong_base_id": "744",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1797",
+            "strong_base_id": "707",
+            "schedule": "2024-04",
+            "describe": "4月15日至4月30日考生可登录浙江大学强基计划报名平台进行报名"
+          },
+          {
+            "id": "1798",
+            "strong_base_id": "707",
+            "schedule": "2024-04",
+            "describe": "4月15日至4月27日中午12时前第二类考生须登录浙江大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1799",
+            "strong_base_id": "707",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1486",
+            "strong_base_id": "650",
+            "schedule": "2023-04",
+            "describe": "4月10日至30日考生可登录浙江大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1487",
+            "strong_base_id": "650",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1488",
+            "strong_base_id": "650",
+            "schedule": "2023-06",
+            "describe": "6月10日后参加我校组织的笔试"
+          },
+          {
+            "id": "1489",
+            "strong_base_id": "650",
+            "schedule": "2023-06",
+            "describe": "6月10日后参加我校组织的综合面试"
+          },
+          {
+            "id": "1490",
+            "strong_base_id": "650",
+            "schedule": "2023-06",
+            "describe": "6月26日后公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1277",
+            "strong_base_id": "502",
+            "schedule": "2022-04",
+            "describe": "4月10日-30日可登录浙江大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1278",
+            "strong_base_id": "502",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加全国统一高考"
+          },
+          {
+            "id": "1279",
+            "strong_base_id": "502",
+            "schedule": "2022-06",
+            "describe": "6月11日-6月20日在报名系统确认是否参加我校测试并签订诚信承诺书"
+          },
+          {
+            "id": "1280",
+            "strong_base_id": "502",
+            "schedule": "2022-06",
+            "describe": "6月27日前登陆报名平台查询入围情况"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1281",
+            "strong_base_id": "502",
+            "schedule": "2022-07",
+            "describe": "7月3日笔试、面试和体质测试"
+          },
+          {
+            "id": "1282",
+            "strong_base_id": "502",
+            "schedule": "2022-07",
+            "describe": "7月5日前学校招生工作小组按招生计划审定强基计划预录取名单"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "375",
+            "strong_base_id": "219",
+            "schedule": "2021-04",
+            "describe": "4月6日院校招生简章发布"
+          },
+          {
+            "id": "376",
+            "strong_base_id": "219",
+            "schedule": "2021-04",
+            "describe": "4月10日至30日考生可登录“浙江大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "377",
+            "strong_base_id": "219",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "378",
+            "strong_base_id": "219",
+            "schedule": "2021-06",
+            "describe": "6月11日至6月20日在报名系统确认是否参加我校测试并签订诚信承诺书"
+          },
+          {
+            "id": "379",
+            "strong_base_id": "219",
+            "schedule": "2021-06",
+            "describe": "6月27日前确定各省入围我校考核考生名单并公示入围标准"
+          }
+        ],
+        "7月": [
+          {
+            "id": "380",
+            "strong_base_id": "219",
+            "schedule": "2021-07",
+            "describe": "7月2日前参加本校强基计划考核（含笔试、面试和体质测试）"
+          },
+          {
+            "id": "381",
+            "strong_base_id": "219",
+            "schedule": "2021-07",
+            "describe": "7月5日前按招生计划审定强基计划预录取名单"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "103",
+            "strong_base_id": "85",
+            "schedule": "2020-05",
+            "describe": "5月7日院校招生简章发布"
+          },
+          {
+            "id": "104",
+            "strong_base_id": "85",
+            "schedule": "2020-05",
+            "describe": "5月10日至30日考生可登录浙江大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "105",
+            "strong_base_id": "85",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "106",
+            "strong_base_id": "85",
+            "schedule": "2020-07",
+            "describe": "7月26日前确定各省报名考生入围校考名单"
+          },
+          {
+            "id": "107",
+            "strong_base_id": "85",
+            "schedule": "2020-07",
+            "describe": "7月30日至8月1日院校举行学校测试（含笔试、面试）和体质测试"
+          }
+        ],
+        "8月": [
+          {
+            "id": "108",
+            "strong_base_id": "85",
+            "schedule": "2020-08",
+            "describe": "8月5日公布录取名单并公示录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

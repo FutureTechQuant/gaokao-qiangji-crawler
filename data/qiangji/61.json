@@ -1,0 +1,498 @@
+{
+  "update_time": "2026-04-27 16:30:11",
+  "school_id": "61",
+  "school_name": "中国海洋大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/61/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:52",
+  "md5": "7a39cb3539c6c4845cfd36707dfae97a",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 39,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "61",
+      "school_name": "中国海洋大学",
+      "province_id": "37",
+      "city_id": "3702",
+      "county_id": "370212",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1924",
+      "area": "5200.00",
+      "num_master": "34",
+      "num_doctor": "20",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "山东",
+      "city": "青岛市",
+      "town": "崂山区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "758",
+        "school_id": "61",
+        "formula_id": "10",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "qualification": "无",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,云南,陕西,甘肃"
+      },
+      "2025": {
+        "id": "709",
+        "school_id": "61",
+        "formula_id": "10",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "qualification": "高中期间获得全国中学生五大学科奥林匹克竞赛全国决赛二等奖及以上奖励",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "北京,天津,河北,山西,内蒙古,辽宁,吉林,黑龙江,上海,江苏,浙江,安徽,福建,江西,山东,河南,湖北,湖南,广东,广西,海南,重庆,四川,云南,陕西,甘肃"
+      },
+      "2024": {
+        "id": "702",
+        "school_id": "61",
+        "formula_id": "10",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "qualification": "高中期间获得全国中学生五大学科奥林匹克竞赛全国决赛二等奖及以上奖励",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "北京,天津,浙江,山东,海南,河北,辽宁,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,山西,内蒙古,河南,四川,陕西"
+      },
+      "2023": {
+        "id": "654",
+        "school_id": "61",
+        "formula_id": "28",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "qualification": "高中期间获得全国中学生五大学科奥林匹克竞赛全国决赛二等奖及以上奖励",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "广东,江苏,河北,湖南,福建,北京,山东,海南,内蒙古,四川,安徽,山西,河南"
+      },
+      "2022": {
+        "id": "506",
+        "school_id": "61",
+        "formula_id": "4",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "qualification": "高中期间获得全国中学生五大学科奥林匹克竞赛全国决赛二等奖及以上奖励",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "山西,内蒙古,安徽,河南,四川,北京,山东,海南,河北,江苏,福建,湖南,广东"
+      },
+      "2021": {
+        "id": "223",
+        "school_id": "61",
+        "formula_id": "2",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "qualification": "高中期间获得全国中学生五大学科奥林匹克竞赛全国决赛二等奖及以上奖励的考生，高考成绩达到2021年所在省划定的本科一批录取最低控制分数线",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "河北,江苏,福建,湖南,广东,北京,山东,海南,山西,内蒙古,安徽,河南,四川"
+      },
+      "2020": {
+        "id": "89",
+        "school_id": "61",
+        "formula_id": "2",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10423",
+        "qualification": "数学、物理、化学、生物学、信息学奥林匹克竞赛国一或国二，高考分数过一本线",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "30",
+        "formula": {
+          "id": "2",
+          "formula_name": "公式1",
+          "formula_content": "高考成绩/高考总分*85+校考成绩*0.15",
+          "formula_algorithm": "gkf/gkzf*85+xkf*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "内蒙古,四川,安徽,山西,广东,江西,河北,河南,湖南,福建,北京,山东,海南"
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2548",
+            "strong_base_id": "758",
+            "schedule": "2026-04",
+            "describe": "2026年4月9日至4月30日登录中国海洋大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2549",
+            "strong_base_id": "758",
+            "schedule": "2026-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2550",
+            "strong_base_id": "758",
+            "schedule": "2026-06",
+            "describe": "考生需于6月10日至20日在报名系统内对参加强基计划招生考试的意愿进行确认并签订承诺书"
+          },
+          {
+            "id": "2551",
+            "strong_base_id": "758",
+            "schedule": "2026-06",
+            "describe": "入围校考名单将于6月下旬确定"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2552",
+            "strong_base_id": "758",
+            "schedule": "2026-07",
+            "describe": "学校拟于7月4日前举行面试和体育测试"
+          },
+          {
+            "id": "2553",
+            "strong_base_id": "758",
+            "schedule": "2026-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2136",
+            "strong_base_id": "709",
+            "schedule": "2025-04",
+            "describe": "考生于2025年4月21日至5月10日登录中国海洋大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2137",
+            "strong_base_id": "709",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "2138",
+            "strong_base_id": "709",
+            "schedule": "2025-06",
+            "describe": "考生需于6月10日至20日在报名系统内对参加强基计划招生考试的意愿进行确认并签订承诺书"
+          },
+          {
+            "id": "2139",
+            "strong_base_id": "709",
+            "schedule": "2025-06",
+            "describe": "入围校考名单将于6月下旬确定"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2140",
+            "strong_base_id": "709",
+            "schedule": "2025-07",
+            "describe": "学校拟于7月4日前举行考核"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1919",
+            "strong_base_id": "702",
+            "schedule": "2024-04",
+            "describe": "考生于2024年4月12日至30日登录中国海洋大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1918",
+            "strong_base_id": "702",
+            "schedule": "2024-06",
+            "describe": "6月10日至20日登录报名系统确认是否参加强基计划并签署承诺书"
+          },
+          {
+            "id": "1917",
+            "strong_base_id": "702",
+            "schedule": "2024-06",
+            "describe": "6月下旬出入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1916",
+            "strong_base_id": "702",
+            "schedule": "2024-07",
+            "describe": "预计7月4日前举行学校考核"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1506",
+            "strong_base_id": "654",
+            "schedule": "2023-04",
+            "describe": "4月10日至30日登录中国海洋大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1507",
+            "strong_base_id": "654",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1508",
+            "strong_base_id": "654",
+            "schedule": "2023-06",
+            "describe": "6月下旬确定入围校考名单"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1509",
+            "strong_base_id": "654",
+            "schedule": "2023-07",
+            "describe": "7月4日前举行考核，考核包括面试和体质测试两部分"
+          },
+          {
+            "id": "1510",
+            "strong_base_id": "654",
+            "schedule": "2023-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "3月": [
+          {
+            "id": "1301",
+            "strong_base_id": "506",
+            "schedule": "2022-03",
+            "describe": "2022年3月24日院校招生简章发布"
+          }
+        ],
+        "4月": [
+          {
+            "id": "1302",
+            "strong_base_id": "506",
+            "schedule": "2022-04",
+            "describe": "4月7日-28日登录中国海洋大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1303",
+            "strong_base_id": "506",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加全国高考"
+          },
+          {
+            "id": "1304",
+            "strong_base_id": "506",
+            "schedule": "2022-06",
+            "describe": "6月10日-20日考生对参加强基计划招生考试的意愿进行确认并签字"
+          },
+          {
+            "id": "1305",
+            "strong_base_id": "506",
+            "schedule": "2022-06",
+            "describe": "6月下旬确定入围校考名单并公示入围标准"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1306",
+            "strong_base_id": "506",
+            "schedule": "2022-07",
+            "describe": "7月4日前包括面试和体质测试两部分"
+          },
+          {
+            "id": "1307",
+            "strong_base_id": "506",
+            "schedule": "2022-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "400",
+            "strong_base_id": "223",
+            "schedule": "2021-04",
+            "describe": "4月6日院校招生简章发布"
+          },
+          {
+            "id": "401",
+            "strong_base_id": "223",
+            "schedule": "2021-04",
+            "describe": "4月8日至30日考生登录“中国海洋大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "402",
+            "strong_base_id": "223",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "403",
+            "strong_base_id": "223",
+            "schedule": "2021-06",
+            "describe": "6月10日至20日考生在报名系统内对参加强基计划招生考试的意愿进行确认并签订承诺书"
+          },
+          {
+            "id": "404",
+            "strong_base_id": "223",
+            "schedule": "2021-06",
+            "describe": "6月28日至7月4日学校举行考核，考核包括面试和体质测试两部分"
+          }
+        ],
+        "7月": [
+          {
+            "id": "405",
+            "strong_base_id": "223",
+            "schedule": "2021-07",
+            "describe": "7月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "79",
+            "strong_base_id": "89",
+            "schedule": "2020-05",
+            "describe": "5月6日院校招生简章发布"
+          },
+          {
+            "id": "80",
+            "strong_base_id": "89",
+            "schedule": "2020-05",
+            "describe": "5月11日至31登录中国海洋大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "81",
+            "strong_base_id": "89",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "82",
+            "strong_base_id": "89",
+            "schedule": "2020-07",
+            "describe": "7月26日前确定各省报名考生入围校考名单"
+          },
+          {
+            "id": "83",
+            "strong_base_id": "89",
+            "schedule": "2020-07",
+            "describe": "7月28日至8月4日举行学校考核，考核包括面试和体育测试两部分"
+          }
+        ],
+        "8月": [
+          {
+            "id": "84",
+            "strong_base_id": "89",
+            "schedule": "2020-08",
+            "describe": "8月5日前公布录取名单并公示录取标准"
+          }
+        ]
+      }
+    }
+  }
+}

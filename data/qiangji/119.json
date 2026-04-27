@@ -1,0 +1,582 @@
+{
+  "update_time": "2026-04-27 16:30:49",
+  "school_id": "119",
+  "school_name": "重庆大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/119/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:51",
+  "md5": "6233fe8e342a8b6ee7c637a702eab428",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 53,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "119",
+      "school_name": "重庆大学",
+      "province_id": "50",
+      "city_id": "5001",
+      "county_id": "500106",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1929",
+      "area": "5300.00",
+      "num_master": "45",
+      "num_doctor": "38",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "重庆",
+      "city": "重庆市",
+      "town": "沙坪坝区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "776",
+        "school_id": "119",
+        "formula_id": "28",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "qualification": "暂无数据",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "浙江,山东,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃"
+      },
+      "2025": {
+        "id": "728",
+        "school_id": "119",
+        "formula_id": "28",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "qualification": "暂无数据",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "浙江,山东,河北,山西,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃"
+      },
+      "2024": {
+        "id": "682",
+        "school_id": "119",
+        "formula_id": "28",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "qualification": "高中阶段须在数学、物理、化学、生物学、信息学任一学科奥林匹克竞赛中获得全国决赛二等奖及以上奖项。",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "浙江,山东,河北,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃,山西,河南,四川,云南,陕西"
+      },
+      "2023": {
+        "id": "661",
+        "school_id": "119",
+        "formula_id": "28",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "qualification": "高中阶段须在数学、物理、化学、生物学、信息学任一学科奥林匹克竞赛中获得全国决赛二等奖及以上奖项。",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "28",
+          "formula_name": "公式27",
+          "formula_content": "高考分/高考总分*750*85%+校考分*750/100*15%",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf*750/100*0.15",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,重庆,山东,浙江,云南,四川,安徽,山西,广西,江西,河南,甘肃,贵州,陕西"
+      },
+      "2022": {
+        "id": "514",
+        "school_id": "119",
+        "formula_id": "14",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "qualification": "高中阶段须在数学、物理、化学、生物学、信息学任一学科奥林匹克竞赛中获得全国决赛二等奖及以上奖项",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "14",
+          "formula_name": "公式13",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/100*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/100*750*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "山西,安徽,江西,河南,广西,四川,贵州,云南,陕西,甘肃,浙江,山东,河北,江苏,福建,湖北,湖南,广东,重庆"
+      },
+      "2021": {
+        "id": "230",
+        "school_id": "119",
+        "formula_id": "14",
+        "selection_multiple": "6.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "qualification": "暂无",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "14",
+          "formula_name": "公式13",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/100*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/100*750*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "浙江,河北,江苏,福建,湖北,湖南,广东,重庆,山东,山西,安徽,江西,河南,广西,四川,贵州,云南,陕西,甘肃"
+      },
+      "2020": {
+        "id": "96",
+        "school_id": "119",
+        "formula_id": "14",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10611",
+        "qualification": "数学、物理、化学、生物学、信息学国二及以上，高考成绩要求达到所在省份一本线或特殊类型控制线",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "90",
+        "formula": {
+          "id": "14",
+          "formula_name": "公式13",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/100*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/100*750*0.15",
+          "formula_use_field": "gkf,xkf"
+        },
+        "province_plan": "云南,内蒙古,吉林,四川,安徽,山西,广东,广西,新疆,江苏,江西,河北,河南,湖北,湖南,甘肃,福建,贵州,辽宁,重庆,陕西,黑龙江,北京,天津,山东,浙江"
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2714",
+            "strong_base_id": "776",
+            "schedule": "2026-04",
+            "describe": "即日起至2026年4月30日23时59分，考生登录阳光高考平台重庆大学强基计划报名系统"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2715",
+            "strong_base_id": "776",
+            "schedule": "2026-06",
+            "describe": "2026年6月10日至20日登录报名系统，确认是否参加学校考核"
+          },
+          {
+            "id": "2716",
+            "strong_base_id": "776",
+            "schedule": "2026-06",
+            "describe": "高考6月7日-6月10日"
+          },
+          {
+            "id": "2717",
+            "strong_base_id": "776",
+            "schedule": "2026-06",
+            "describe": "2026年6月26日确定入围考核名单"
+          },
+          {
+            "id": "2718",
+            "strong_base_id": "776",
+            "schedule": "2026-06",
+            "describe": "2026年6月28日起在报名系统中打印准考证"
+          },
+          {
+            "id": "2719",
+            "strong_base_id": "776",
+            "schedule": "2026-06",
+            "describe": "2026年6月30日8:30—20:00进行考核"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2720",
+            "strong_base_id": "776",
+            "schedule": "2026-07",
+            "describe": "2026年7月5日后在报名系统中查看录取结果"
+          },
+          {
+            "id": "2721",
+            "strong_base_id": "776",
+            "schedule": "2026-07",
+            "describe": "2026年7月中下旬随该省普通类考生录取通知书一并寄出"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2042",
+            "strong_base_id": "728",
+            "schedule": "2025-04",
+            "describe": "4月18日起至5月11日，考生登录阳光高考平台重庆大学强基计划报名系统"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2043",
+            "strong_base_id": "728",
+            "schedule": "2025-06",
+            "describe": "6月10日至20日登录报名系统，确认是否参加学校考核"
+          },
+          {
+            "id": "2044",
+            "strong_base_id": "728",
+            "schedule": "2025-06",
+            "describe": "高考6月7日-6月10日"
+          },
+          {
+            "id": "2045",
+            "strong_base_id": "728",
+            "schedule": "2025-06",
+            "describe": "6月26日确定入围考核名单"
+          },
+          {
+            "id": "2046",
+            "strong_base_id": "728",
+            "schedule": "2025-06",
+            "describe": "6月28日起在报名系统中打印准考证"
+          },
+          {
+            "id": "2047",
+            "strong_base_id": "728",
+            "schedule": "2025-06",
+            "describe": "6月30日8:30—20:00进行考核"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2048",
+            "strong_base_id": "728",
+            "schedule": "2025-07",
+            "describe": "7月5日前确定拟录名单"
+          },
+          {
+            "id": "2049",
+            "strong_base_id": "728",
+            "schedule": "2025-07",
+            "describe": "7月中下旬随该省普通类考生录取通知书一并寄出"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1651",
+            "strong_base_id": "682",
+            "schedule": "2024-04",
+            "describe": "4月10日至30日登录阳光高考平台重庆大学强基计划报名系统进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1652",
+            "strong_base_id": "682",
+            "schedule": "2024-06",
+            "describe": "6月10日至20日考生确认"
+          },
+          {
+            "id": "1653",
+            "strong_base_id": "682",
+            "schedule": "2024-06",
+            "describe": "6月26日确定入围考核名单，并在重庆大学本科招生网公示入围标准"
+          },
+          {
+            "id": "1654",
+            "strong_base_id": "682",
+            "schedule": "2024-06",
+            "describe": "6月28日起在报名系统中打印准考证"
+          },
+          {
+            "id": "1655",
+            "strong_base_id": "682",
+            "schedule": "2024-06",
+            "describe": "6月30日8:30-20:00进行学校考核"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1656",
+            "strong_base_id": "682",
+            "schedule": "2024-07",
+            "describe": "7月5日前确定录取名单"
+          },
+          {
+            "id": "1657",
+            "strong_base_id": "682",
+            "schedule": "2024-07",
+            "describe": "7月中下旬随该省普通类考生录取通知书一并寄出"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1541",
+            "strong_base_id": "661",
+            "schedule": "2023-04",
+            "describe": "4月8日至30日登录阳光高考平台重庆大学强基计划报名系统进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1542",
+            "strong_base_id": "661",
+            "schedule": "2023-06",
+            "describe": "6月26日确定入围考核名单，并在重庆大学本科招生网公示入围标准"
+          },
+          {
+            "id": "1543",
+            "strong_base_id": "661",
+            "schedule": "2023-06",
+            "describe": "6月28日起在报名系统中打印准考证"
+          },
+          {
+            "id": "1544",
+            "strong_base_id": "661",
+            "schedule": "2023-06",
+            "describe": "6月30日8:30-20:00进行学校考核"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1545",
+            "strong_base_id": "661",
+            "schedule": "2023-07",
+            "describe": "7月5日前确定录取名单"
+          },
+          {
+            "id": "1546",
+            "strong_base_id": "661",
+            "schedule": "2023-07",
+            "describe": "7月中下旬随该省普通类考生录取通知书一并寄出"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1347",
+            "strong_base_id": "514",
+            "schedule": "2022-04",
+            "describe": "4月5日-28日登录阳光高考平台重庆大学强基计划报名系统"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1348",
+            "strong_base_id": "514",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加全国统一高考"
+          },
+          {
+            "id": "1349",
+            "strong_base_id": "514",
+            "schedule": "2022-06",
+            "describe": "6月10日-20日登录报名系统"
+          },
+          {
+            "id": "1350",
+            "strong_base_id": "514",
+            "schedule": "2022-06",
+            "describe": "6月26日前考生于6月26日后在报名系统内查看入围考核结果"
+          },
+          {
+            "id": "1351",
+            "strong_base_id": "514",
+            "schedule": "2022-06",
+            "describe": "6月30日8:30-20:00学科能力面试  体育科目测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1352",
+            "strong_base_id": "514",
+            "schedule": "2022-07",
+            "describe": "7月5日确定录取名单并在重庆大学本科招生网公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "3月": [
+          {
+            "id": "446",
+            "strong_base_id": "230",
+            "schedule": "2021-03",
+            "describe": "3月31日院校招生简章发布"
+          }
+        ],
+        "4月": [
+          {
+            "id": "447",
+            "strong_base_id": "230",
+            "schedule": "2021-04",
+            "describe": "4月8日至30日考生登录阳光高考平台强基计划报名系统完成注册、报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "448",
+            "strong_base_id": "230",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "449",
+            "strong_base_id": "230",
+            "schedule": "2021-06",
+            "describe": "6月10日至20日登录强基计划报名平台确认是否参加学校考核"
+          },
+          {
+            "id": "450",
+            "strong_base_id": "230",
+            "schedule": "2021-06",
+            "describe": "6月26日前确定入围考核名单，并在重庆大学本科招生网公示入围标准"
+          },
+          {
+            "id": "451",
+            "strong_base_id": "230",
+            "schedule": "2021-06",
+            "describe": "6月26日后考生可在报名系统内查看入围考核结果"
+          },
+          {
+            "id": "452",
+            "strong_base_id": "230",
+            "schedule": "2021-06",
+            "describe": "6月28日起在报名系统中打印准考证"
+          },
+          {
+            "id": "453",
+            "strong_base_id": "230",
+            "schedule": "2021-06",
+            "describe": "6月30日8:30-20:00学校考核分为学科能力面试和体育科目测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "454",
+            "strong_base_id": "230",
+            "schedule": "2021-07",
+            "describe": "7月5日前确定录取名单、并在重庆大学本科招生网公示录取标准"
+          },
+          {
+            "id": "455",
+            "strong_base_id": "230",
+            "schedule": "2021-07",
+            "describe": "7月5日后参加考核考生在报名系统中查看录取结果"
+          },
+          {
+            "id": "456",
+            "strong_base_id": "230",
+            "schedule": "2021-07",
+            "describe": "7月中下旬被录取考生的正式录取通知书随该省普通类考生录取通知书一并发出"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "36",
+            "strong_base_id": "96",
+            "schedule": "2020-05",
+            "describe": "5月院校招生简章发布"
+          },
+          {
+            "id": "37",
+            "strong_base_id": "96",
+            "schedule": "2020-05",
+            "describe": "5月10日至30日登录阳光高考平台强基计划报名系统进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "38",
+            "strong_base_id": "96",
+            "schedule": "2020-07",
+            "describe": "7月26日前确定各省报名考生入围校考名单"
+          },
+          {
+            "id": "39",
+            "strong_base_id": "96",
+            "schedule": "2020-07",
+            "describe": "7月29日起考生在报名系统中打印准考证"
+          },
+          {
+            "id": "40",
+            "strong_base_id": "96",
+            "schedule": "2020-07",
+            "describe": "7月31日8:30至20:00进行学校考核，分为学科能力面试和体育科目测试"
+          }
+        ],
+        "8月": [
+          {
+            "id": "41",
+            "strong_base_id": "96",
+            "schedule": "2020-08",
+            "describe": "8月5日后确定录取名单、公示录取标准"
+          },
+          {
+            "id": "42",
+            "strong_base_id": "96",
+            "schedule": "2020-08",
+            "describe": "8月中下旬被录取考生的正式录取通知书将随该省普通类考生录取通知书一并发出"
+          }
+        ]
+      }
+    }
+  }
+}

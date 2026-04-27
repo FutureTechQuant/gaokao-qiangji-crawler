@@ -1,0 +1,464 @@
+{
+  "update_time": "2026-04-27 16:30:19",
+  "school_id": "73",
+  "school_name": "同济大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/73/info.json?a=www.gaokao.cn",
+  "time": "2026-04-27 00:07:52",
+  "md5": "41c12a81a43c8791302c0249c1c531b2",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 35,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "73",
+      "school_name": "同济大学",
+      "province_id": "31",
+      "city_id": "3101",
+      "county_id": "310110",
+      "type": "5000",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1907",
+      "area": "4140.00",
+      "num_master": "49",
+      "num_doctor": "42",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "综合类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "上海",
+      "city": "上海市",
+      "town": "杨浦区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "760",
+        "school_id": "73",
+        "formula_id": "26",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "qualification": "高中阶段须在数学、物理、化学、生物学、信息学任一学科奥林匹克竞赛中获得全国决赛一等奖",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "26",
+          "formula_name": "公式25",
+          "formula_content": "高考分/高考总分*850＋校考分",
+          "formula_algorithm": "gkf/gkzf*850＋xkf",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏,北京,天津,上海,浙江,山东,海南,西藏,新疆"
+      },
+      "2025": {
+        "id": "739",
+        "school_id": "73",
+        "formula_id": "26",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "qualification": "高中阶段须在数学、物理、化学、生物学、信息学任一学科奥林匹克竞赛中获得全国决赛二等及以上奖项",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "26",
+          "formula_name": "公式25",
+          "formula_content": "高考分/高考总分*850＋校考分",
+          "formula_algorithm": "gkf/gkzf*850＋xkf",
+          "formula_use_field": "gkf,gkzf,xkf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,西藏,新疆,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2024": {
+        "id": "693",
+        "school_id": "73",
+        "formula_id": "10",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "qualification": "相关学科领域具有突出才能和表现的考生。高中阶段须在数学、物理、化学、生物学、信息学任一学科奥林匹克竞赛中获得全国决赛二等及以上奖项",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃,北京,天津,上海,浙江,山东,海南,山西,内蒙古,河南,四川,云南,西藏,陕西,青海,宁夏,新疆"
+      },
+      "2023": {
+        "id": "645",
+        "school_id": "73",
+        "formula_id": "10",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "qualification": "高中阶段须在数学、物理、化学、生物学、信息学任一学科奥林匹克竞赛中获得全国决赛二等及以上奖项",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,海南,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,新疆,江西,河南,甘肃,西藏,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "497",
+        "school_id": "73",
+        "formula_id": "10",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "qualification": "暂无数据",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,海南,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2021": {
+        "id": "214",
+        "school_id": "73",
+        "formula_id": "4",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "qualification": "高中阶段须在数学、物理、化学、生物学任一学科奥林匹克竞赛中获得全国决赛二等及以上奖项",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "浙江,海南,河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,山东,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2020": {
+        "id": "80",
+        "school_id": "73",
+        "formula_id": "4",
+        "selection_multiple": "3.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10247",
+        "qualification": "数学、物理、化学、生物要求国二及以上，高考分数达到生源所在省一本线（批次合并省份达到相应控制分数线）",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "4",
+          "formula_name": "公式3",
+          "formula_content": "高考成绩/高考总分*750*0.85+校考成绩/校考总分*750*0.15",
+          "formula_algorithm": "gkf/gkzf*750*0.85+xkf/xkzf*750*0.15",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": ""
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2564",
+            "strong_base_id": "760",
+            "schedule": "2026-04",
+            "describe": "第一类考生于4月9日至4月30日报名；第二类考生于4月9日至4月26日报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2565",
+            "strong_base_id": "760",
+            "schedule": "2026-06",
+            "describe": "6月7日-10日高考"
+          },
+          {
+            "id": "2566",
+            "strong_base_id": "760",
+            "schedule": "2026-06",
+            "describe": "6月13日学校初试"
+          },
+          {
+            "id": "2567",
+            "strong_base_id": "760",
+            "schedule": "2026-06",
+            "describe": "6月21日学校复试"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2380",
+            "strong_base_id": "739",
+            "schedule": "2025-04",
+            "describe": "第一类考生于4月22日至5月10日报名;第二类考生于4月22日至5月8日报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2381",
+            "strong_base_id": "739",
+            "schedule": "2025-06",
+            "describe": "6月7日-10日高考"
+          },
+          {
+            "id": "2382",
+            "strong_base_id": "739",
+            "schedule": "2025-06",
+            "describe": "6月13日学校初试"
+          },
+          {
+            "id": "2383",
+            "strong_base_id": "739",
+            "schedule": "2025-06",
+            "describe": "6月21日学校复试"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1725",
+            "strong_base_id": "693",
+            "schedule": "2024-04",
+            "describe": "4月11日至4月30日，考生可登录同济大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1726",
+            "strong_base_id": "693",
+            "schedule": "2024-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1727",
+            "strong_base_id": "693",
+            "schedule": "2024-06",
+            "describe": "6月15日前可参加我校初试"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1461",
+            "strong_base_id": "645",
+            "schedule": "2023-04",
+            "describe": "4月10日至4月30日，考生可登录同济大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1462",
+            "strong_base_id": "645",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1463",
+            "strong_base_id": "645",
+            "schedule": "2023-06",
+            "describe": "6月15日前确定各省报名考生入围校考名单"
+          },
+          {
+            "id": "1464",
+            "strong_base_id": "645",
+            "schedule": "2023-06",
+            "describe": "6月26日前对入围考生进行考核（含笔试、面试）和体育测试"
+          },
+          {
+            "id": "1465",
+            "strong_base_id": "645",
+            "schedule": "2023-06",
+            "describe": "6月26日后强基计划考核成绩公布"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1249",
+            "strong_base_id": "497",
+            "schedule": "2022-04",
+            "describe": "4月10日-30日考生可登录同济大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1250",
+            "strong_base_id": "497",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加全国统一高考"
+          },
+          {
+            "id": "1251",
+            "strong_base_id": "497",
+            "schedule": "2022-06",
+            "describe": "6月12日-6月20日所有报名考生需进入系统完成考生确认环节"
+          },
+          {
+            "id": "1252",
+            "strong_base_id": "497",
+            "schedule": "2022-06",
+            "describe": "6月下旬登陆报名平台查询入围情况"
+          },
+          {
+            "id": "1253",
+            "strong_base_id": "497",
+            "schedule": "2022-06",
+            "describe": "6月底面试和体育测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1254",
+            "strong_base_id": "497",
+            "schedule": "2022-07",
+            "describe": "7月5日录取考生名单并公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "4月": [
+          {
+            "id": "341",
+            "strong_base_id": "214",
+            "schedule": "2021-04",
+            "describe": "4月9日院校招生简章发布"
+          },
+          {
+            "id": "342",
+            "strong_base_id": "214",
+            "schedule": "2021-04",
+            "describe": "4月11日至30日考生可登录“同济大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "343",
+            "strong_base_id": "214",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "344",
+            "strong_base_id": "214",
+            "schedule": "2021-06",
+            "describe": "6月12日至6月20日所有报名考生需进入系统完成考生确认环节"
+          },
+          {
+            "id": "345",
+            "strong_base_id": "214",
+            "schedule": "2021-06",
+            "describe": "6月下旬确定入围学校考核的考生名单"
+          },
+          {
+            "id": "346",
+            "strong_base_id": "214",
+            "schedule": "2021-06",
+            "describe": "6月底考生进行考核（含笔试、面试）和体育测试"
+          }
+        ],
+        "7月": [
+          {
+            "id": "347",
+            "strong_base_id": "214",
+            "schedule": "2021-07",
+            "describe": "7月5日前确定录取考生名单并公示录取标准"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "134",
+            "strong_base_id": "80",
+            "schedule": "2020-05",
+            "describe": "5月8日院校招生简章发布"
+          },
+          {
+            "id": "135",
+            "strong_base_id": "80",
+            "schedule": "2020-05",
+            "describe": "5月11日至30日考生可登录同济大学强基计划报名平台进行报名"
+          }
+        ],
+        "7月": [
+          {
+            "id": "136",
+            "strong_base_id": "80",
+            "schedule": "2020-07",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          },
+          {
+            "id": "137",
+            "strong_base_id": "80",
+            "schedule": "2020-07",
+            "describe": "7月下旬确定各省报名考生入围校考名单"
+          },
+          {
+            "id": "138",
+            "strong_base_id": "80",
+            "schedule": "2020-07",
+            "describe": "7月底对入围考生进行考核（含笔试、面试）和体育测试"
+          }
+        ],
+        "8月": [
+          {
+            "id": "139",
+            "strong_base_id": "80",
+            "schedule": "2020-08",
+            "describe": "8月7日同济2020强基计划考核成绩公布"
+          }
+        ]
+      }
+    }
+  }
+}

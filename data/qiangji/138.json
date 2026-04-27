@@ -1,0 +1,540 @@
+{
+  "update_time": "2026-04-27 16:31:02",
+  "school_id": "138",
+  "school_name": "大连理工大学",
+  "source_url": "https://static-data.gaokao.cn/www/2.0/qiangji/school/138/info.json?a=www.gaokao.cn",
+  "time": "2026-04-28 00:07:25",
+  "md5": "e034818e046a4ba6dfc5e4e962b6f040",
+  "year_count": 7,
+  "formula_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_years": [
+    "2026",
+    "2025",
+    "2024",
+    "2023",
+    "2022",
+    "2021",
+    "2020"
+  ],
+  "schedule_event_count": 46,
+  "data": {
+    "year": [
+      "2026",
+      "2025",
+      "2024",
+      "2023",
+      "2022",
+      "2021",
+      "2020"
+    ],
+    "school": {
+      "school_id": "138",
+      "school_name": "大连理工大学",
+      "province_id": "21",
+      "city_id": "2102",
+      "county_id": "210211",
+      "type": "5001",
+      "admissions": "1",
+      "school_type": "6000",
+      "school_nature": "36000",
+      "f985": "1",
+      "f211": "1",
+      "create_date": "1949",
+      "area": "5352.15",
+      "num_master": "39",
+      "num_doctor": "31",
+      "level": "2001",
+      "dual_class": "38000",
+      "department": "1",
+      "central": "2",
+      "level_name": "普通本科",
+      "type_name": "理工类",
+      "school_type_name": "普通本科",
+      "school_nature_name": "公办",
+      "dual_class_name": "一流学科建设高校",
+      "province": "辽宁",
+      "city": "大连市",
+      "town": "甘井子区",
+      "tag_name": "教育部直属"
+    },
+    "formula": {
+      "2026": {
+        "id": "769",
+        "school_id": "138",
+        "formula_id": "10",
+        "selection_multiple": "5.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "qualification": "单科成绩符合所报专业破格入围条件:数学与应用数学专业和信息与计算科学专业要求数学科目成绩不低于145分；应用物理学专业和工程力学专业要求物理科目成绩不低于97分（上海市要求70分），且高考加权成绩排序处于“专业志愿优先”规则下的分省分专业计划6倍以内；应用化学专业和生物工程专业在高考改革省份要求化学科目成绩不低于97分（上海市要求70分），且高考加权成绩排序处于“专业志愿优先”规则下的分省分专业计划6倍以内。",
+        "qiangji_year": "2026",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "西藏,新疆,北京,天津,上海,浙江,山东,海南,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2025": {
+        "id": "718",
+        "school_id": "138",
+        "formula_id": "10",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "qualification": "暂未公布",
+        "qiangji_year": "2025",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,西藏,新疆,河北,山西,内蒙古,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,河南,湖北,湖南,广东,广西,重庆,四川,贵州,云南,陕西,甘肃,青海,宁夏"
+      },
+      "2024": {
+        "id": "683",
+        "school_id": "138",
+        "formula_id": "10",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "qualification": "高中阶段在全国中学生学科奥林匹克竞赛全国决赛中获得一、二等奖者",
+        "qiangji_year": "2024",
+        "plan_studnet_number": "0",
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "北京,天津,上海,浙江,山东,海南,河北,辽宁,吉林,黑龙江,江苏,安徽,福建,江西,湖北,湖南,广东,广西,重庆,贵州,甘肃,山西,内蒙古,河南,四川,云南,西藏,陕西,青海,宁夏,新疆"
+      },
+      "2023": {
+        "id": "641",
+        "school_id": "138",
+        "formula_id": "25",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "qualification": "高中阶段在全国中学生学科奥林匹克竞赛全国决赛中获得一、二等奖者",
+        "qiangji_year": "2023",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "25",
+          "formula_name": "公式24",
+          "formula_content": "高考加权分/高考加权总分*850+校考分/校考总分*150",
+          "formula_algorithm": "gkjqf/gkjqzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkjqf,gkjqzf,xkf,xkzf"
+        },
+        "province_plan": "广东,江苏,河北,湖北,湖南,福建,辽宁,重庆,上海,北京,天津,山东,浙江,海南,云南,内蒙古,吉林,四川,宁夏,安徽,山西,广西,新疆,江西,河南,甘肃,西藏,贵州,陕西,青海,黑龙江"
+      },
+      "2022": {
+        "id": "492",
+        "school_id": "138",
+        "formula_id": "19",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "qualification": "高中阶段在全国中学生学科奥林匹克竞赛全国决赛中获得一、二等奖【包括：中国数学奥林匹克竞赛、全国中学生物理竞赛决赛、中国化学奥林匹克竞赛（决赛）、全国中学生生物学竞赛、全国青少年信息学奥林匹克竞赛】",
+        "qiangji_year": "2022",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "19",
+          "formula_name": "公式18",
+          "formula_content": "高考加权成绩/高考加权总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkjqf/gkjqzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkjqf,xkf,xkzf,gkjqzf"
+        },
+        "province_plan": "河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,上海,浙江,山东,海南,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,广西,四川,贵州,云南,西藏,陕西,甘肃,青海,宁夏,新疆"
+      },
+      "2021": {
+        "id": "210",
+        "school_id": "138",
+        "formula_id": "10",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "qualification": "高中阶段在全国中学生学科奥林匹克竞赛全国决赛中获得一、二等奖者，获奖者须经中国科协等有关部门公示合格。高考文化课成绩达到考生所在省份同科类本科一批录取最低控制分数线，对于实行高考综合改革或合并录取批次的省份，考生高考文化课成绩同时不低于相关最低录取控制参考分数线。",
+        "qiangji_year": "2021",
+        "plan_studnet_number": null,
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "浙江,河北,辽宁,江苏,福建,湖北,湖南,广东,重庆,北京,天津,山东,山西,内蒙古,吉林,黑龙江,安徽,江西,河南,四川"
+      },
+      "2020": {
+        "id": "76",
+        "school_id": "138",
+        "formula_id": "10",
+        "selection_multiple": "4.0",
+        "sign_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "query_link": "https://bm.chsi.com.cn/jcxkzs/sch/10141",
+        "qualification": "数学、物理、化学、生物、信息学国二及以上，高考成绩要求达到一本线或所在省份相关控制线标准",
+        "qiangji_year": "2020",
+        "plan_studnet_number": "80",
+        "formula": {
+          "id": "10",
+          "formula_name": "公式9",
+          "formula_content": "高考成绩/高考总分*850+校考成绩/校考总分*150",
+          "formula_algorithm": "gkf/gkzf*850+xkf/xkzf*150",
+          "formula_use_field": "gkf,xkf,xkzf"
+        },
+        "province_plan": "内蒙古,吉林,四川,安徽,山西,广东,江苏,江西,河北,河南,湖北,湖南,辽宁,黑龙江,北京,天津,山东,浙江"
+      }
+    },
+    "schedule": {
+      "2026": {
+        "4月": [
+          {
+            "id": "2617",
+            "strong_base_id": "769",
+            "schedule": "2026-04",
+            "describe": "即日起至4月30日考生可登录大连理工大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2618",
+            "strong_base_id": "769",
+            "schedule": "2026-06",
+            "describe": "考生参加全国统一高考"
+          },
+          {
+            "id": "2619",
+            "strong_base_id": "769",
+            "schedule": "2026-06",
+            "describe": "考生须于6月12日-20日登录强基计划报名平台确认报考志愿并签订承诺书，确认不报考或逾期未确认均视为放弃我校强基计划"
+          },
+          {
+            "id": "2620",
+            "strong_base_id": "769",
+            "schedule": "2026-06",
+            "describe": "6月26日后，已确认报考志愿的考生可通过强基计划报名平台查询本人校考入围结果"
+          },
+          {
+            "id": "2621",
+            "strong_base_id": "769",
+            "schedule": "2026-06",
+            "describe": "6月28日中午12时前，考生可登录报名系统在线打印准考证"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2622",
+            "strong_base_id": "769",
+            "schedule": "2026-07",
+            "describe": "7月1日入围考生请持本人二代身份证原件、准考证按时参加我校组织的考核（含面试和体育测试），具体考核时间、地点以准考证和我校通知为准"
+          },
+          {
+            "id": "2623",
+            "strong_base_id": "769",
+            "schedule": "2026-07",
+            "describe": "我校将于7月5日前公布录取标准，考生可在报名平台查询本人预录取情况。"
+          }
+        ]
+      },
+      "2025": {
+        "4月": [
+          {
+            "id": "2360",
+            "strong_base_id": "718",
+            "schedule": "2025-04",
+            "describe": "4月19日-5月10日报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "2361",
+            "strong_base_id": "718",
+            "schedule": "2025-06",
+            "describe": "6月7日-6月10日高考"
+          },
+          {
+            "id": "2362",
+            "strong_base_id": "718",
+            "schedule": "2025-06",
+            "describe": "6月12日-20日报名确认"
+          },
+          {
+            "id": "2363",
+            "strong_base_id": "718",
+            "schedule": "2025-06",
+            "describe": "6月26日后入围结果查询"
+          }
+        ],
+        "7月": [
+          {
+            "id": "2364",
+            "strong_base_id": "718",
+            "schedule": "2025-07",
+            "describe": "7月1日高校考核"
+          },
+          {
+            "id": "2365",
+            "strong_base_id": "718",
+            "schedule": "2025-07",
+            "describe": "7月5日前预录取查询"
+          }
+        ]
+      },
+      "2024": {
+        "4月": [
+          {
+            "id": "1907",
+            "strong_base_id": "683",
+            "schedule": "2024-04",
+            "describe": "即日起至4月30日考生可登录大连理工大学强基计划报名平台报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1908",
+            "strong_base_id": "683",
+            "schedule": "2024-06",
+            "describe": "考生参加全国统一高考"
+          },
+          {
+            "id": "1909",
+            "strong_base_id": "683",
+            "schedule": "2024-06",
+            "describe": "考生须于6月12日-20日登录强基计划报名平台确认报考志愿并签订承诺书"
+          },
+          {
+            "id": "1910",
+            "strong_base_id": "683",
+            "schedule": "2024-06",
+            "describe": "6月26日后已确认报考志愿的考生可通过强基计划报名平台查询本人校考入围结果"
+          },
+          {
+            "id": "1911",
+            "strong_base_id": "683",
+            "schedule": "2024-06",
+            "describe": "6月28日中午12时前考生可登录报名系统在线打印准考证"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1912",
+            "strong_base_id": "683",
+            "schedule": "2024-07",
+            "describe": "7月1日入围考生请持本人二代身份证原件准考证按时参加我校组织的考核（含面试和体质测试）"
+          }
+        ]
+      },
+      "2023": {
+        "4月": [
+          {
+            "id": "1439",
+            "strong_base_id": "641",
+            "schedule": "2023-04",
+            "describe": "4月19至5月4日考生可登录大连理工大学强基计划报名平台进行报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1440",
+            "strong_base_id": "641",
+            "schedule": "2023-06",
+            "describe": "6月7日-10日考生参加全国高考"
+          },
+          {
+            "id": "1441",
+            "strong_base_id": "641",
+            "schedule": "2023-06",
+            "describe": "6月26日后可通过强基计划报名平台查询本人校考入围结果"
+          },
+          {
+            "id": "1442",
+            "strong_base_id": "641",
+            "schedule": "2023-06",
+            "describe": "6月28日中午12时前，考生可登录报名系统在线打印准考证"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1443",
+            "strong_base_id": "641",
+            "schedule": "2023-07",
+            "describe": "7月1日参加我校组织的考核（含面试和体质测试）"
+          },
+          {
+            "id": "1444",
+            "strong_base_id": "641",
+            "schedule": "2023-07",
+            "describe": "7月5日前公布录取标准"
+          }
+        ]
+      },
+      "2022": {
+        "4月": [
+          {
+            "id": "1221",
+            "strong_base_id": "492",
+            "schedule": "2022-04",
+            "describe": "4月8日-4月30日考生可登录大连理工大学强基计划报名平台"
+          }
+        ],
+        "6月": [
+          {
+            "id": "1222",
+            "strong_base_id": "492",
+            "schedule": "2022-06",
+            "describe": "6月7日-6月10日考生参加统一高考"
+          },
+          {
+            "id": "1223",
+            "strong_base_id": "492",
+            "schedule": "2022-06",
+            "describe": "6月12日-20日登录强基计划报名平台确认报考志愿并签订承诺书"
+          },
+          {
+            "id": "1224",
+            "strong_base_id": "492",
+            "schedule": "2022-06",
+            "describe": "6月26日报考志愿的考生可通过强基计划报名平台查询本人校考入围结果"
+          },
+          {
+            "id": "1225",
+            "strong_base_id": "492",
+            "schedule": "2022-06",
+            "describe": "6月28日面试 体质测试 考核成绩"
+          }
+        ],
+        "7月": [
+          {
+            "id": "1226",
+            "strong_base_id": "492",
+            "schedule": "2022-07",
+            "describe": "7月5日公布录取名单并公示录取标准"
+          }
+        ]
+      },
+      "2021": {
+        "3月": [
+          {
+            "id": "312",
+            "strong_base_id": "210",
+            "schedule": "2021-03",
+            "describe": "3月31日院校招生简章发布"
+          }
+        ],
+        "4月": [
+          {
+            "id": "313",
+            "strong_base_id": "210",
+            "schedule": "2021-04",
+            "describe": "4月8日至4月30日考生可登录“大连理工大学强基计划报名平台”完成网上报名"
+          }
+        ],
+        "6月": [
+          {
+            "id": "314",
+            "strong_base_id": "210",
+            "schedule": "2021-06",
+            "describe": "6月7日-10日考生参加2021年全国高考"
+          },
+          {
+            "id": "315",
+            "strong_base_id": "210",
+            "schedule": "2021-06",
+            "describe": "6月12日-20日登录强基计划报名平台确认报考志愿并签订承诺书"
+          },
+          {
+            "id": "316",
+            "strong_base_id": "210",
+            "schedule": "2021-06",
+            "describe": "6月25日后已确认报考志愿的考生可通过强基计划报名平台查询本人校考入围结果"
+          },
+          {
+            "id": "317",
+            "strong_base_id": "210",
+            "schedule": "2021-06",
+            "describe": "6月27日中午12时前考生可登陆报名系统在线打印准考证"
+          }
+        ],
+        "7月": [
+          {
+            "id": "318",
+            "strong_base_id": "210",
+            "schedule": "2021-07",
+            "describe": "7月1日入围考生持本人二代身份证原件、准考证按时参加考核（含面试和体质测试）"
+          },
+          {
+            "id": "319",
+            "strong_base_id": "210",
+            "schedule": "2021-07",
+            "describe": "7月5日前考生可在报名平台查询本人预录取情况"
+          }
+        ]
+      },
+      "2020": {
+        "5月": [
+          {
+            "id": "158",
+            "strong_base_id": "76",
+            "schedule": "2020-05",
+            "describe": "5月7日院校招生简章发布"
+          },
+          {
+            "id": "159",
+            "strong_base_id": "76",
+            "schedule": "2020-05",
+            "describe": "5月10日至5月30日考生可登录大连理工大学强基计划报名平台进行报名"
+          },
+          {
+            "id": "160",
+            "strong_base_id": "76",
+            "schedule": "2020-05",
+            "describe": "7月7日至7月10日考生参加2020年全国高考"
+          }
+        ],
+        "7月": [
+          {
+            "id": "161",
+            "strong_base_id": "76",
+            "schedule": "2020-07",
+            "describe": "7月25日后考生可通过强基计划报名平台查询本人校考入围结果"
+          },
+          {
+            "id": "162",
+            "strong_base_id": "76",
+            "schedule": "2020-07",
+            "describe": "7月27日中午12时前考生可登陆报名系统在线打印准考证"
+          },
+          {
+            "id": "163",
+            "strong_base_id": "76",
+            "schedule": "2020-07",
+            "describe": "7月30日入围考生参加校考"
+          }
+        ],
+        "8月": [
+          {
+            "id": "164",
+            "strong_base_id": "76",
+            "schedule": "2020-08",
+            "describe": "8月5日前公布录取标准，考生可在报名平台查询本人预录取情况"
+          }
+        ]
+      }
+    }
+  }
+}
