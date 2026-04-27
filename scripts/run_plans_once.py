@@ -19,7 +19,7 @@ def write_output(path: str, key: str, value):
 
 
 def load_school_ids(shard: str):
-    schools_file = PROJECT_ROOT / "data" / "schools.json"
+    schools_file = PROJECT_ROOT / os.getenv("SCHOOL_DATA_FILE", "data/schools.json")
     if not schools_file.exists():
         raise FileNotFoundError(f"未找到学校文件: {schools_file}")
 
@@ -30,6 +30,8 @@ def load_school_ids(shard: str):
         schools = payload
     elif isinstance(payload, dict):
         schools = payload.get("data", [])
+        if not schools and payload.get("school_id"):
+            schools = [payload]
     else:
         schools = []
 
@@ -78,29 +80,18 @@ def main():
         return
 
     crawler = PlanCrawler()
-
-    # 旧版 plans.py 不支持 mode 参数
     result = crawler.crawl(
         school_ids=school_ids,
         years=args.year,
     )
 
-    year_key = str(args.year)
-    year_records = result.get(year_key, []) if isinstance(result, dict) else []
-
-    write_output(args.github_output, "run_year", args.year)
+    write_output(args.github_output, "run_year", result.get("year", args.year))
     write_output(args.github_output, "run_shard", args.shard)
-    write_output(args.github_output, "run_status", "done")
-    write_output(args.github_output, "saved_documents", len(year_records))
-    write_output(args.github_output, "completed_schools", len(school_ids))
+    write_output(args.github_output, "run_status", result.get("status", "skipped"))
+    write_output(args.github_output, "saved_documents", result.get("saved_documents", 0))
+    write_output(args.github_output, "completed_schools", result.get("completed_schools", 0))
 
-    print({
-        "year": args.year,
-        "shard": args.shard,
-        "status": "done",
-        "saved_documents": len(year_records),
-        "completed_schools": len(school_ids),
-    })
+    print(result)
 
 
 if __name__ == "__main__":

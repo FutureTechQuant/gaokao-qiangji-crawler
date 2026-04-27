@@ -1,424 +1,198 @@
-import time
 import json
 import os
+import time
+from pathlib import Path
+
 from .base import BaseCrawler
 
 
 class PlanCrawler(BaseCrawler):
-
     def __init__(self):
         super().__init__()
         self._first_logged = False
 
-        # 省份ID映射（中国34个省级行政区）
+        self.school_shard = (os.getenv("PLAN_SCHOOL_SHARD", "all") or "all").strip().lower()
+        self.progress_dir = Path(os.getenv("PLAN_PROGRESS_DIR", "data/plans_progress"))
+        self.plan_data_dir = Path(os.getenv("PLAN_DATA_DIR", "data/plans"))
+        self.run_deadline_seconds = int(os.getenv("PLAN_RUN_DEADLINE_SECONDS", "17400"))
+        self.flush_schools = max(1, int(os.getenv("PLAN_FLUSH_SCHOOLS", "25")))
+
         self.province_dict = {
-            # 华北地区
-            '11': '北京',
-            '12': '天津',
-            '13': '河北',
-            '14': '山西',
-            '15': '内蒙古',
-
-            # 东北地区
-            '21': '辽宁',
-            '22': '吉林',
-            '23': '黑龙江',
-
-            # 华东地区
-            '31': '上海',
-            '32': '江苏',
-            '33': '浙江',
-            '34': '安徽',
-            '35': '福建',
-            '36': '江西',
-            '37': '山东',
-
-            # 华中地区
-            '41': '河南',
-            '42': '湖北',
-            '43': '湖南',
-
-            # 华南地区
-            '44': '广东',
-            '45': '广西',
-            '46': '海南',
-
-            # 西南地区
-            '50': '重庆',
-            '51': '四川',
-            '52': '贵州',
-            '53': '云南',
-            '54': '西藏',
-
-            # 西北地区
-            '61': '陕西',
-            '62': '甘肃',
-            '63': '青海',
-            '64': '宁夏',
-            '65': '新疆',
-
-            # 港澳台地区（高考数据可能不包含）
-            '71': '台湾',
-            '81': '香港',
-            '82': '澳门',
+            '11': '北京', '12': '天津', '13': '河北', '14': '山西', '15': '内蒙古',
+            '21': '辽宁', '22': '吉林', '23': '黑龙江',
+            '31': '上海', '32': '江苏', '33': '浙江', '34': '安徽', '35': '福建', '36': '江西', '37': '山东',
+            '41': '河南', '42': '湖北', '43': '湖南',
+            '44': '广东', '45': '广西', '46': '海南',
+            '50': '重庆', '51': '四川', '52': '贵州', '53': '云南', '54': '西藏',
+            '61': '陕西', '62': '甘肃', '63': '青海', '64': '宁夏', '65': '新疆',
+            '71': '台湾', '81': '香港', '82': '澳门',
         }
 
+    def now_str(self):
+        return time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+
+    def write_json_atomic(self, path, payload):
+        path = Path(path)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        tmp_path = path.with_suffix(path.suffix + '.tmp')
+        with open(tmp_path, 'w', encoding='utf-8') as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        os.replace(tmp_path, path)
+
     def format_duration(self, seconds):
-        """把秒数格式化为易读字符串"""
         seconds = max(0, float(seconds))
         hours, remainder = divmod(int(seconds), 3600)
         minutes, secs = divmod(remainder, 60)
-
         if hours > 0:
             return f"{hours}小时{minutes}分{secs}秒"
         if minutes > 0:
             return f"{minutes}分{secs}秒"
         return f"{seconds:.2f}秒"
 
-    def get_plan_data(self, school_id, year, province_id):
-        """获取指定学校、年份、省份的招生计划数据"""
-        url = f"https://static-data.gaokao.cn/www/2.0/schoolspecialplan/{school_id}/{year}/{province_id}.json"
-
-        try:
-            response = self.session.get(url, timeout=10)
-
-            if response.status_code == 200:
-                result = response.json()
-                if result.get('code') == '0000' and 'data' in result:
-                    return result['data']
-            elif response.status_code == 404:
-                return 'no_data'  # 该省份无招生
-        except Exception:
-            pass
-
-        return None
-
     def parse_years(self, years_input):
-        """解析年份参数，支持多种格式"""
         if isinstance(years_input, list):
-            return years_input
+            return [str(y).strip() for y in years_input if str(y).strip()]
 
         if isinstance(years_input, str):
-            if '-' in years_input:
-                start, end = years_input.split('-')
-                return [str(y) for y in range(int(start), int(end) + 1)]
-            elif ',' in years_input:
-                return [y.strip() for y in years_input.split(',')]
-            else:
-                return [years_input]
+            raw = years_input.strip()
+            if not raw:
+                return []
+            if '-' in raw:
+                start, end = raw.split('-', 1)
+                start = int(start.strip())
+                end = int(end.strip())
+                if start >= end:
+                    return [str(y) for y in range(start, end - 1, -1)]
+                return [str(y) for y in range(end, start - 1, -1)]
+            if ',' in raw:
+                return [y.strip() for y in raw.split(',') if y.strip()]
+            return [raw]
 
-        return years_input
+        return years_input or []
 
-    def save_year_plans(self, year, plans):
-        """按年份保存招生计划数据到 data/plans/{year}.json，并与已有结果合并"""
-        output_dir = os.path.join('data', 'plans')
-        os.makedirs(output_dir, exist_ok=True)
-    
-        output_path = os.path.join(output_dir, f'{year}.json')
-    
-        merged = []
-        seen = set()
-    
-        if os.path.exists(output_path):
-            try:
-                with open(output_path, 'r', encoding='utf-8') as f:
-                    old_data = json.load(f)
-    
-                if isinstance(old_data, list):
-                    for item in old_data:
-                        if isinstance(item, dict):
-                            key = self.build_plan_key(item)
-                            if key not in seen:
-                                seen.add(key)
-                                merged.append(item)
-            except Exception as e:
-                print(f"⚠️  读取旧年份文件失败，将覆盖重写: {e}")
-    
-        new_count = 0
-        for item in plans:
-            if not isinstance(item, dict):
-                continue
-            key = self.build_plan_key(item)
-            if key in seen:
-                continue
-            seen.add(key)
-            merged.append(item)
-            new_count += 1
-    
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(merged, f, ensure_ascii=False, indent=2)
-    
-        shard = os.getenv('PLAN_SCHOOL_SHARD', 'all')
-        print(f"   💾 已保存 {year} 年招生计划: {output_path} (新增 {new_count} 条，累计 {len(merged)} 条，分片 {shard})")
+    def load_default_school_ids(self):
+        schools_file = Path(os.getenv('SCHOOL_DATA_FILE', 'data/schools.json'))
+        if not schools_file.exists():
+            print(f"⚠️  未找到 schools.json: {schools_file}")
+            return []
 
-    def crawl(self, school_ids=None, years=None, province_ids=None):
-        """爬取招生计划数据"""
-        crawl_start_time = time.perf_counter()
+        with open(schools_file, 'r', encoding='utf-8') as f:
+            payload = json.load(f)
 
-        print(f"\n{'='*60}")
-        print("启动招生计划爬虫")
-        print(f"{'='*60}\n")
-
-        # 年份控制优先级：
-        # 1. 函数参数 years
-        # 2. 环境变量 PLAN_YEARS
-        # 3. 默认值 ["2025", "2024", "2023"]
-        if years is None:
-            years_env = os.getenv('PLAN_YEARS', '2025,2024,2023')
-            years = self.parse_years(years_env)
+        if isinstance(payload, list):
+            schools = payload
+        elif isinstance(payload, dict):
+            schools = payload.get('data', [])
+            if not schools and payload.get('school_id'):
+                schools = [payload]
         else:
-            years = self.parse_years(years)
+            schools = []
 
-        years = [str(y) for y in years]
-        province_ids = province_ids or list(self.province_dict.keys())
+        school_ids = []
+        for item in schools:
+            if isinstance(item, dict) and item.get('school_id'):
+                school_ids.append(str(item['school_id']))
 
-        print(f"年份参数解析完成: {', '.join(years)}")
-        print(f"省份数量: {len(province_ids)}")
-        print(f"SAMPLE_SCHOOLS: {os.getenv('SAMPLE_SCHOOLS', '3')}")
-        print()
+        def sort_key(x):
+            return (0, int(x)) if x.isdigit() else (1, x)
 
-        # 从schools.json读取学校ID
-        if school_ids is None:
-            load_school_start = time.perf_counter()
-            print("开始读取 data/schools.json ...")
+        school_ids = sorted(dict.fromkeys(school_ids), key=sort_key)
+        sample_count = int(os.getenv('SAMPLE_SCHOOLS', '0') or 0)
+        if sample_count > 0:
+            school_ids = school_ids[:sample_count]
+        return school_ids
 
-            try:
-                with open('data/schools.json', 'r', encoding='utf-8') as f:
-                    schools_data = json.load(f)
+    def get_progress_file(self, year):
+        custom = os.getenv('PLAN_PROGRESS_FILE', '').strip()
+        if custom:
+            return Path(custom)
+        suffix = f'.{self.school_shard}' if self.school_shard and self.school_shard != 'all' else ''
+        return self.progress_dir / f'{year}{suffix}.json'
 
-                    if isinstance(schools_data, list):
-                        schools = schools_data
-                    elif isinstance(schools_data, dict):
-                        schools = schools_data.get('data', [])
-                        if not schools:
-                            schools = [schools_data]
-                    else:
-                        print(f"⚠️  schools.json 数据格式错误: {type(schools_data)}")
-                        return {}
+    def load_year_progress(self, year, target_school_ids):
+        path = self.get_progress_file(year)
+        if not path.exists():
+            return {
+                'year': str(year),
+                'shard': self.school_shard,
+                'target_school_ids': [str(x) for x in target_school_ids],
+                'completed_province_ids': [],
+                'current_province_id': None,
+                'current_school_index': 0,
+                'updated_at': None,
+                'last_error': None,
+                'status': 'new',
+            }
 
-                    sample_count = int(os.getenv('SAMPLE_SCHOOLS', '3'))
-                    school_ids = [
-                        s['school_id']
-                        for s in schools[:sample_count]
-                        if isinstance(s, dict) and s.get('school_id')
-                    ]
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                progress = json.load(f)
+        except Exception:
+            return {
+                'year': str(year),
+                'shard': self.school_shard,
+                'target_school_ids': [str(x) for x in target_school_ids],
+                'completed_province_ids': [],
+                'current_province_id': None,
+                'current_school_index': 0,
+                'updated_at': None,
+                'last_error': None,
+                'status': 'new',
+            }
 
-                    if not school_ids:
-                        print("⚠️  未找到有效的学校ID")
-                        return {}
+        saved_year = str(progress.get('year', ''))
+        saved_shard = str(progress.get('shard', 'all'))
+        saved_targets = [str(x) for x in progress.get('target_school_ids', [])]
+        current_targets = [str(x) for x in target_school_ids]
 
-                    load_school_elapsed = time.perf_counter() - load_school_start
-                    print(f"从 schools.json 读取到 {len(school_ids)} 所学校")
-                    print(f"读取 schools.json 耗时: {self.format_duration(load_school_elapsed)}")
-                    print(f"前5个学校ID: {school_ids[:5]}")
-                    print()
+        if saved_year != str(year) or saved_shard != self.school_shard or saved_targets != current_targets:
+            return {
+                'year': str(year),
+                'shard': self.school_shard,
+                'target_school_ids': current_targets,
+                'completed_province_ids': [],
+                'current_province_id': None,
+                'current_school_index': 0,
+                'updated_at': None,
+                'last_error': None,
+                'status': 'new',
+            }
 
-            except FileNotFoundError:
-                print("⚠️  未找到 schools.json，请先运行学校爬虫")
-                return {}
-            except Exception as e:
-                print(f"⚠️  读取 schools.json 失败: {e}")
-                import traceback
-                traceback.print_exc()
-                return {}
-        else:
-            school_ids = [str(s) for s in school_ids]
-            print(f"使用传入 school_ids，共 {len(school_ids)} 所学校")
-            print()
+        return progress
 
-        plans_by_year = {year: [] for year in years}
-        school_stats = []
+    def save_year_progress(
+        self,
+        year,
+        target_school_ids,
+        completed_province_ids,
+        current_province_id=None,
+        current_school_index=0,
+        last_error=None,
+        status='running',
+    ):
+        payload = {
+            'year': str(year),
+            'shard': self.school_shard,
+            'target_school_ids': [str(x) for x in target_school_ids],
+            'completed_province_ids': sorted(str(x) for x in completed_province_ids),
+            'current_province_id': str(current_province_id) if current_province_id else None,
+            'current_school_index': int(current_school_index),
+            'updated_at': self.now_str(),
+            'last_error': last_error,
+            'status': status,
+        }
+        self.write_json_atomic(self.get_progress_file(year), payload)
 
-        print(f"{'='*60}")
-        print("开始爬取招生计划")
-        print(f"学校数: {len(school_ids)} | 年份: {', '.join(years)} | 省份: {len(province_ids)} 个")
-        print(f"{'='*60}\n")
+    def clear_year_progress(self, year):
+        path = self.get_progress_file(year)
+        if path.exists():
+            path.unlink()
 
-        for idx, school_id in enumerate(school_ids, 1):
-            school_start_time = time.perf_counter()
-            school_plan_count = 0
-            school_request_count = 0
+    def get_province_file_path(self, year, province_id):
+        province_name = self.province_dict.get(str(province_id), f'省份{province_id}')
+        return self.plan_data_dir / str(year) / f'{province_name}.json'
 
-            print(f"\n[{idx}/{len(school_ids)}] 学校ID: {school_id}")
-            print(f"   ⏱️  开始时间戳: {time.strftime('%Y-%m-%d %H:%M:%S')}")
-
-            for year in years:
-                year_start_time = time.perf_counter()
-                year_count = 0
-                year_request_count = 0
-
-                for province_id in province_ids:
-                    school_request_count += 1
-                    year_request_count += 1
-
-                    province_name = self.province_dict.get(province_id, f'省份{province_id}')
-                    show_detail = (idx == 1 and year == years[0] and province_id == province_ids[0])
-
-                    if show_detail:
-                        print(f"\n   📡 [招生计划接口] school_id={school_id}, year={year}, province={province_name}")
-                        print(f"      URL: https://static-data.gaokao.cn/www/2.0/schoolspecialplan/{school_id}/{year}/{province_id}.json")
-
-                    data = self.get_plan_data(school_id, year, province_id)
-
-                    if not self._first_logged and data and data != 'no_data':
-                        print(f"\n      {'─'*50}")
-                        print("      首次响应数据结构:")
-                        print(f"      {'─'*50}")
-                        print(f"      data类型: {type(data).__name__}")
-
-                        if isinstance(data, dict):
-                            print(f"      data包含键: {list(data.keys())}")
-
-                            sample_item = None
-                            for plan_type, plan_info in data.items():
-                                if isinstance(plan_info, dict):
-                                    items = plan_info.get('item', [])
-                                    if items:
-                                        sample_item = items[0]
-                                        print(f"      招生类型: {plan_type}")
-                                        print(f"      该类型数据条数: {len(items)}")
-                                        break
-
-                            if sample_item and isinstance(sample_item, dict):
-                                fields = list(sample_item.keys())
-                                print(f"\n      招生计划数据字段({len(fields)}个):")
-                                print(f"      {'─'*50}")
-                                for i, field in enumerate(fields, 1):
-                                    value = sample_item[field]
-                                    value_type = type(value).__name__
-                                    if value is None:
-                                        preview = "None"
-                                    elif isinstance(value, str):
-                                        preview = f'"{value[:25]}..."' if len(value) > 25 else f'"{value}"'
-                                    elif isinstance(value, (list, dict)):
-                                        preview = f"{value_type}({len(value)}项)"
-                                    else:
-                                        preview = str(value)
-                                    print(f"      {i:2}. {field:25} = {preview}")
-                                print(f"      {'─'*50}\n")
-
-                        self._first_logged = True
-
-                    if data == 'no_data':
-                        continue
-                    elif data and isinstance(data, dict):
-                        for plan_type, plan_info in data.items():
-                            if not isinstance(plan_info, dict):
-                                continue
-
-                            items = plan_info.get('item', [])
-
-                            for item in items:
-                                if not isinstance(item, dict):
-                                    continue
-
-                                plan_record = {
-                                    'school_id': school_id,
-                                    'year': year,
-                                    'province_id': province_id,
-                                    'province': province_name,
-                                    'plan_type': plan_type,
-                                    'batch': item.get('local_batch_name'),
-                                    'type': item.get('type'),
-                                    'major': item.get('sp_name') or item.get('spname'),
-                                    'major_code': item.get('spcode'),
-                                    'major_group': item.get('sg_name'),
-                                    'major_group_code': item.get('sg_code'),
-                                    'major_group_info': item.get('sg_info'),
-                                    'level1_name': item.get('level1_name'),
-                                    'level2_name': item.get('level2_name'),
-                                    'level3_name': item.get('level3_name'),
-                                    'plan_number': item.get('num') or item.get('plan_num'),
-                                    'years': item.get('length') or item.get('years'),
-                                    'tuition': item.get('tuition'),
-                                    'note': item.get('note') or item.get('remark'),
-                                }
-                                plans_by_year[year].append(plan_record)
-                                year_count += 1
-                                school_plan_count += 1
-
-                    if show_detail:
-                        print(f"      ✓ {province_name}: 获取数据")
-
-                year_elapsed = time.perf_counter() - year_start_time
-                if year_count > 0:
-                    print(
-                        f"   ✓ {year}年: 获取 {year_count} 条招生计划 | "
-                        f"请求 {year_request_count} 次 | 耗时 {self.format_duration(year_elapsed)}"
-                    )
-                else:
-                    print(
-                        f"   ⚠️  {year}年: 无招生计划数据 | "
-                        f"请求 {year_request_count} 次 | 耗时 {self.format_duration(year_elapsed)}"
-                    )
-
-            school_elapsed = time.perf_counter() - school_start_time
-            school_stats.append({
-                'school_id': school_id,
-                'plans': school_plan_count,
-                'requests': school_request_count,
-                'elapsed_seconds': school_elapsed,
-            })
-
-            if school_plan_count > 0:
-                print(
-                    f"   ✅ 学校ID {school_id}：共 {school_plan_count} 条招生计划 | "
-                    f"请求 {school_request_count} 次 | 总耗时 {self.format_duration(school_elapsed)}"
-                )
-            else:
-                print(
-                    f"   ⚠️  学校ID {school_id}：无招生计划数据 | "
-                    f"请求 {school_request_count} 次 | 总耗时 {self.format_duration(school_elapsed)}"
-                )
-
-            avg_per_request = school_elapsed / school_request_count if school_request_count else 0
-            print(f"   📊 单请求平均耗时: {avg_per_request:.2f} 秒")
-
-        print(f"\n{'='*60}")
-        print("✅ 招生计划爬取完成！")
-
-        total_count = 0
-        for year in sorted(plans_by_year.keys(), reverse=True):
-            year_plans = plans_by_year[year]
-            self.save_year_plans(year, year_plans)
-            total_count += len(year_plans)
-
-            if year_plans:
-                provinces = set(p.get('province') for p in year_plans if p.get('province'))
-                total_enrollment = sum(
-                    int(p.get('plan_number', 0) or 0)
-                    for p in year_plans
-                    if p.get('plan_number')
-                )
-                print(f"   {year}年: {len(year_plans)} 条 | 覆盖省份: {len(provinces)} 个 | 总招生人数: {total_enrollment}")
-            else:
-                print(f"   {year}年: 0 条")
-
-        total_elapsed = time.perf_counter() - crawl_start_time
-        print(f"   总计: {total_count} 条招生计划")
-        print(f"   总耗时: {self.format_duration(total_elapsed)}")
-
-        if school_stats:
-            school_stats_sorted = sorted(
-                school_stats,
-                key=lambda x: x['elapsed_seconds'],
-                reverse=True
-            )
-
-            print("\n最慢的前10所学校:")
-            for i, stat in enumerate(school_stats_sorted[:10], 1):
-                print(
-                    f"   {i:2}. 学校ID {stat['school_id']} | "
-                    f"耗时 {self.format_duration(stat['elapsed_seconds'])} | "
-                    f"请求 {stat['requests']} 次 | "
-                    f"计划 {stat['plans']} 条"
-                )
-
-        print(f"{'='*60}\n")
-
-        return plans_by_year
-
-    def build_plan_key(self, item):
+    def build_record_key(self, item):
         return (
             str(item.get('school_id') or ''),
             str(item.get('year') or ''),
@@ -431,8 +205,267 @@ class PlanCrawler(BaseCrawler):
             str(item.get('major_group_code') or ''),
         )
 
+    def load_province_records(self, year, province_id):
+        path = self.get_province_file_path(year, province_id)
+        province_name = self.province_dict.get(str(province_id), f'省份{province_id}')
+        records = []
 
-if __name__ == "__main__":
+        if path.exists():
+            try:
+                with open(path, 'r', encoding='utf-8') as f:
+                    payload = json.load(f)
+                if isinstance(payload, dict):
+                    records = payload.get('data', []) or []
+                elif isinstance(payload, list):
+                    records = payload
+            except Exception as e:
+                print(f'⚠️  读取已有省份文件失败，改为重建: {path} - {e}')
+                records = []
+
+        existing_keys = {self.build_record_key(item) for item in records if isinstance(item, dict)}
+        return {
+            'year': str(year),
+            'province_id': str(province_id),
+            'province': province_name,
+            'data': records,
+            'existing_keys': existing_keys,
+        }
+
+    def save_province_records(self, year, province_id, payload):
+        file_path = self.get_province_file_path(year, province_id)
+        body = {
+            'update_time': self.now_str(),
+            'year': str(year),
+            'province_id': str(province_id),
+            'province': payload.get('province'),
+            'count': len(payload.get('data', [])),
+            'data': payload.get('data', []),
+        }
+        self.write_json_atomic(file_path, body)
+        print(f"   💾 已保存 {year} 年 {body['province']} 招生计划: {file_path} ({body['count']} 条)")
+
+    def get_plan_data(self, school_id, year, province_id):
+        url = f'https://static-data.gaokao.cn/www/2.0/schoolspecialplan/{school_id}/{year}/{province_id}.json'
+        try:
+            response = self.session.get(url, timeout=10)
+            if response.status_code == 200:
+                result = response.json()
+                if result.get('code') == '0000' and 'data' in result:
+                    return result['data']
+            elif response.status_code == 404:
+                return 'no_data'
+        except Exception:
+            pass
+        return None
+
+    def extract_records(self, school_id, year, province_id, province_name, data):
+        records = []
+        if not data or data == 'no_data' or not isinstance(data, dict):
+            return records
+
+        for plan_type, plan_info in data.items():
+            if not isinstance(plan_info, dict):
+                continue
+            items = plan_info.get('item', [])
+            for item in items:
+                if not isinstance(item, dict):
+                    continue
+                records.append({
+                    'school_id': str(school_id),
+                    'year': str(year),
+                    'province_id': str(province_id),
+                    'province': province_name,
+                    'plan_type': plan_type,
+                    'batch': item.get('local_batch_name'),
+                    'type': item.get('type'),
+                    'major': item.get('sp_name') or item.get('spname'),
+                    'major_code': item.get('spcode'),
+                    'major_group': item.get('sg_name'),
+                    'major_group_code': item.get('sg_code'),
+                    'major_group_info': item.get('sg_info'),
+                    'level1_name': item.get('level1_name'),
+                    'level2_name': item.get('level2_name'),
+                    'level3_name': item.get('level3_name'),
+                    'plan_number': item.get('num') or item.get('plan_num'),
+                    'years': item.get('length') or item.get('years'),
+                    'tuition': item.get('tuition'),
+                    'note': item.get('note') or item.get('remark'),
+                })
+        return records
+
+    def merge_records(self, province_payload, new_records):
+        added = 0
+        for item in new_records:
+            key = self.build_record_key(item)
+            if key in province_payload['existing_keys']:
+                continue
+            province_payload['existing_keys'].add(key)
+            province_payload['data'].append(item)
+            added += 1
+        return added
+
+    def should_stop(self, started_at):
+        return (time.time() - started_at) >= self.run_deadline_seconds
+
+    def crawl_one_year(self, year, school_ids=None, province_ids=None):
+        school_ids = [str(x) for x in (school_ids or self.load_default_school_ids())]
+        province_ids = [str(x) for x in (province_ids or list(self.province_dict.keys()))]
+
+        if not school_ids:
+            print('⚠️  没有可用学校ID')
+            return {
+                'year': str(year),
+                'status': 'skipped',
+                'saved_documents': 0,
+                'completed_schools': 0,
+            }
+
+        started_at = time.time()
+        self.plan_data_dir.mkdir(parents=True, exist_ok=True)
+        self.progress_dir.mkdir(parents=True, exist_ok=True)
+
+        progress = self.load_year_progress(year, school_ids)
+        completed_province_ids = set(str(x) for x in progress.get('completed_province_ids', []))
+        current_province_id = progress.get('current_province_id')
+        current_school_index = int(progress.get('current_school_index', 0) or 0)
+
+        print(f"\n{'=' * 60}")
+        print('启动招生计划爬虫')
+        print(f'年份: {year}')
+        print(f'学校分片: {self.school_shard}')
+        print(f'学校数: {len(school_ids)}')
+        print(f'省份数: {len(province_ids)}')
+        print(f'软截止: {self.format_duration(self.run_deadline_seconds)}')
+        print(f'已完成省份: {len(completed_province_ids)} / {len(province_ids)}')
+        print(f"{'=' * 60}\n")
+
+        total_added_records = 0
+
+        for province_id in province_ids:
+            province_name = self.province_dict.get(province_id, f'省份{province_id}')
+            if province_id in completed_province_ids:
+                print(f'↻ 跳过已完成省份: {province_name}')
+                continue
+
+            province_payload = self.load_province_records(year, province_id)
+            start_index = current_school_index if current_province_id == province_id else 0
+            processed_since_flush = 0
+            province_added_records = 0
+
+            print(f"\n开始处理省份: {province_name} ({province_id})，学校起始索引 {start_index + 1}/{len(school_ids)}")
+
+            for school_index in range(start_index, len(school_ids)):
+                if self.should_stop(started_at):
+                    self.save_province_records(year, province_id, province_payload)
+                    self.save_year_progress(
+                        year=year,
+                        target_school_ids=school_ids,
+                        completed_province_ids=completed_province_ids,
+                        current_province_id=province_id,
+                        current_school_index=school_index,
+                        last_error='run deadline reached',
+                        status='partial',
+                    )
+                    print(f'⏸️ 接近 5 小时上限，已保存 {province_name} 和 progress，准备下一轮续跑')
+                    return {
+                        'year': str(year),
+                        'status': 'partial',
+                        'saved_documents': len(completed_province_ids),
+                        'completed_schools': school_index,
+                    }
+
+                school_id = school_ids[school_index]
+                data = self.get_plan_data(school_id, year, province_id)
+
+                if not self._first_logged and data and data != 'no_data' and isinstance(data, dict):
+                    print(f"\n{'─' * 50}")
+                    print('首次响应数据结构:')
+                    print(f"{'─' * 50}")
+                    print(f'data类型: {type(data).__name__}')
+                    print(f'data包含键: {list(data.keys())}')
+                    print(f"{'─' * 50}\n")
+                    self._first_logged = True
+
+                if data and data != 'no_data' and isinstance(data, dict):
+                    records = self.extract_records(school_id, year, province_id, province_name, data)
+                    added = self.merge_records(province_payload, records)
+                    province_added_records += added
+                    total_added_records += added
+
+                processed_since_flush += 1
+                if processed_since_flush >= self.flush_schools:
+                    self.save_province_records(year, province_id, province_payload)
+                    self.save_year_progress(
+                        year=year,
+                        target_school_ids=school_ids,
+                        completed_province_ids=completed_province_ids,
+                        current_province_id=province_id,
+                        current_school_index=school_index + 1,
+                        last_error=None,
+                        status='running',
+                    )
+                    processed_since_flush = 0
+
+                self.polite_sleep(0.2, 0.6)
+
+            self.save_province_records(year, province_id, province_payload)
+            completed_province_ids.add(province_id)
+            self.save_year_progress(
+                year=year,
+                target_school_ids=school_ids,
+                completed_province_ids=completed_province_ids,
+                current_province_id=None,
+                current_school_index=0,
+                last_error=None,
+                status='running',
+            )
+            print(f'✅ 省份完成: {province_name}，本轮新增 {province_added_records} 条')
+
+        self.clear_year_progress(year)
+        print(f"\n{'=' * 60}")
+        print('✅ 招生计划爬取完成！')
+        print(f'年份: {year}')
+        print(f'学校分片: {self.school_shard}')
+        print(f'完成省份: {len(completed_province_ids)} / {len(province_ids)}')
+        print(f'本轮新增记录: {total_added_records}')
+        print(f"{'=' * 60}\n")
+        return {
+            'year': str(year),
+            'status': 'done',
+            'saved_documents': len(completed_province_ids),
+            'completed_schools': len(school_ids),
+        }
+
+    def crawl(self, school_ids=None, years=None, province_ids=None):
+        if years is None:
+            years_env = os.getenv('PLAN_YEARS', '2025,2024,2023')
+            years = self.parse_years(years_env)
+        else:
+            years = self.parse_years(years)
+
+        if not years:
+            print('⚠️  未提供有效年份')
+            return {
+                'year': '',
+                'status': 'skipped',
+                'saved_documents': 0,
+                'completed_schools': 0,
+            }
+
+        result = None
+        for year in years:
+            result = self.crawl_one_year(year=str(year), school_ids=school_ids, province_ids=province_ids)
+            if result.get('status') in {'partial', 'paused'}:
+                return result
+        return result or {
+            'year': '',
+            'status': 'skipped',
+            'saved_documents': 0,
+            'completed_schools': 0,
+        }
+
+
+if __name__ == '__main__':
     import sys
 
     years_arg = sys.argv[1] if len(sys.argv) > 1 else None
